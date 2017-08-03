@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/ArronJLinton/reviews-web-scraping/issues"
   },
-  "homepage": "https://github.com/ArronJLinton/reviews-web-scraping#readme"
+  "homepage": "https://github.com/ArronJLinton/reviews-web-scraping#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "nightmare": "^2.10.0",
+    "request": "^2.81.0"
+  }
 }
