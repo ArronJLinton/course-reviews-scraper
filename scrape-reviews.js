@@ -34,6 +34,16 @@ function scrape(){
 
         var $ = cheerio.load(html);
 
+        var review = $(".verified")
+
+
+      review.each(function(ratingIndex, rating){
+
+    // ======== REVIEW DATE ======== //
+      	var reviewDate = $(".review-date")[ratingIndex].children[0].data
+      	console.log('date', reviewDate)
+
+
         var tableRows = $('.ratings .row')
         // console.log("1st row", tableRows);
         tableRows.each(function(i, element) {
@@ -43,11 +53,12 @@ function scrape(){
         	tds.each(function(tdIndex, td){
         		var val = $(this).text().trim();
         		// console.log("this", val);
-        	// ==== RATING CATEGORIES ==== //
+  // ======== RATING CATEGORIES ======== //
         		var val2 = $(td).text();
         		console.log("test", val2)
         	});
         });
+       });
 
         //skip first row
         // tableRows.slice(1).each(function(i, element) {
