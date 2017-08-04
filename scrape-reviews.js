@@ -34,30 +34,35 @@ function scrape(){
 
         var $ = cheerio.load(html);
 
-        var review = $(".verified")
+        var review = $(".review")
 
 
       review.each(function(ratingIndex, rating){
 
-    // ======== REVIEW DATE ======== //
+  // ======== REVIEW DATE ======== //
       	var reviewDate = $(".review-date")[ratingIndex].children[0].data
-      	console.log('date', reviewDate)
+      	console.log("date", reviewDate)
 
+      	// var stars = $(".ratings text-right");
+      	// console.log("stars", stars)
 
-        var tableRows = $('.ratings .row')
+        var tableRows = $('.ratings')
         // console.log("1st row", tableRows);
-        tableRows.each(function(i, element) {
+        // tableRows.each(function(i, element) {
  
-        	var tds = $(element).children();
+        	// var tds = $(element).children();
         	// console.log("id", i)
-        	tds.each(function(tdIndex, td){
-        		var val = $(this).text().trim();
-        		// console.log("this", val);
+        	tableRows.each(function(tdIndex, td){
+        		var val = $(this);
+        		console.log("this", val); 
+
   // ======== RATING CATEGORIES ======== //
-        		var val2 = $(td).text();
-        		console.log("test", val2)
+        		var rating = $(this).text().trim();
+        		// var stars = $(".ratings span")[tdIndex]
+        		// console.log("rating", rating)
+        		// console.log("stars", stars)
         	});
-        });
+        // });
        });
 
         //skip first row
