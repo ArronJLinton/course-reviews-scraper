@@ -35,7 +35,7 @@ function scrape(){
         var $ = cheerio.load(html);
 
         var entry = $(".review");
-        console.log(entry.length)
+        console.log(entry.length);
         // console.log("oh yes", review[0].childrsen)
 
 
@@ -50,16 +50,36 @@ function scrape(){
 
 
 
-    entry.each(function(reviewId, review){
+    entry.each(function(reviewId, reviewEntry){
 
-      var review = $(this).children("div")
+      var review = $(this).children("div");
       // console.log("review", review[2].children[0].data)
-
-
   // ======== REVIEW DATE ======== //
 
-      // console.log("review date", review[0].children[0].children[2].children[0].data)
-      console.log("-------------------------------")
+      // children[2] gives us the object inside review that holds review-date information
+      var reviewDate = review[0].children[2].children[0].data;
+      console.log("review date", reviewDate);
+
+      // children[4] is associated with the .ratings class that holds rating information
+      var ratingCategories = review[0].children[4].children.slice(1);
+      // console.log("test", ratingCategories)
+
+      // console.log("categories", ratingCategories.length)
+
+      for (var i = 0; i < ratingCategories.length; i++) {
+          console.log("category", ratingCategories[i].children[0].children[0].data);
+          console.log("category", ratingCategories[i].children[2].children[0].data);
+
+
+      }
+
+        // ratingCategories.each(function(i, category){
+        //   // var category = $(category).children[i].children[0].data;
+        //   console.log("category", category)
+
+        // })
+      // console.log("review", ratingCategories.children[0].children[0].data);
+      console.log("-------------------------------");
 
       	// var stars = $(".ratings text-right");
       	// console.log("stars", stars)
