@@ -34,34 +34,53 @@ function scrape(){
 
         var $ = cheerio.load(html);
 
-        var review = $(".review")
+        var entry = $(".review");
+        console.log(entry.length)
+        // console.log("oh yes", review[0].childrsen)
 
 
-      review.each(function(ratingIndex, rating){
+        // for (var i = 0; i < review.length; i++) { 
+        //     $(review[i])
+        //     console.log("oh damn ", i, review[i])
+        // }
+
+        // var text = $(".ratings span");
+
+        // console.log("lovely", text[0])
+
+
+
+    entry.each(function(reviewId, review){
+
+      var review = $(this).children("div")
+      // console.log("review", review[2].children[0].data)
+
 
   // ======== REVIEW DATE ======== //
-      	var reviewDate = $(".review-date")[ratingIndex].children[0].data
-      	console.log("date", reviewDate)
+
+      // console.log("review date", review[0].children[0].children[2].children[0].data)
+      console.log("-------------------------------")
 
       	// var stars = $(".ratings text-right");
       	// console.log("stars", stars)
 
-        var tableRows = $('.ratings')
+        // var tableRows = $(".ratings")[0]
+        // console.log("ratingInfo", tableRows)
         // console.log("1st row", tableRows);
         // tableRows.each(function(i, element) {
  
         	// var tds = $(element).children();
         	// console.log("id", i)
-        	tableRows.each(function(tdIndex, td){
-        		var val = $(this);
-        		console.log("this", val); 
+        	// tableRows.each(function(tdIndex, td){
+        		// var val = $(this);
+        		// console.log("this", val); 
 
   // ======== RATING CATEGORIES ======== //
-        		var rating = $(this).text().trim();
-        		// var stars = $(".ratings span")[tdIndex]
+        		// var rating = $(this).text().trim();
+        		// var stars = $(".ratings row")[0]
         		// console.log("rating", rating)
         		// console.log("stars", stars)
-        	});
+        	// });
         // });
        });
 
@@ -92,5 +111,7 @@ function scrape(){
         //       }
         //     });
         // });
-    });
-}
+    // });
+  });
+
+};
