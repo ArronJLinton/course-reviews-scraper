@@ -21,7 +21,7 @@ function scrape(){
       })
       // .goto(urlOb.url)
       .goto("https://www.coursereport.com/schools/general-assembly#/reviews")
-      .wait(10000)
+      // .wait(10000)
       .evaluate(function() {
           return document.body.innerHTML;
       }).end().then(function(html) {
@@ -36,7 +36,7 @@ function scrape(){
         var $ = cheerio.load(html);
 
         var entry = $(".review");
-        var text = $(".ratings").children("span", ":before");
+        // var text = $(".ratings").children("span", ":before");
 
         // console.log("lovely", text[0].children[0])
 
@@ -44,11 +44,19 @@ function scrape(){
     entry.each(function(reviewId, reviewEntry){
 
       var review = $(this).children("div");
-    
-  // ========== REVIEW DATE ========== //
+
+  // ================ REVIEW DATE =============== //
       // children[2] gives us the object inside review that holds review-date information
       var reviewDate = review[0].children[2].children[0].data;
       console.log("review date", reviewDate);
+
+  // ============== Review Details ================= //
+      var reviewDetails = review[0].children[3].children;
+      // console.log('review details', reviewDetails);
+
+     for (var i = 0; i < reviewDetails.length; i++) {
+        console.log('details', reviewDetails[i].children[0].data);
+      }
 
       // children[4] is associated with the .ratings class that holds rating information
       // each .rating class has 3 rows and we skip over the 1st row 
@@ -62,31 +70,52 @@ function scrape(){
   // ========== RATING CATEGORIES ========== //
   // First row inside .ratings
   // category label for overall exp. and intructors
-        var category = rating[i].children[0].children[0].data;
+        var category1 = rating[i].children[0].children[0].data;
+
+        var cat1Star1 = rating[i].children[1].children[0];
+        var cat1Star2 = cat1Star1.children[0];
+        var cat1Star3 = cat1Star2.children[0];
+        var cat1Star4 = cat1Star3.children[0];
+        var cat1Star5 = cat1Star4.children[0];
+
+        var cat1Stars = [cat1Star1, cat1Star2, cat1Star3, cat1Star4, cat1Star5];
+
   // Second row inside .ratings
   // category label for cirrculum and job assistance
-        var category1 = rating[i].children[2].children[0].data;
+        var category2 = rating[i].children[2].children[0].data;
 
-        var star = rating[i].children[1];
-        var star1 = rating[i].children[3];
+        // var star = rating[i].children[1];
+        var cat2Star1 = rating[i].children[3].children[0];
+        var cat2Star2 = cat2Star1.children[0];
+        var cat2Star3 = cat2Star2.children[0];
+        var cat2Star4 = cat2Star3.children[0];
+        var cat2Star5 = cat2Star4.children[0];
 
-          // .children("span icon-full_star", ":before"));
+        var cat2Stars = [cat2Star1, cat2Star2, cat2Star3, cat2Star4, cat2Star5];
+
   
 
           // console.log("category", category)
           // console.log("stars baby", star)
-          console.log("category", category1)
-          console.log("stars baby", star1.children[0]);
+          console.log("category1", category1, cat1Stars.length)
+          console.log("category2", category2, cat2Stars.length)
+          // console.log("star", star);
+          // console.log("stars1", star1);
+          // console.log("stars2", star2);
+          // console.log("stars3", star3);
+          // console.log("stars4", star4);
+          // console.log("stars5", star5);
 
-  //    console.log("stars", rating[i].children[1].children[0].children[0]);
-  // console.log("category", rating[i].children[2].children[0].data);
+
+    
+
+      //    console.log("stars", rating[i].children[1].children[0].children[0]);
+      // console.log("category", rating[i].children[2].children[0].data);
 
       }
 
       // var stars = $(this).children("span .icon-full_star", ":before") 
       // console.log("stars", stars.children(".icon-full_star").);
-
-
 
       console.log("-------------------------------");
 
