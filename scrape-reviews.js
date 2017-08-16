@@ -52,16 +52,15 @@ function scrape(){
 
   // ============== Review Details ================= //
       var reviewDetails = review[0].children[3].children.slice(1);
-      // console.log('review details', reviewDetails);
 
-     for (var i = 0; i < reviewDetails.length; i++) {
-        // var details = reviewDetails[i];
-
-        // if (details == ""){
-          // console.log(details.data);
-        // }else{
-        //   console.log(details.children[0].data)
-        // }
+     for (var z = 0; z < reviewDetails.length; z++) {
+        var details = reviewDetails[z].children[0];
+        // console.log(details);
+        if(details.type == "text"){
+          console.log(details.data)
+        }else{
+          console.log(details.children[0].data)
+        }
       }
 
       // children[4] is associated with the .ratings class that holds rating information
@@ -71,10 +70,7 @@ function scrape(){
       // console.log("categories", rating.length)
 
       for (var i = 0; i < rating.length; i++) {
-        // for (var j = 0; j < rating.length; j++) {
-          // console.log('rating', rating[j]);
     
-
   // ========== RATING CATEGORIES ========== //
   // First row inside .ratings
   // category label for overall exp. and intructors
@@ -102,7 +98,6 @@ function scrape(){
     // Second row inside .ratings
     // category label for cirrculum and job assistance
         var category2 = rating[i].children[2].children[0].data;
-        // console.log('research', rating[i].children[3].children[0])
         var cat2Stars = [];
         var cat2StarsFull =[];
 
@@ -114,42 +109,19 @@ function scrape(){
           var cat2Star4 = cat2Star3.children[0];
           var cat2Star5 = cat2Star4.children[0];
           cat2Stars = [cat2Star1, cat2Star2, cat2Star3, cat2Star4, cat2Star5];
-          // return cat2Stars;
         }
 
        for (var k = 0; k < cat2Stars.length; k++) {
           if(cat2Stars[k].attribs.class == 'icon-full_star'){
             cat2StarsFull.push(cat2Stars[k])
           }
-          // return cat1StarsFull;
         }
   
-
-          // console.log("category", category)
-          // console.log("stars baby", star)
           console.log("category", category1, cat1StarsFull.length)
           console.log("category", category2, cat2StarsFull.length)
-
-          // console.log("star", star);
-          // console.log("stars1", star1);
-          // console.log("stars2", star2);
-          // console.log("stars3", star3);
-          // console.log("stars4", star4);
-          // console.log("stars5", star5);
-
-
-    
-
-      //    console.log("stars", rating[i].children[1].children[0].children[0]);
-      // console.log("category", rating[i].children[2].children[0].data);
-
-      // }
       }
 
-      // var stars = $(this).children("span .icon-full_star", ":before") 
-      // console.log("stars", stars.children(".icon-full_star").);
-
-      console.log("-------------------------------");
+      console.log("------------------------------------------------------------------");
 
     });
 
