@@ -55,7 +55,8 @@ function scrape(){
       // console.log('review details', reviewDetails);
 
      for (var i = 0; i < reviewDetails.length; i++) {
-        var details = reviewDetails[i].children[0];
+        // var details = reviewDetails[i];
+
         // if (details == ""){
           // console.log(details.data);
         // }else{
@@ -98,27 +99,37 @@ function scrape(){
 
         // console.log('full stars', cat1StarsFull.length);
 
-  // Second row inside .ratings
-  // category label for cirrculum and job assistance
+    // Second row inside .ratings
+    // category label for cirrculum and job assistance
         var category2 = rating[i].children[2].children[0].data;
+        // console.log('research', rating[i].children[3].children[0])
+        var cat2Stars = [];
+        var cat2StarsFull =[];
 
-        // var star = rating[i].children[1];
-        // var cat2Star1 = rating[i].children[3].children[0];
-        // var cat2Star2 = cat2Star1.children[0];
-        // var cat2Star3 = cat2Star2.children[0];
-        // var cat2Star4 = cat2Star3.children[0];
-        // var cat2Star5 = cat2Star4.children[0];
+        if(rating[i].children[3].children[0].children[0].type == 'tag'){
+          var star = rating[i].children[1];
+          var cat2Star1 = rating[i].children[3].children[0];
+          var cat2Star2 = cat2Star1.children[0];
+          var cat2Star3 = cat2Star2.children[0];
+          var cat2Star4 = cat2Star3.children[0];
+          var cat2Star5 = cat2Star4.children[0];
+          cat2Stars = [cat2Star1, cat2Star2, cat2Star3, cat2Star4, cat2Star5];
+          // return cat2Stars;
+        }
 
-        // var cat2Stars = [cat2Star1, cat2Star2, cat2Star3, cat2Star4, cat2Star5];
-
+       for (var k = 0; k < cat2Stars.length; k++) {
+          if(cat2Stars[k].attribs.class == 'icon-full_star'){
+            cat2StarsFull.push(cat2Stars[k])
+          }
+          // return cat1StarsFull;
+        }
   
 
           // console.log("category", category)
           // console.log("stars baby", star)
-          console.log("category1", category1, cat1StarsFull.length)
-          console.log("category2", category2)
+          console.log("category", category1, cat1StarsFull.length)
+          console.log("category", category2, cat2StarsFull.length)
 
-          debugger;
           // console.log("star", star);
           // console.log("stars1", star1);
           // console.log("stars2", star2);
@@ -132,7 +143,7 @@ function scrape(){
       //    console.log("stars", rating[i].children[1].children[0].children[0]);
       // console.log("category", rating[i].children[2].children[0].data);
 
-        // }
+      // }
       }
 
       // var stars = $(this).children("span .icon-full_star", ":before") 
