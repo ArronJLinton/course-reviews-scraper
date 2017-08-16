@@ -33,49 +33,51 @@ function scrape(){
           return;
         }
 
-        var $ = cheerio.load(html);
+    var $ = cheerio.load(html);
 
-        var entry = $(".review");
-        // var text = $(".ratings").children("span", ":before");
-
-        // console.log("lovely", text[0].children[0])
-
+    var entry = $(".review");
 
     entry.each(function(reviewId, reviewEntry){
 
       var review = $(this).children("div");
+      // console.log(review[0])
 
-  // ================ REVIEW DATE =============== //
+  // ============================ REVIEW DATE ============================ //
+
       // children[2] gives us the object inside review that holds review-date information
       var reviewDate = review[0].children[2].children[0].data;
-      console.log("review date", reviewDate);
+      console.log(reviewDate);
 
-  // ============== Review Details ================= //
-      var reviewDetails = review[0].children[3].children.slice(1);
+  // ======================= Review Details =========================== //
+      
+    var reviewDetails = review[0].children[3].children.slice(1);
 
      for (var z = 0; z < reviewDetails.length; z++) {
+
         var details = reviewDetails[z].children[0];
         // console.log(details);
-        if(details.type == "text"){
-          console.log(details.data)
-        }else{
-          console.log(details.children[0].data)
+        if(details){
+          if(details.type == "text"){
+            console.log(details.data)
+          }else{
+            console.log(details.children[0].data)
+          }
         }
       }
 
-      // children[4] is associated with the .ratings class that holds rating information
-      // each .rating class has 3 rows and we skip over the 1st row 
-      var rating = review[0].children[4].children.slice(1);
+  // ======================== RATING CATEGORIES/STARS =========================== //
 
-      // console.log("categories", rating.length)
+    // children[4] is associated with the .ratings class that holds rating information
+    // each .rating class has 3 rows and we skip over the 1st row 
+    var rating = review[0].children[4].children.slice(1);
+    for (var i = 0; i < rating.length; i++) {  
 
-      for (var i = 0; i < rating.length; i++) {
-    
-  // ========== RATING CATEGORIES ========== //
-  // First row inside .ratings
+  // ======= First row inside .ratings ======== //
   // category label for overall exp. and intructors
-        var category1 = rating[i].children[0].children[0].data;
+      var category1 = rating[i].children[0].children[0].data;
 
+
+      if (rating[i].children[1].children[0].children[0].type == 'tag'){
 
         var cat1Star1 = rating[i].children[1].children[0];
         var cat1Star2 = cat1Star1.children[0];
@@ -90,18 +92,17 @@ function scrape(){
           if(cat1Stars[j].attribs.class == 'icon-full_star'){
             cat1StarsFull.push(cat1Stars[j])
           }
-          // return cat1StarsFull;
         }
+      }
 
-        // console.log('full stars', cat1StarsFull.length);
-
-    // Second row inside .ratings
+    // ====== Second row inside .ratings ======= //
     // category label for cirrculum and job assistance
         var category2 = rating[i].children[2].children[0].data;
         var cat2Stars = [];
         var cat2StarsFull =[];
 
-        if(rating[i].children[3].children[0].children[0].type == 'tag'){
+      if (rating[i].children[3].children[0].children[0].type == 'tag'){
+
           var star = rating[i].children[1];
           var cat2Star1 = rating[i].children[3].children[0];
           var cat2Star2 = cat2Star1.children[0];
@@ -109,17 +110,20 @@ function scrape(){
           var cat2Star4 = cat2Star3.children[0];
           var cat2Star5 = cat2Star4.children[0];
           cat2Stars = [cat2Star1, cat2Star2, cat2Star3, cat2Star4, cat2Star5];
-        }
 
-       for (var k = 0; k < cat2Stars.length; k++) {
-          if(cat2Stars[k].attribs.class == 'icon-full_star'){
-            cat2StarsFull.push(cat2Stars[k])
+          for (var k = 0; k < cat2Stars.length; k++) {
+            if(cat2Stars[k].attribs.class == 'icon-full_star'){
+              cat2StarsFull.push(cat2Stars[k])
+            }
           }
         }
   
-          console.log("category", category1, cat1StarsFull.length)
-          console.log("category", category2, cat2StarsFull.length)
-      }
+        //=============== Logged Categories/Stars ===============//
+
+          console.log(category1, cat1StarsFull.length)
+          console.log(category2, cat2StarsFull.length)
+
+      } // =================== End of Rating =================== //
 
       console.log("------------------------------------------------------------------");
 
