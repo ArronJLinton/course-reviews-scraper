@@ -51,11 +51,16 @@ function scrape(){
       console.log("review date", reviewDate);
 
   // ============== Review Details ================= //
-      var reviewDetails = review[0].children[3].children;
+      var reviewDetails = review[0].children[3].children.slice(1);
       // console.log('review details', reviewDetails);
 
      for (var i = 0; i < reviewDetails.length; i++) {
-        console.log('details', reviewDetails[i].children[0].data);
+        var details = reviewDetails[i].children[0];
+        // if (details == ""){
+          // console.log(details.data);
+        // }else{
+        //   console.log(details.children[0].data)
+        // }
       }
 
       // children[4] is associated with the .ratings class that holds rating information
@@ -65,12 +70,15 @@ function scrape(){
       // console.log("categories", rating.length)
 
       for (var i = 0; i < rating.length; i++) {
-
+        // for (var j = 0; j < rating.length; j++) {
+          // console.log('rating', rating[j]);
+    
 
   // ========== RATING CATEGORIES ========== //
   // First row inside .ratings
   // category label for overall exp. and intructors
         var category1 = rating[i].children[0].children[0].data;
+
 
         var cat1Star1 = rating[i].children[1].children[0];
         var cat1Star2 = cat1Star1.children[0];
@@ -79,26 +87,38 @@ function scrape(){
         var cat1Star5 = cat1Star4.children[0];
 
         var cat1Stars = [cat1Star1, cat1Star2, cat1Star3, cat1Star4, cat1Star5];
+        var cat1StarsFull = [];
+
+        for (var j = 0; j < cat1Stars.length; j++) {
+          if(cat1Stars[j].attribs.class == 'icon-full_star'){
+            cat1StarsFull.push(cat1Stars[j])
+          }
+          // return cat1StarsFull;
+        }
+
+        // console.log('full stars', cat1StarsFull.length);
 
   // Second row inside .ratings
   // category label for cirrculum and job assistance
         var category2 = rating[i].children[2].children[0].data;
 
         // var star = rating[i].children[1];
-        var cat2Star1 = rating[i].children[3].children[0];
-        var cat2Star2 = cat2Star1.children[0];
-        var cat2Star3 = cat2Star2.children[0];
-        var cat2Star4 = cat2Star3.children[0];
-        var cat2Star5 = cat2Star4.children[0];
+        // var cat2Star1 = rating[i].children[3].children[0];
+        // var cat2Star2 = cat2Star1.children[0];
+        // var cat2Star3 = cat2Star2.children[0];
+        // var cat2Star4 = cat2Star3.children[0];
+        // var cat2Star5 = cat2Star4.children[0];
 
-        var cat2Stars = [cat2Star1, cat2Star2, cat2Star3, cat2Star4, cat2Star5];
+        // var cat2Stars = [cat2Star1, cat2Star2, cat2Star3, cat2Star4, cat2Star5];
 
   
 
           // console.log("category", category)
           // console.log("stars baby", star)
-          console.log("category1", category1, cat1Stars.length)
-          console.log("category2", category2, cat2Stars.length)
+          console.log("category1", category1, cat1StarsFull.length)
+          console.log("category2", category2)
+
+          debugger;
           // console.log("star", star);
           // console.log("stars1", star1);
           // console.log("stars2", star2);
@@ -112,6 +132,7 @@ function scrape(){
       //    console.log("stars", rating[i].children[1].children[0].children[0]);
       // console.log("category", rating[i].children[2].children[0].data);
 
+        // }
       }
 
       // var stars = $(this).children("span .icon-full_star", ":before") 
