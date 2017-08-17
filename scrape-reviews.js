@@ -40,7 +40,7 @@ function scrape(){
     entry.each(function(reviewId, reviewEntry){
 
       var review = $(this).children("div");
-      // console.log(review[0])
+
 
   // ============================ REVIEW DATE ============================ //
 
@@ -124,6 +124,24 @@ function scrape(){
           console.log(category2, cat2StarsFull.length)
 
       } // =================== End of Rating =================== //
+
+     // console.log(review[0].children[5].children[0].children[0].children[0])
+
+      var reviewBody = review[0].children[5].children[0].children[0].children;
+      // console.log(reviewBody);      
+      for (var q = 0; q < reviewBody.length; q++) {
+        if(reviewBody[q].type == 'tag'){
+          if(reviewBody[q].children[0].data){
+            console.log(reviewBody[q].children[0].data)
+          }else{
+            
+          }
+          // for (var i = 0; i < Things.length; i++) {
+          //   Things[i]
+          // }
+
+        }
+      }
 
       console.log("------------------------------------------------------------------");
 
