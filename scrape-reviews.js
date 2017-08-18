@@ -163,17 +163,17 @@ function scrape(urlOb){
 
           }else{
 
-            bodyText = reviewBody[q].children[0].children[0];
-            if(bodyText !== 'Flag as inappropriate.' && bodyText !== 'This Review Is Helpful.'){
+            bodyText = reviewBody[q].children[0].children[0].data;
+            if(bodyText !== 'Flag as inappropriate.' && bodyText !== 'This Review Is Helpful'){
 
-              console.log('nextlevel', bodyText); 
+              console.log(bodyText); 
               }
             }
           }
         }
       }
 
-      console.log("------------------------------------------------------------------");
+      console.log("-----------------------------------------------------------------------------");
 
     });
 
