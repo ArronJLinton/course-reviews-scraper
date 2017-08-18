@@ -33,7 +33,7 @@ scrape(data[parseInt(arg)]);
 
 // pass in urlOb to determine which url we are scraping from
 function scrape(urlOb){
-  // console.log(urlOb);
+  console.log(urlOb.school.toUpperCase());
   var scrape = new Nightmare({
           show: false
       })
@@ -55,7 +55,9 @@ function scrape(urlOb){
 
     var entry = $(".review");
 
+
     entry.each(function(reviewId, reviewEntry){
+    console.log((reviewId + 1) + ")")
 
       var review = $(this).children("div");
 
@@ -75,7 +77,7 @@ function scrape(urlOb){
         var details = reviewDetails[z].children[0];
         // console.log(details);
         if(details){
-          if(details.type == "text"){
+          if(details.type === 'text'){
             console.log(details.data)
           }else{
             console.log(details.children[0].data)
@@ -95,7 +97,7 @@ function scrape(urlOb){
       var category1 = rating[i].children[0].children[0].data;
 
 
-      if (rating[i].children[1].children[0].children[0].type == 'tag'){
+      if (rating[i].children[1].children[0].children[0].type === 'tag'){
 
         var cat1Star1 = rating[i].children[1].children[0];
         var cat1Star2 = cat1Star1.children[0];
@@ -107,7 +109,7 @@ function scrape(urlOb){
         var cat1StarsFull = [];
 
         for (var j = 0; j < cat1Stars.length; j++) {
-          if(cat1Stars[j].attribs.class == 'icon-full_star'){
+          if(cat1Stars[j].attribs.class === 'icon-full_star'){
             cat1StarsFull.push(cat1Stars[j])
           }
         }
@@ -119,7 +121,7 @@ function scrape(urlOb){
         var cat2Stars = [];
         var cat2StarsFull =[];
 
-      if (rating[i].children[3].children[0].children[0].type == 'tag'){
+      if (rating[i].children[3].children[0].children[0].type === 'tag'){
 
           var star = rating[i].children[1];
           var cat2Star1 = rating[i].children[3].children[0];
@@ -130,7 +132,7 @@ function scrape(urlOb){
           cat2Stars = [cat2Star1, cat2Star2, cat2Star3, cat2Star4, cat2Star5];
 
           for (var k = 0; k < cat2Stars.length; k++) {
-            if(cat2Stars[k].attribs.class == 'icon-full_star'){
+            if(cat2Stars[k].attribs.class === 'icon-full_star'){
               cat2StarsFull.push(cat2Stars[k])
             }
           }
@@ -148,33 +150,34 @@ function scrape(urlOb){
      // console.log(review[0].children[5].children[0].children[0].children[0])
 
       var reviewBody = review[0].children[5].children[0].children[0].children;
-
+    // check to see if a review text exists
     if(reviewBody){
       var bodyText;
+      // have to loop around <p> tags inside the body
       for (var q = 0; q < reviewBody.length; q++) {
-
-        if(reviewBody[q].type == 'tag'){
-
-          bodyText = reviewBody[q].children[0].data;
-
+        var paragraph = reviewBody[q];
+        // check to see if the paragraph object contains type = 
+        if(paragraph.type === 'tag' && paragraph.children[0]){
+          bodyText = paragraph.children[0].data;
           if(bodyText){
-
             console.log(bodyText)
+          }
+          // for some reviews the review text is nested inside the <p> tag
+          else{
+            var bodyContainer = paragraph.children[0].children[0];
+            if(bodyContainer){
+              bodyText = paragraph.children[0].children[0].data;
+              if(bodyText !== 'Flag as inappropriate.' && bodyText !== 'This Review Is Helpful'){
 
-          }else{
-
-            bodyText = reviewBody[q].children[0].children[0].data;
-            if(bodyText !== 'Flag as inappropriate.' && bodyText !== 'This Review Is Helpful'){
-
-              console.log(bodyText); 
+                  console.log(bodyText); 
+                }
               }
             }
           }
         }
       }
 
-      console.log("-----------------------------------------------------------------------------");
-
+    console.log("--------------------------------------------------------");
     });
 
         //skip first row
