@@ -5,22 +5,40 @@ var Nightmare = require('nightmare');
 
 
 
+var data = [
+  { 'school': 'General Assembly',
+    'url': 'https://www.coursereport.com/schools/general-assembly#/reviews'
+  },
+  {
+    'school': 'Hack-Reactor',
+    'url': 'https://www.coursereport.com/schools/hack-reactor#/reviews'
+  },
+  {
+    'school': 'Galvanize',
+    'url': 'https://www.coursereport.com/schools/galvanize#/reviews'
+  },
+  {
+    'school': 'Flat-Iron',
+    'url': 'https://www.coursereport.com/schools/flatiron-school#/reviews'
+  }
+  ]
 
 
-// var arg = process.argv[2];
 
-// scrape(data[parseInt(arg)]);
+var arg = process.argv[2];
 
-scrape();
+scrape(data[parseInt(arg)]);
+
+// scrape();
 
 // pass in urlOb to determine which url we are scraping from
-function scrape(){
+function scrape(urlOb){
   // console.log(urlOb);
   var scrape = new Nightmare({
           show: false
       })
-      // .goto(urlOb.url)
-      .goto("https://www.coursereport.com/schools/general-assembly#/reviews")
+      .goto(urlOb.url)
+      // .goto("https://www.coursereport.com/schools/general-assembly#/reviews")
       // .wait(10000)
       .evaluate(function() {
           return document.body.innerHTML;
@@ -125,6 +143,8 @@ function scrape(){
 
       } // =================== End of Rating =================== //
 
+
+      // ============== Review Body Text ================== //
      // console.log(review[0].children[5].children[0].children[0].children[0])
 
       var reviewBody = review[0].children[5].children[0].children[0].children;
@@ -134,6 +154,7 @@ function scrape(){
           if(reviewBody[q].children[0].data){
             console.log(reviewBody[q].children[0].data)
           }else{
+            console.log(reviewBody[q]);
             
           }
           // for (var i = 0; i < Things.length; i++) {
