@@ -148,19 +148,28 @@ function scrape(urlOb){
      // console.log(review[0].children[5].children[0].children[0].children[0])
 
       var reviewBody = review[0].children[5].children[0].children[0].children;
-      // console.log(reviewBody);      
-      for (var q = 0; q < reviewBody.length; q++) {
-        if(reviewBody[q].type == 'tag'){
-          if(reviewBody[q].children[0].data){
-            console.log(reviewBody[q].children[0].data)
-          }else{
-            console.log(reviewBody[q]);
-            
-          }
-          // for (var i = 0; i < Things.length; i++) {
-          //   Things[i]
-          // }
 
+    if(reviewBody){
+      var bodyText;
+      for (var q = 0; q < reviewBody.length; q++) {
+
+        if(reviewBody[q].type == 'tag'){
+
+          bodyText = reviewBody[q].children[0].data;
+
+          if(bodyText){
+
+            console.log(bodyText)
+
+          }else{
+
+            bodyText = reviewBody[q].children[0].children[0];
+            if(bodyText !== 'Flag as inappropriate.' && bodyText !== 'This Review Is Helpful.'){
+
+              console.log('nextlevel', bodyText); 
+              }
+            }
+          }
         }
       }
 
