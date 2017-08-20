@@ -7,7 +7,8 @@ var Nightmare = require('nightmare');
 
 var data = [
   { 'school': 'General Assembly',
-    'url': 'https://www.coursereport.com/schools/general-assembly#/reviews'
+    'url': 'https://www.coursereport.com/schools/general-assembly#/reviews',
+    'category': 'GENERAL'
   },
   {
     'school': 'Hack-Reactor',
@@ -21,9 +22,11 @@ var data = [
     'school': 'Flat-Iron',
     'url': 'https://www.coursereport.com/schools/flatiron-school#/reviews'
   }
-  ]
+  ];
 
-
+  var categOb = {
+    GENERAL: "general-assembly.csv",
+  }
 
 var arg = process.argv[2];
 
@@ -155,7 +158,7 @@ function scrape(urlOb){
       // ============== Review Body Text ================== //
      // console.log(review[0].children[5].children[0].children[0].children[0])
 
-      var reviewBody = review[0].children[5].children[0].children[0].children;
+    var reviewBody = review[0].children[5].children[0].children[0].children;
     // check to see if a review text exists
     if(reviewBody){
       var bodyText;
@@ -185,7 +188,17 @@ function scrape(urlOb){
           }
         }
       }
-    console.log(cleanRow)
+
+    // console.log(cleanRow)
+    var fileToAppendTo = categOb[urlOb.category];
+
+    fs.appendFile(fileToAppendTo, cleanRow + "\n", 'utf8', function (err) {
+      if (err) {
+        console.log('Some error occured - file either not saved or corrupted file saved.');
+      } else{
+        console.log('It\'s saved!');
+      }
+    });
 
     console.log("--------------------------------------------------------");
     });
