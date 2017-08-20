@@ -57,6 +57,8 @@ function scrape(urlOb){
 
 
     entry.each(function(reviewId, reviewEntry){
+      var cleanRow = [];
+
     console.log((reviewId + 1) + ")")
 
       var review = $(this).children("div");
@@ -66,7 +68,8 @@ function scrape(urlOb){
 
       // children[2] gives us the object inside review that holds review-date information
       var reviewDate = review[0].children[2].children[0].data;
-      console.log(reviewDate);
+      // console.log(reviewDate);
+      cleanRow.push(reviewDate);
 
   // ======================= Review Details =========================== //
       
@@ -78,9 +81,11 @@ function scrape(urlOb){
         // console.log(details);
         if(details){
           if(details.type === 'text'){
-            console.log(details.data)
+            // console.log(details.data)
+            cleanRow.push(details.data);
           }else{
-            console.log(details.children[0].data)
+            // console.log(details.children[0].data)
+            cleanRow.push(details.children[0].data)
           }
         }
       }
@@ -140,8 +145,9 @@ function scrape(urlOb){
   
         //=============== Logged Categories/Stars ===============//
 
-          console.log(category1, cat1StarsFull.length)
-          console.log(category2, cat2StarsFull.length)
+          // console.log(category1, cat1StarsFull.length)
+          // console.log(category2, cat2StarsFull.length)
+          cleanRow.push({[category1]: cat1StarsFull.length, [category2]: cat2StarsFull.length})
 
       } // =================== End of Rating =================== //
 
@@ -160,7 +166,8 @@ function scrape(urlOb){
         if(paragraph.type === 'tag' && paragraph.children[0]){
           bodyText = paragraph.children[0].data;
           if(bodyText){
-            console.log(bodyText)
+            // console.log(bodyText)
+            cleanRow.push(bodyText)
           }
           // for some reviews the review text is nested inside the <p> tag
           else{
@@ -169,13 +176,16 @@ function scrape(urlOb){
               bodyText = paragraph.children[0].children[0].data;
               if(bodyText !== 'Flag as inappropriate.' && bodyText !== 'This Review Is Helpful'){
 
-                  console.log(bodyText); 
+                  // console.log(bodyText); 
+                  cleanRow.push(bodyText)
+
                 }
               }
             }
           }
         }
       }
+    console.log(cleanRow)
 
     console.log("--------------------------------------------------------");
     });
