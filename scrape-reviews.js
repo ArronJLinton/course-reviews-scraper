@@ -6,26 +6,32 @@ var Nightmare = require('nightmare');
 
 
 var data = [
-  { 'school': 'General Assembly',
-    'url': 'https://www.coursereport.com/schools/general-assembly#/reviews',
-    'category': 'GENERAL'
-  },
-  {
-    'school': 'Hack-Reactor',
-    'url': 'https://www.coursereport.com/schools/hack-reactor#/reviews'
-  },
-  {
-    'school': 'Galvanize',
-    'url': 'https://www.coursereport.com/schools/galvanize#/reviews'
-  },
-  {
-    'school': 'Flat-Iron',
-    'url': 'https://www.coursereport.com/schools/flatiron-school#/reviews'
-  }
+    { 'school': 'General Assembly',
+      'url': 'https://www.coursereport.com/schools/general-assembly#/reviews',
+      'category': 'GENERAL'
+    },
+    {
+      'school': 'Hack-Reactor',
+      'url': 'https://www.coursereport.com/schools/hack-reactor#/reviews',
+      'category': 'HACKREACTOR'
+    },
+    {
+      'school': 'Galvanize',
+      'url': 'https://www.coursereport.com/schools/galvanize#/reviews',
+      'category': 'GALVANIZE'
+    },
+    {
+      'school': 'Flat-Iron',
+      'url': 'https://www.coursereport.com/schools/flatiron-school#/reviews',
+      'category': 'FLATIRON'
+    }
   ];
 
   var categOb = {
-    GENERAL: "general-assembly.csv",
+    GENERAL: 'general-assembly.csv',
+    HACKREACTOR: 'hack-reactor.csv',
+    GALVANIZE: 'galvanize.csv',
+    FLATIRON: 'flat-iron.csv'
   }
 
 var arg = process.argv[2];
@@ -62,7 +68,7 @@ function scrape(urlOb){
     entry.each(function(reviewId, reviewEntry){
       var cleanRow = [];
 
-    console.log((reviewId + 1) + ")")
+    // console.log((reviewId + 1) + ")")
 
       var review = $(this).children("div");
 
@@ -150,7 +156,7 @@ function scrape(urlOb){
 
           // console.log(category1, cat1StarsFull.length)
           // console.log(category2, cat2StarsFull.length)
-          cleanRow.push({[category1]: cat1StarsFull.length, [category2]: cat2StarsFull.length})
+          cleanRow.push(category1 + ' ' + cat1StarsFull.length, category2 + ' ' + cat2StarsFull.length)
 
       } // =================== End of Rating =================== //
 
@@ -200,7 +206,7 @@ function scrape(urlOb){
       }
     });
 
-    console.log("--------------------------------------------------------");
+    // console.log("--------------------------------------------------------");
     });
 
         //skip first row
