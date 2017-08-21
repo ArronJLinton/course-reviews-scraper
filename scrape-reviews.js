@@ -91,10 +91,10 @@ function scrape(urlOb){
         if(details){
           if(details.type === 'text'){
             // console.log(details.data)
-            cleanRow.push(details.data);
+            cleanRow.push(details.data.trim());
           }else{
             // console.log(details.children[0].data)
-            cleanRow.push(details.children[0].data)
+            cleanRow.push(details.children[0].data.trim())
           }
         }
       }
@@ -195,6 +195,19 @@ function scrape(urlOb){
         }
       }
 
+      // console.log('test', cleanRow[3])
+      // if(cleanRow[3] == ' •  Campus: New York City ' || cleanRow[3] == ' •  Campus: New York City '){
+      //   console.log('oh yes', cleanRow)
+      // }
+
+    // for (var i = 0; i < cleanRow.length; i++) {
+    //   // console.log(cleanRow[3] == ' •  Campus: New York City ')
+    //   if(cleanRow[3] == ' •  Campus: New York City '){
+    //     // console.log('we in there baby ')
+    //     // console.log(cleanRow)
+    //   }
+    // }
+
     // console.log(cleanRow)
     var fileToAppendTo = categOb[urlOb.category];
 
@@ -209,34 +222,6 @@ function scrape(urlOb){
     // console.log("--------------------------------------------------------");
     });
 
-        //skip first row
-        // tableRows.slice(1).each(function(i, element) {
-        //     var cleanRow = [];
-
-        //     var tds = $(element).children('td');
-
-        //     tds.each(function(tdIndex, td) {
-        //       var val = $(this).text().trim();
-
-        //       //if there's a comma in the value then replace it with no comma (otherwise the csv will put 5,200 into two cells instead of one cell)
-        //       if (val.indexOf(',') > -1) val = val.replace(',','');
-              
-        //       cleanRow.push(val);
-        //     });
-
-        //     var str = `${cleanRow.join(',')},${urlOb.url},${urlOb.year},${urlOb.season_type},${urlOb.category},${urlOb.last_page}`;
-
-        //     var fileToAppendTo = categOb[urlOb.category];
-
-        //     fs.appendFile(fileToAppendTo, str + "\n", 'utf8', function (err) {
-        //       if (err) {
-        //         console.log('Some error occured - file either not saved or corrupted file saved.');
-        //       } else{
-        //         console.log('It\'s saved!');
-        //       }
-        //     });
-        // });
-    // });
   });
 
 };
