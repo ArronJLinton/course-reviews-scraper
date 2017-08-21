@@ -1,8 +1,10 @@
-Ratings scraped from course report
+Node Command Line Application
+
+Ratings scraped from course report:
 General Assembly [0]
 Galvanize [1]
 Hack Reactor [2]
 Flat-Iron [3]
 
-Command
+Command -->
 	node scrape-reviews.js `<index>`
