@@ -90,7 +90,7 @@ function scrape(urlOb){
     var detailsCell = "";
     var location = "";
     var course = "";
-    // var verification = "";
+    var verification = "";
 
      for (var z = 0; z < reviewDetails.length; z++) {
 
@@ -109,22 +109,25 @@ function scrape(urlOb){
               course = data;
               console.log('course', course)
             }
-            // else if(data.indexOf('Verified') >= 0){
-            //   verification = data;
-            // }
+            else if(data.indexOf('Verified') >= 0){
+              verification = data;
+              console.log('ver', verification)
+            }
             // cleanRow.push(detailsCell);
           }else{
             // detailsCell = detailsCell + details.children[0].data
             // detailsCell.push(details.children[0].data)
             // cleanRow.push(detailsCell)
 
-            // console.log('details', details.children[0].data)
+            console.log('details', details.children[0].data)
+            var data2 = details.children[0].data;
 
-            // if(details.children[0].data.indexOf('Campus:') >= 0){
-            //   location = details.children[0].data;
-            //   console.log('location1', location)
-            // }else if(details.children[0].data.indexOf('Course:')){
-            //   course = details.children[0].data;
+            if(data2.indexOf('Verified') >= 0){
+              verification = data2;
+              console.log('verif', verification)
+            }
+            // else if(data2.indexOf('Course:')){
+            //   course = data2;
             //   console.log('course1', course)
             // }
           }
@@ -136,10 +139,13 @@ function scrape(urlOb){
       // detailsCell = detailsCell.replace(/[•\t.+]/g, "|")
       // cleanRow.push(detailsCell)
       course = course.replace(/[•\t.+]/g, "")
+      course = course.replace("Course:", "")
       location = location.replace(/[•\t.+]/g, "")
+      location = location.replace("Campus:", "")
+      verification = verification.replace("Verified via", "")
       cleanRow.push(course)
       cleanRow.push(location)
-      // cleanRow.push(verification)
+      cleanRow.push(verification)
 
   // ======================== RATING CATEGORIES/STARS =========================== //
 
@@ -241,18 +247,18 @@ function scrape(urlOb){
         cleanRow.push(comments)
       }
 
-    console.log('row', cleanRow)
+    // console.log('row', cleanRow)
 
 
-    // var fileToAppendTo = categOb[urlOb.category];
+    var fileToAppendTo = categOb[urlOb.category];
 
-    // fs.appendFile(fileToAppendTo, cleanRow + "\n", 'utf8', function (err) {
-    //   if (err) {
-    //     console.log('Some error occured - file either not saved or corrupted file saved.');
-    //   } else{
-    //     console.log('It\'s saved!');
-    //   }
-    // });
+    fs.appendFile(fileToAppendTo, cleanRow + "\n", 'utf8', function (err) {
+      if (err) {
+        console.log('Some error occured - file either not saved or corrupted file saved.');
+      } else{
+        console.log('It\'s saved!');
+      }
+    });
 
     // console.log("--------------------------------------------------------");
     });
