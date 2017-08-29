@@ -24,15 +24,21 @@ var data = [
       'school': 'Flat-Iron',
       'url': 'https://www.coursereport.com/schools/flatiron-school#/reviews',
       'category': 'FLATIRON'
+    },
+    {
+      'school': 'Scarlet Knights',
+      'url': 'https://www.coursereport.com/schools/rutgers-bootcamps#/reviews',
+      'category': 'RUTGERS'
     }
   ];
 
-  var categOb = {
-    GENERAL: 'general-assembly.csv',
-    HACKREACTOR: 'hack-reactor.csv',
-    GALVANIZE: 'galvanize.csv',
-    FLATIRON: 'flat-iron.csv'
-  }
+  // var categOb = {
+  //   GENERAL: 'bootcamp-reviews.csv',
+  //   HACKREACTOR: 'bootcamp-reviews.csv',
+  //   GALVANIZE: 'bootcamp-reviews.csv',
+  //   FLATIRON: 'bootcamp-reviews.csv',
+  //   RUTGERS: 'bootcamp-reviews.csv'
+  // }
 
 var arg = process.argv[2];
 
@@ -80,14 +86,13 @@ function scrape(urlOb){
 
       // children[2] gives us the object inside review that holds review-date information
       var reviewDate = review[0].children[2].children[0].data;
-      // console.log(reviewDate);
+      console.log(reviewDate);
       cleanRow.push(reviewDate);
 
   // ======================= Review Details =========================== //
       
     var reviewDetails = review[0].children[3].children.slice(1);
 
-    var detailsCell = "";
     var location = "";
     var course = "";
     var verification = "";
@@ -101,43 +106,28 @@ function scrape(urlOb){
           if(details.type === 'text'){
             // console.log('details', details.data);
 
-            // detailsCell = detailsCell + details.data;
             if(data.indexOf('Campus:') >= 0){
               location = data;
-              console.log('location2', location)
+              // console.log('location2', location)
             }else if(data.indexOf('Course:') >= 0){
               course = data;
-              console.log('course', course)
+              // console.log('course', course)
             }
             else if(data.indexOf('Verified') >= 0){
               verification = data;
-              console.log('ver', verification)
+              // console.log('ver', verification)
             }
-            // cleanRow.push(detailsCell);
           }else{
-            // detailsCell = detailsCell + details.children[0].data
-            // detailsCell.push(details.children[0].data)
-            // cleanRow.push(detailsCell)
-
-            console.log('details', details.children[0].data)
+            // console.log('details', details.children[0].data)
             var data2 = details.children[0].data;
-
             if(data2.indexOf('Verified') >= 0){
               verification = data2;
-              console.log('verif', verification)
+              // console.log('verif', verification)
             }
-            // else if(data2.indexOf('Course:')){
-            //   course = data2;
-            //   console.log('course1', course)
-            // }
           }
         }
       }
 
-      // console.log('details', detailsCell)
-      // detailsCell = detailsCell.replace(/\,/g, "")
-      // detailsCell = detailsCell.replace(/[•\t.+]/g, "|")
-      // cleanRow.push(detailsCell)
       course = course.replace(/[•\t.+]/g, "")
       course = course.replace("Course:", "")
       location = location.replace(/[•\t.+]/g, "")
@@ -220,8 +210,10 @@ function scrape(urlOb){
       for (var q = 0; q < reviewBody.length; q++) {
         var paragraph = reviewBody[q];
         // check to see if the paragraph object contains type = 
+        // console.log('body', reviewBody)
         if(paragraph.type === 'tag' && paragraph.children[0]){
           bodyText = paragraph.children[0].data;
+          // console.log('p1', paragraph.children[0])
           if(bodyText){
             // console.log(bodyText)
             comments = comments + bodyText;
@@ -231,6 +223,8 @@ function scrape(urlOb){
           // for some reviews the review text is nested inside the <p> tag
           else{
             var bodyContainer = paragraph.children[0].children[0];
+              // console.log('p2', paragraph.children[0].children[0])
+
             if(bodyContainer){
               bodyText = paragraph.children[0].children[0].data;
               if(bodyText !== 'Flag as inappropriate.' && bodyText !== 'This Review Is Helpful'){
@@ -243,16 +237,24 @@ function scrape(urlOb){
         }
 
       // We have to replace the commas in the comment section because the csv file will interpret a comma as a separation between cells
+      // console.log('comments', comments)
         comments = comments.replace(/\,/g, "")
+        comments = comments.toString().replace(/\t/g, '').split('\r\n');
+
+        // comments = comments.split(":")[0]
+        // console.log('index', comments.indexOf(':'))
+        // comments.substring(comments.indexOf(':'))
+
+        // console.log("come on baby", comments);
         cleanRow.push(comments)
       }
 
     // console.log('row', cleanRow)
 
 
-    var fileToAppendTo = categOb[urlOb.category];
+    // var fileToAppendTo = categOb[urlOb.category];
 
-    fs.appendFile(fileToAppendTo, cleanRow + "\n", 'utf8', function (err) {
+    fs.appendFile('bootcamp-reviews.csv', cleanRow + "\n", 'utf8', function (err) {
       if (err) {
         console.log('Some error occured - file either not saved or corrupted file saved.');
       } else{
