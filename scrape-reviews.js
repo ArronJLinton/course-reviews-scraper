@@ -84,6 +84,8 @@ function scrape(urlOb){
       
     var reviewDetails = review[0].children[3].children.slice(1);
 
+    var detailsCell = " ";
+
      for (var z = 0; z < reviewDetails.length; z++) {
 
         var details = reviewDetails[z].children[0];
@@ -91,13 +93,22 @@ function scrape(urlOb){
         if(details){
           if(details.type === 'text'){
             // console.log(details.data)
-            cleanRow.push(details.data.trim());
+            detailsCell = detailsCell + details.data;
+            // cleanRow.push(detailsCell);
           }else{
             // console.log(details.children[0].data)
-            cleanRow.push(details.children[0].data.trim())
+            detailsCell = detailsCell + details.children[0].data
+            // detailsCell.push(details.children[0].data)
+            // cleanRow.push(detailsCell)
           }
         }
       }
+
+      // console.log('details', detailsCell)
+      detailsCell = detailsCell.replace(/\,/g, "")
+      detailsCell
+      detailsCell = detailsCell.replace(/[•\t.+]/g, "|")
+      cleanRow.push(detailsCell)
 
   // ======================== RATING CATEGORIES/STARS =========================== //
 
@@ -156,18 +167,18 @@ function scrape(urlOb){
 
           // console.log(category1, cat1StarsFull.length)
           // console.log(category2, cat2StarsFull.length)
-          cleanRow.push(category1 + ' ' + cat1StarsFull.length, category2 + ' ' + cat2StarsFull.length)
+          cleanRow.push(cat1StarsFull.length, cat2StarsFull.length)
 
       } // =================== End of Rating =================== //
 
 
       // ============== Review Body Text ================== //
-     // console.log(review[0].children[5].children[0].children[0].children[0])
 
     var reviewBody = review[0].children[5].children[0].children[0].children;
     // check to see if a review text exists
     if(reviewBody){
       var bodyText;
+      var comments = "";
       // have to loop around <p> tags inside the body
       for (var q = 0; q < reviewBody.length; q++) {
         var paragraph = reviewBody[q];
@@ -176,7 +187,9 @@ function scrape(urlOb){
           bodyText = paragraph.children[0].data;
           if(bodyText){
             // console.log(bodyText)
-            cleanRow.push(bodyText)
+            comments = comments + bodyText;
+            // comments.replace(',', ' ')
+            // cleanRow.push(comments)
           }
           // for some reviews the review text is nested inside the <p> tag
           else{
@@ -184,31 +197,22 @@ function scrape(urlOb){
             if(bodyContainer){
               bodyText = paragraph.children[0].children[0].data;
               if(bodyText !== 'Flag as inappropriate.' && bodyText !== 'This Review Is Helpful'){
-
-                  // console.log(bodyText); 
-                  cleanRow.push(bodyText)
+                  comments = comments + bodyText;
 
                 }
               }
             }
           }
         }
+
+      // We have to replace the commas in the comment section because the csv file will interpret a comma as a separation between cells
+        comments = comments.replace(/\,/g, "")
+        cleanRow.push(comments)
       }
 
-      // console.log('test', cleanRow[3])
-      // if(cleanRow[3] == ' •  Campus: New York City ' || cleanRow[3] == ' •  Campus: New York City '){
-      //   console.log('oh yes', cleanRow)
-      // }
+    console.log('row', cleanRow)
 
-    // for (var i = 0; i < cleanRow.length; i++) {
-    //   // console.log(cleanRow[3] == ' •  Campus: New York City ')
-    //   if(cleanRow[3] == ' •  Campus: New York City '){
-    //     // console.log('we in there baby ')
-    //     // console.log(cleanRow)
-    //   }
-    // }
 
-    // console.log(cleanRow)
     var fileToAppendTo = categOb[urlOb.category];
 
     fs.appendFile(fileToAppendTo, cleanRow + "\n", 'utf8', function (err) {
