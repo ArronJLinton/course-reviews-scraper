@@ -42,7 +42,9 @@ scrape(data[parseInt(arg)]);
 
 // pass in urlOb to determine which url we are scraping from
 function scrape(urlOb){
+  var schoolName = urlOb.school.toUpperCase()
   console.log(urlOb.school.toUpperCase());
+
   var scrape = new Nightmare({
           show: false
       })
@@ -67,6 +69,7 @@ function scrape(urlOb){
 
     entry.each(function(reviewId, reviewEntry){
       var cleanRow = [];
+      cleanRow.push(schoolName)
 
     // console.log((reviewId + 1) + ")")
 
@@ -106,7 +109,6 @@ function scrape(urlOb){
 
       // console.log('details', detailsCell)
       detailsCell = detailsCell.replace(/\,/g, "")
-      detailsCell
       detailsCell = detailsCell.replace(/[•\t.+]/g, "|")
       cleanRow.push(detailsCell)
 
