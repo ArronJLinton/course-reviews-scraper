@@ -8,37 +8,82 @@ var Nightmare = require('nightmare');
 var data = [
     { 'school': 'General Assembly',
       'url': 'https://www.coursereport.com/schools/general-assembly#/reviews',
-      'category': 'GENERAL'
+      'category': 'GENERAL',
+      'trilogy': 'FALSE'
     },
     {
-      'school': 'Hack-Reactor',
+      'school': 'Hack Reactor',
       'url': 'https://www.coursereport.com/schools/hack-reactor#/reviews',
-      'category': 'HACKREACTOR'
+      'category': 'HACKREACTOR',
+      'trilogy': 'FALSE'
     },
     {
       'school': 'Galvanize',
       'url': 'https://www.coursereport.com/schools/galvanize#/reviews',
-      'category': 'GALVANIZE'
+      'category': 'GALVANIZE',
+      'trilogy': 'FALSE'
     },
     {
       'school': 'Flat-Iron',
       'url': 'https://www.coursereport.com/schools/flatiron-school#/reviews',
-      'category': 'FLATIRON'
+      'category': 'FLATIRON',
+      'trilogy': 'FALSE'
     },
     {
-      'school': 'Scarlet Knights',
+      'school': 'Rutgers',
       'url': 'https://www.coursereport.com/schools/rutgers-bootcamps#/reviews',
-      'category': 'RUTGERS'
+      'category': 'RUTGERS',
+      'trilogy': 'TRUE'
+    },
+    {
+      'school': 'UCF Orlando',
+      'url': 'https://www.coursereport.com/schools/ucf-coding-boot-camp',
+      'category': 'UCF',
+      'trilogy': 'TRUE'
+    },
+    {
+      'school': 'UCLA',
+      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-ucla-extension#/reviews',
+      'category': 'UCLA',
+      'trilogy': 'TRUE'
+    },
+    {
+      'school': 'UNC Chapel Hill',
+      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-unc-chapel-hill',
+      'category': 'UNC Chapel Hill',
+      'trilogy': 'TRUE'
+    },
+    {
+      'school': 'UNC Charlotte',
+      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-unc-charlotteel',
+      'category': 'UNC Charlotte',
+      'trilogy': 'TRUE'
+    },
+    // {
+    //   'school': 'UCSD',
+    //   'url': 'https://www.coursereport.com/schools/rutgers-bootcamps#/reviews',
+    //   'category': 'UCSD',
+    //   'trilogy': true
+    // },
+    {
+      'school': 'UT Austin',
+      'url': 'https://www.coursereport.com/schools/UT-Austin-Boot-Camps',
+      'category': 'UT AUSTIN',
+      'trilogy': 'TRUE'
+    },
+    {
+      'school': 'UCIrvine',
+      'url': 'https://www.coursereport.com/schools/UC-Irvine-Boot-Camps#/reviews',
+      'category': 'UCIRVINE',
+      'trilogy': 'TRUE'
+    },
+    {
+      'school': 'Thinkful',
+      'url': 'https://www.coursereport.com/schools/thinkful',
+      'category': 'THINKFUL',
+      'trilogy': 'FALSE'
     }
   ];
-
-  // var categOb = {
-  //   GENERAL: 'bootcamp-reviews.csv',
-  //   HACKREACTOR: 'bootcamp-reviews.csv',
-  //   GALVANIZE: 'bootcamp-reviews.csv',
-  //   FLATIRON: 'bootcamp-reviews.csv',
-  //   RUTGERS: 'bootcamp-reviews.csv'
-  // }
 
 var arg = process.argv[2];
 
@@ -49,7 +94,7 @@ scrape(data[parseInt(arg)]);
 // pass in urlOb to determine which url we are scraping from
 function scrape(urlOb){
   var schoolName = urlOb.school.toUpperCase()
-  console.log(urlOb.school.toUpperCase());
+  console.log(schoolName);
 
   var scrape = new Nightmare({
           show: false
@@ -76,8 +121,9 @@ function scrape(urlOb){
     entry.each(function(reviewId, reviewEntry){
       var cleanRow = [];
       cleanRow.push(schoolName)
+      cleanRow.push(urlOb.trilogy)
 
-    console.log((reviewId + 1) + ")")
+    // console.log((reviewId + 1) + ")")
 
       var review = $(this).children("div");
 
@@ -86,7 +132,7 @@ function scrape(urlOb){
 
       // children[2] gives us the object inside review that holds review-date information
       var reviewDate = review[0].children[2].children[0].data;
-      console.log(reviewDate);
+      // console.log(reviewDate);
       cleanRow.push(reviewDate);
 
   // ======================= Review Details =========================== //
@@ -254,7 +300,7 @@ function scrape(urlOb){
 
     // var fileToAppendTo = categOb[urlOb.category];
 
-    fs.appendFile('bootcamp-reviews.csv', cleanRow + "\n", 'utf8', function (err) {
+    fs.appendFile('bootcamp-reviews.csv', "\n" + cleanRow, 'utf8', function (err) {
       if (err) {
         console.log('Some error occured - file either not saved or corrupted file saved.');
       } else{
