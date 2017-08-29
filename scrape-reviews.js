@@ -71,7 +71,7 @@ function scrape(urlOb){
       var cleanRow = [];
       cleanRow.push(schoolName)
 
-    // console.log((reviewId + 1) + ")")
+    console.log((reviewId + 1) + ")")
 
       var review = $(this).children("div");
 
@@ -87,30 +87,59 @@ function scrape(urlOb){
       
     var reviewDetails = review[0].children[3].children.slice(1);
 
-    var detailsCell = " ";
+    var detailsCell = "";
+    var location = "";
+    var course = "";
+    // var verification = "";
 
      for (var z = 0; z < reviewDetails.length; z++) {
 
         var details = reviewDetails[z].children[0];
         // console.log(details);
         if(details){
+          var data = details.data
           if(details.type === 'text'){
-            // console.log(details.data)
-            detailsCell = detailsCell + details.data;
+            // console.log('details', details.data);
+
+            // detailsCell = detailsCell + details.data;
+            if(data.indexOf('Campus:') >= 0){
+              location = data;
+              console.log('location2', location)
+            }else if(data.indexOf('Course:') >= 0){
+              course = data;
+              console.log('course', course)
+            }
+            // else if(data.indexOf('Verified') >= 0){
+            //   verification = data;
+            // }
             // cleanRow.push(detailsCell);
           }else{
-            // console.log(details.children[0].data)
-            detailsCell = detailsCell + details.children[0].data
+            // detailsCell = detailsCell + details.children[0].data
             // detailsCell.push(details.children[0].data)
             // cleanRow.push(detailsCell)
+
+            // console.log('details', details.children[0].data)
+
+            // if(details.children[0].data.indexOf('Campus:') >= 0){
+            //   location = details.children[0].data;
+            //   console.log('location1', location)
+            // }else if(details.children[0].data.indexOf('Course:')){
+            //   course = details.children[0].data;
+            //   console.log('course1', course)
+            // }
           }
         }
       }
 
       // console.log('details', detailsCell)
-      detailsCell = detailsCell.replace(/\,/g, "")
-      detailsCell = detailsCell.replace(/[•\t.+]/g, "|")
-      cleanRow.push(detailsCell)
+      // detailsCell = detailsCell.replace(/\,/g, "")
+      // detailsCell = detailsCell.replace(/[•\t.+]/g, "|")
+      // cleanRow.push(detailsCell)
+      course = course.replace(/[•\t.+]/g, "")
+      location = location.replace(/[•\t.+]/g, "")
+      cleanRow.push(course)
+      cleanRow.push(location)
+      // cleanRow.push(verification)
 
   // ======================== RATING CATEGORIES/STARS =========================== //
 
@@ -215,15 +244,15 @@ function scrape(urlOb){
     console.log('row', cleanRow)
 
 
-    var fileToAppendTo = categOb[urlOb.category];
+    // var fileToAppendTo = categOb[urlOb.category];
 
-    fs.appendFile(fileToAppendTo, cleanRow + "\n", 'utf8', function (err) {
-      if (err) {
-        console.log('Some error occured - file either not saved or corrupted file saved.');
-      } else{
-        console.log('It\'s saved!');
-      }
-    });
+    // fs.appendFile(fileToAppendTo, cleanRow + "\n", 'utf8', function (err) {
+    //   if (err) {
+    //     console.log('Some error occured - file either not saved or corrupted file saved.');
+    //   } else{
+    //     console.log('It\'s saved!');
+    //   }
+    // });
 
     // console.log("--------------------------------------------------------");
     });
