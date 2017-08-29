@@ -246,7 +246,7 @@ function scrape(urlOb){
         // comments.substring(comments.indexOf(':'))
 
         // console.log("come on baby", comments);
-        cleanRow.push(comments)
+        // cleanRow.push(comments)
       }
 
     // console.log('row', cleanRow)
