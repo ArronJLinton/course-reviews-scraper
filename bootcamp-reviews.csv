@@ -1,29 +1,9 @@
 School,Trilogy,Date,Course,Location,Verified,Overall Exp.,Curriculum,Instructors,Job Assistance,Comments
-GENERAL ASSEMBLY,FALSE,6/7/2017,    Digital Marketing (Part-time) ,    Chicago ,,4,4,4,0
-GENERAL ASSEMBLY,FALSE,6/2/2017,    Web Development Immersive  ,    Denver ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,5/23/2017,    User Experience Design (Part-time) ,    San Francisco ,,5,5,5,4
-GENERAL ASSEMBLY,FALSE,5/19/2017,    Data Science (Part-time) ,    London ,,1,1,1,1
-GENERAL ASSEMBLY,FALSE,5/2/2017,,    London ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,4/25/2017,    Data Science (Part-time) ,    Sydney ,,5,5,5,4
-GENERAL ASSEMBLY,FALSE,4/15/2017,,    Washington ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,4/7/2017,    Front-End Web Development  (Part-time) ,    New York City ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,4/7/2017,    User Experience Design Immersive ,    Melbourne ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,4/5/2017,    Digital Marketing (Part-time) ,    Melbourne ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,4/5/2017,    HTML, CSS, and Web Design Circuit ,    Online ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,3/31/2017,,,,3,2,2,4
-GENERAL ASSEMBLY,FALSE,3/31/2017,,    London ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,3/29/2017,    Data Analytics (Part-time) ,    Atlanta ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,3/24/2017,    Data Science Immersive ,    San Francisco ,,5,5,5,4
-GENERAL ASSEMBLY,FALSE,3/1/2017,    Web Development Immersive ,    New York City ,,5,5,5,4
-GENERAL ASSEMBLY,FALSE,2/28/2017,    Data Science (Part-time) ,    Boston ,,3,3,5,0
-GENERAL ASSEMBLY,FALSE,2/24/2017,    User Experience Design Immersive ,    London ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,2/16/2017,,    New York City ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,2/15/2017,    Web Development Immersive ,    Austin ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,2/14/2017,    Data Science Immersive ,    San Francisco ,,1,1,1,1
-GENERAL ASSEMBLY,FALSE,2/13/2017,    Data Science Immersive ,    San Francisco ,,1,1,1,1
-GENERAL ASSEMBLY,FALSE,2/6/2017,    Web Development Immersive ,    New York City ,,1,4,1,1
-GENERAL ASSEMBLY,FALSE,2/1/2017,,    London ,,1,1,1,1
-GENERAL ASSEMBLY,FALSE,1/18/2017,,    Denver ,,1,1,1,1
+RUTGERS,TRUE,10/28/2016,    Full Stack Flex ,    Somerset ,,1,1,1,1
+RUTGERS,TRUE,8/23/2016,    Full Stack Flex ,    Jersey City ,,1,1,1,1
+RUTGERS,TRUE,8/19/2016,,    New Brunswick ,,5,5,5,1
+RUTGERS,TRUE,8/16/2016,    Full Stack Flex ,    New Brunswick ,,1,1,1,1
+RUTGERS,TRUE,8/16/2016,    Full Stack Flex ,    Jersey City ,,5,4,5,4
 RUTGERS,TRUE,8/9/2017,    Full Stack Flex - Full Time ,    Somerset , GitHub,5,4,5,4
 RUTGERS,TRUE,6/13/2017,    Full Stack Flex ,    Jersey City , LinkedIn,4,5,5,2
 RUTGERS,TRUE,6/8/2017,    Full Stack Flex ,    Jersey City , LinkedIn,5,5,5,3
@@ -49,3 +29,28 @@ RUTGERS,TRUE,9/9/2016,    Full Stack Flex ,    New Brunswick ,,5,4,5,5
 RUTGERS,TRUE,9/8/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,4
 RUTGERS,TRUE,9/6/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
 RUTGERS,TRUE,8/28/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,8/25/2016,    Full Stack Flex ,    Jersey City ,,5,5,5,5
+RUTGERS,TRUE,8/24/2016,    Full Stack Flex ,    Jersey City ,,5,5,5,5
+RUTGERS,TRUE,8/24/2016,    Full Stack Flex ,    Jersey City ,,5,5,5,5
+RUTGERS,TRUE,8/23/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,8/23/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,8/22/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,8/22/2016,    Full Stack Flex ,    New Brunswick ,,5,4,4,3
+RUTGERS,TRUE,8/21/2016,    Full Stack Flex ,    New Brunswick ,,4,5,5,4
+RUTGERS,TRUE,8/20/2016,,    Jersey City ,,1,1,1,1
+RUTGERS,TRUE,8/19/2016,    Full Stack Flex ,    Jersey City ,,5,5,5,4
+RUTGERS,TRUE,8/19/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,4
+RUTGERS,TRUE,8/18/2016,    Full Stack Flex ,    New Brunswick ,,4,4,5,1
+RUTGERS,TRUE,8/16/2016,    Full Stack Flex ,    Somerset ,,5,5,5,5
+RUTGERS,TRUE,8/16/2016,,    Somerset ,,5,5,5,5
+RUTGERS,TRUE,8/5/2016,,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,8/2/2016,,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,7/26/2016,    Full Stack Flex ,    Somerset ,,5,5,5,5
+RUTGERS,TRUE,7/25/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,7/19/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,7/9/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,6/26/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,11/16/2016,    Full Stack Flex ,    New Brunswick ,,4,5,3,5
+RUTGERS,TRUE,11/10/2016,    Full Stack Flex ,    New Brunswick ,,3,2,2,1
+RUTGERS,TRUE,11/4/2016,,,,5,5,5,5
+RUTGERS,TRUE,11/3/2016,    Full Stack Flex ,    New Brunswick ,,1,1,1,1

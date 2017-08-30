@@ -19,77 +19,92 @@ var forever = require('forever-monitor');
 
 
 var data = [
-    { 'school': 'General Assembly',
-      'url': 'https://www.coursereport.com/schools/general-assembly?page=',
-      'category': 'GENERAL',
-      'trilogy': 'FALSE'
-    },
+    // { 'school': 'General Assembly',
+    //   'url': 'https://www.coursereport.com/schools/general-assembly?page=',
+    //   'category': 'GENERAL',
+    //   'trilogy': 'FALSE'
+    // },
+    // {
+    //   'school': 'Hack Reactor',
+    //   'url': 'https://www.coursereport.com/schools/hack-reactor?page=',
+    //   'category': 'HACKREACTOR',
+    //   'trilogy': 'FALSE'
+    // },
+    // {
+    //   'school': 'Galvanize',
+    //   'url': 'https://www.coursereport.com/schools/galvanize?page=',
+    //   'category': 'GALVANIZE',
+    //   'trilogy': 'FALSE'
+    // },
+    // {
+    //   'school': 'Flat-Iron',
+    //   'url': 'https://www.coursereport.com/schools/flatiron-school?page=',
+    //   'category': 'FLATIRON',
+    //   'trilogy': 'FALSE'
+    // },
     {
-      'school': 'Hack Reactor',
-      'url': 'https://www.coursereport.com/schools/hack-reactor?page=',
-      'category': 'HACKREACTOR',
-      'trilogy': 'FALSE'
-    },
-    {
-      'school': 'Galvanize',
-      'url': 'https://www.coursereport.com/schools/galvanize?page=',
-      'category': 'GALVANIZE',
-      'trilogy': 'FALSE'
-    },
-    {
-      'school': 'Flat-Iron',
-      'url': 'https://www.coursereport.com/schools/flatiron-school?page=',
-      'category': 'FLATIRON',
-      'trilogy': 'FALSE'
+      'school': 'Rutgers',
+      'url': 'https://www.coursereport.com/schools/rutgers-bootcamps#/reviews',
+      'category': 'RUTGERS',
+      'trilogy': 'TRUE',
+      'page': 1
     },
     {
       'school': 'Rutgers',
-      'url': 'https://www.coursereport.com/schools/rutgers-bootcamps?page=',
+      'url': 'https://www.coursereport.com/schools/rutgers-bootcamps?page=2#/reviews',
       'category': 'RUTGERS',
-      'trilogy': 'TRUE'
+      'trilogy': 'TRUE',
+      'page': 2
     },
     {
-      'school': 'UCF Orlando',
-      'url': 'https://www.coursereport.com/schools/ucf-coding-boot-camp?page=',
-      'category': 'UCF',
-      'trilogy': 'TRUE'
+      'school': 'Rutgers',
+      'url': 'https://www.coursereport.com/schools/rutgers-bootcamps?page=3#/reviews',
+      'category': 'RUTGERS',
+      'trilogy': 'TRUE',
+      'page': 3
     },
-    {
-      'school': 'UCLA',
-      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-ucla-extension?page=',
-      'category': 'UCLA',
-      'trilogy': 'TRUE'
-    },
-    {
-      'school': 'UNC Chapel Hill',
-      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-unc-chapel-hill?page=',
-      'category': 'UNC Chapel Hill',
-      'trilogy': 'TRUE'
-    },
-    {
-      'school': 'UNC Charlotte',
-      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-unc-charlotteel?page=',
-      'category': 'UNC Charlotte',
-      'trilogy': 'TRUE'
-    },
-    {
-      'school': 'UT Austin',
-      'url': 'https://www.coursereport.com/schools/UT-Austin-Boot-Camps?page=',
-      'category': 'UT AUSTIN',
-      'trilogy': 'TRUE'
-    },
-    {
-      'school': 'UCIrvine',
-      'url': 'https://www.coursereport.com/schools/UC-Irvine-Boot-Camps?page=',
-      'category': 'UCIRVINE',
-      'trilogy': 'TRUE'
-    },
-    {
-      'school': 'Thinkful',
-      'url': 'https://www.coursereport.com/schools/thinkful?page=',
-      'category': 'THINKFUL',
-      'trilogy': 'FALSE'
-    }
+    // {
+    //   'school': 'UCF Orlando',
+    //   'url': 'https://www.coursereport.com/schools/ucf-coding-boot-camp?page=',
+    //   'category': 'UCF',
+    //   'trilogy': 'TRUE'
+    // },
+    // {
+    //   'school': 'UCLA',
+    //   'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-ucla-extension?page=',
+    //   'category': 'UCLA',
+    //   'trilogy': 'TRUE'
+    // },
+    // {
+    //   'school': 'UNC Chapel Hill',
+    //   'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-unc-chapel-hill?page=',
+    //   'category': 'UNC Chapel Hill',
+    //   'trilogy': 'TRUE'
+    // },
+    // {
+    //   'school': 'UNC Charlotte',
+    //   'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-unc-charlotteel?page=',
+    //   'category': 'UNC Charlotte',
+    //   'trilogy': 'TRUE'
+    // },
+    // {
+    //   'school': 'UT Austin',
+    //   'url': 'https://www.coursereport.com/schools/UT-Austin-Boot-Camps?page=',
+    //   'category': 'UT AUSTIN',
+    //   'trilogy': 'TRUE'
+    // },
+    // {
+    //   'school': 'UCIrvine',
+    //   'url': 'https://www.coursereport.com/schools/UC-Irvine-Boot-Camps?page=',
+    //   'category': 'UCIRVINE',
+    //   'trilogy': 'TRUE'
+    // },
+    // {
+    //   'school': 'Thinkful',
+    //   'url': 'https://www.coursereport.com/schools/thinkful?page=',
+    //   'category': 'THINKFUL',
+    //   'trilogy': 'FALSE'
+    // }
   ];
 
 
@@ -98,19 +113,19 @@ function scrape(urlOb){
 
   var schoolName = urlOb.school.toUpperCase()
   // console.log(urlOb.url())
-  var url;
+  // var url;
 
 // need a variable for page length for each object
-  for (var i = 1; i < 3; i++) {
-    url = urlOb.url;
+  // for (var i = 1; i < 3; i++) {
+  //   url = urlOb.url;
 
-    url = url + i + '#/reviews';
-    console.log('url', url)
+  //   url = url + i + '#/reviews';
+    // console.log('url', url)
 
   var scrape = new Nightmare({
           show: false
       })
-      .goto(url)
+      .goto(urlOb.url)
       .wait(3000)
       .evaluate(function() {
           return document.body.innerHTML;
@@ -323,7 +338,7 @@ function scrape(urlOb){
     });
 
   });
-  }
+  
 };
 
   var cleanRowHeadings = ['School', 'Trilogy' , 'Date', 'Course', 'Location', 'Verified', 'Overall Exp.', 'Curriculum', 'Instructors', 'Job Assistance', 'Comments'];
