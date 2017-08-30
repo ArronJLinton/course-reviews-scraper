@@ -1,3 +1,5 @@
+function runScrape(){
+
 i=0
 while (( i <= 11 ));
 do 
@@ -8,3 +10,7 @@ do
 
     i=$((i+1))
 done
+
+}
+
+setInterval(runScrape, 1200000)

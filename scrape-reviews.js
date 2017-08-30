@@ -2,6 +2,7 @@ var request = require('request');
 var cheerio = require('cheerio')
 var fs = require('fs'); //internal
 var Nightmare = require('nightmare');
+// var forever = require('forever-monitor');
 
 
 
@@ -85,16 +86,11 @@ var data = [
     }
   ];
 
-var arg = process.argv[2];
-
-scrape(data[parseInt(arg)]);
-
-// scrape();
 
 // pass in urlOb to determine which url we are scraping from
 function scrape(urlOb){
+
   var schoolName = urlOb.school.toUpperCase()
-  console.log(schoolName);
 
   var scrape = new Nightmare({
           show: false
@@ -117,6 +113,7 @@ function scrape(urlOb){
 
     var entry = $(".review");
 
+  console.log(schoolName);
 
     entry.each(function(reviewId, reviewEntry){
       var cleanRow = [];
@@ -244,8 +241,8 @@ function scrape(urlOb){
 
       } // =================== End of Rating =================== //
 
-
       // ============== Review Body Text ================== //
+
 
     var reviewBody = review[0].children[5].children[0].children[0].children;
     // check to see if a review text exists
@@ -300,7 +297,7 @@ function scrape(urlOb){
 
     // var fileToAppendTo = categOb[urlOb.category];
 
-    fs.appendFile('bootcamp-reviews.csv', "\n" + cleanRow, 'utf8', function (err) {
+    fs.appendFile('bootcamp-reviews.csv', cleanRow + "\n" , 'utf8', function (err) {
       if (err) {
         console.log('Some error occured - file either not saved or corrupted file saved.');
       } else{
@@ -314,3 +311,24 @@ function scrape(urlOb){
   });
 
 };
+
+  var cleanRowHeadings = ['School', 'Trilogy' , 'Date', 'Course', 'Location', 'Verified', 'Overall Exp.', 'Curriculum', 'Instructors', 'Job Assistance', 'Comments'];
+
+  fs.writeFile('bootcamp-reviews.csv', cleanRowHeadings + "\n" , 'utf8', function (err) {
+      if (err) {
+        console.log('Some error occured - file either not saved or corrupted file saved.');
+      } else{
+        console.log('It\'s saved!');
+      }
+    });
+
+
+function runScrape(){
+  for (var i = 0; i < data.length; i++) {
+    scrape(data[i])
+  }
+};
+
+runScrape();
+
+
