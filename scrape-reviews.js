@@ -2,8 +2,20 @@ var request = require('request');
 var cheerio = require('cheerio')
 var fs = require('fs'); //internal
 var Nightmare = require('nightmare');
-// var forever = require('forever-monitor');
+var forever = require('forever-monitor');
 
+  // var child = new (forever.Monitor)('scrape-reviews.js', {
+  //   max: 3,
+  //   silent: true,
+  //   args: [],
+  //   'spinSleepTime': 10000,
+  // });
+
+  // child.on('exit', function () {
+  //   console.log('your-filename.js has exited after 3 restarts');
+  // });
+
+  // child.start();
 
 
 var data = [
@@ -60,12 +72,6 @@ var data = [
       'category': 'UNC Charlotte',
       'trilogy': 'TRUE'
     },
-    // {
-    //   'school': 'UCSD',
-    //   'url': 'https://www.coursereport.com/schools/rutgers-bootcamps#/reviews',
-    //   'category': 'UCSD',
-    //   'trilogy': true
-    // },
     {
       'school': 'UT Austin',
       'url': 'https://www.coursereport.com/schools/UT-Austin-Boot-Camps',
@@ -97,7 +103,7 @@ function scrape(urlOb){
       })
       .goto(urlOb.url)
       // .goto("https://www.coursereport.com/schools/general-assembly#/reviews")
-      // .wait(10000)
+      // .wait(3000)
       .evaluate(function() {
           return document.body.innerHTML;
       }).end().then(function(html) {
@@ -282,7 +288,7 @@ function scrape(urlOb){
       // We have to replace the commas in the comment section because the csv file will interpret a comma as a separation between cells
       // console.log('comments', comments)
         comments = comments.replace(/\,/g, "")
-        comments = comments.toString().replace(/\t/g, '').split('\r\n');
+        // comments = comments.toString().replace(/\t/g, '').split('\r\n');
 
         // comments = comments.split(":")[0]
         // console.log('index', comments.indexOf(':'))
@@ -318,7 +324,7 @@ function scrape(urlOb){
       if (err) {
         console.log('Some error occured - file either not saved or corrupted file saved.');
       } else{
-        console.log('It\'s saved!');
+        console.log('File Created!');
       }
     });
 
@@ -329,6 +335,6 @@ function runScrape(){
   }
 };
 
-runScrape();
+runScrape()
 
 
