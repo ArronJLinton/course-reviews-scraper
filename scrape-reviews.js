@@ -99,12 +99,13 @@ var data = [
     //   'category': 'UCIRVINE',
     //   'trilogy': 'TRUE'
     // },
-    // {
-    //   'school': 'Thinkful',
-    //   'url': 'https://www.coursereport.com/schools/thinkful?page=',
-    //   'category': 'THINKFUL',
-    //   'trilogy': 'FALSE'
-    // }
+    {
+      'school': 'Thinkful',
+      'url': 'https://www.coursereport.com/schools/thinkful#/reviews',
+      'category': 'THINKFUL',
+      'trilogy': 'FALSE',
+      'page': 1
+    },
   ];
 
 
@@ -113,14 +114,6 @@ function scrape(urlOb){
 
   var schoolName = urlOb.school.toUpperCase()
   // console.log(urlOb.url())
-  // var url;
-
-// need a variable for page length for each object
-  // for (var i = 1; i < 3; i++) {
-  //   url = urlOb.url;
-
-  //   url = url + i + '#/reviews';
-    // console.log('url', url)
 
   var scrape = new Nightmare({
           show: false
