@@ -5,8 +5,8 @@ var cheerio = require('cheerio')
 var Nightmare = require('nightmare');
 var schedule = require("node-schedule")
 
-var j = schedule.scheduleJob('13 * * * *', function(){
-  console.log("And we are live!");
+// var j = schedule.scheduleJob('13 * * * *', function(){
+//   console.log("And we are live!");
 
   // Included Schools
   var data = [
@@ -335,7 +335,7 @@ var j = schedule.scheduleJob('13 * * * *', function(){
         }
 
         course = course.replace(/[•\t.+]/g, "")
-        course = course.replace(",", " ")
+        course = course.replace(/\,/g, " ")
         course = course.replace("Course:", "")
         location = location.replace(/[•\t.+]/g, "")
         location = location.replace("Campus:", "")
@@ -480,7 +480,7 @@ var j = schedule.scheduleJob('13 * * * *', function(){
 
 
 
-});
+// });
 
 
 
