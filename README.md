@@ -1,10 +1,10 @@
-Course Reviews Scrapper
+<h1>Course Reviews Scrapper</h1>
 
-Node Command Line Application
+<h3>Node Command Line Application</h3>
 
-Ratings are scraped from course report.
+<h4>Ratings from https://www.coursereport.com</h4>
 
-List of schools:
+<h5>List of schools:</h5>
 - Rutgers Coding Bootcamp
 - UCF Coding Bootcamp
 - UCLA Coding Bootcamp
@@ -19,5 +19,5 @@ List of schools:
 - Hack Reactor
 - Flat-Iron
 
-Command -->
-	node scrape-reviews.js
+<h5>Command</h5>
+	<strong>node scrape-reviews.js</strong>
