@@ -19,29 +19,66 @@ var forever = require('forever-monitor');
 
 
 var data = [
-    // { 'school': 'General Assembly',
-    //   'url': 'https://www.coursereport.com/schools/general-assembly?page=',
-    //   'category': 'GENERAL',
-    //   'trilogy': 'FALSE'
-    // },
-    // {
-    //   'school': 'Hack Reactor',
-    //   'url': 'https://www.coursereport.com/schools/hack-reactor?page=',
-    //   'category': 'HACKREACTOR',
-    //   'trilogy': 'FALSE'
-    // },
-    // {
-    //   'school': 'Galvanize',
-    //   'url': 'https://www.coursereport.com/schools/galvanize?page=',
-    //   'category': 'GALVANIZE',
-    //   'trilogy': 'FALSE'
-    // },
-    // {
-    //   'school': 'Flat-Iron',
-    //   'url': 'https://www.coursereport.com/schools/flatiron-school?page=',
-    //   'category': 'FLATIRON',
-    //   'trilogy': 'FALSE'
-    // },
+    { 'school': 'General Assembly',
+      'url': 'https://www.coursereport.com/schools/general-assembly#/reviews',
+      'category': 'GENERAL',
+      'trilogy': 'FALSE',
+      'page': 1
+    },
+    { 'school': 'General Assembly',
+      'url': 'https://www.coursereport.com/schools/general-assembly?page=2#/reviews',
+      'category': 'GENERAL',
+      'trilogy': 'FALSE',
+      'page': 2
+    },
+    { 'school': 'General Assembly',
+      'url': 'https://www.coursereport.com/schools/general-assembly?page=3#/reviews',
+      'category': 'GENERAL',
+      'trilogy': 'FALSE',
+      'page': 3
+    },
+    { 'school': 'General Assembly',
+      'url': 'https://www.coursereport.com/schools/general-assembly?page=4#/reviews',
+      'category': 'GENERAL',
+      'trilogy': 'FALSE',
+      'page': 4
+    },
+    { 'school': 'General Assembly',
+      'url': 'https://www.coursereport.com/schools/general-assembly?page=5#/reviews',
+      'category': 'GENERAL',
+      'trilogy': 'FALSE',
+      'page': 5
+    },
+    { 'school': 'General Assembly',
+      'url': 'https://www.coursereport.com/schools/general-assembly?page=6#/reviews',
+      'category': 'GENERAL',
+      'trilogy': 'FALSE',
+      'page': 6
+    },
+    { 'school': 'General Assembly',
+      'url': 'https://www.coursereport.com/schools/general-assembly?page=7#/reviews',
+      'category': 'GENERAL',
+      'trilogy': 'FALSE',
+      'page': 7
+    },
+    { 'school': 'General Assembly',
+      'url': 'https://www.coursereport.com/schools/general-assembly?page=8#/reviews',
+      'category': 'GENERAL',
+      'trilogy': 'FALSE',
+      'page': 8
+    },
+    { 'school': 'General Assembly',
+      'url': 'https://www.coursereport.com/schools/general-assembly?page=9#/reviews',
+      'category': 'GENERAL',
+      'trilogy': 'FALSE',
+      'page': 9
+    },
+    { 'school': 'General Assembly',
+      'url': 'https://www.coursereport.com/schools/general-assembly?page=10#/reviews',
+      'category': 'GENERAL',
+      'trilogy': 'FALSE',
+      'page': 10
+    },    
     {
       'school': 'Rutgers',
       'url': 'https://www.coursereport.com/schools/rutgers-bootcamps#/reviews',
@@ -63,42 +100,181 @@ var data = [
       'trilogy': 'TRUE',
       'page': 3
     },
-    // {
-    //   'school': 'UCF Orlando',
-    //   'url': 'https://www.coursereport.com/schools/ucf-coding-boot-camp?page=',
-    //   'category': 'UCF',
-    //   'trilogy': 'TRUE'
-    // },
-    // {
-    //   'school': 'UCLA',
-    //   'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-ucla-extension?page=',
-    //   'category': 'UCLA',
-    //   'trilogy': 'TRUE'
-    // },
-    // {
-    //   'school': 'UNC Chapel Hill',
-    //   'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-unc-chapel-hill?page=',
-    //   'category': 'UNC Chapel Hill',
-    //   'trilogy': 'TRUE'
-    // },
-    // {
-    //   'school': 'UNC Charlotte',
-    //   'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-unc-charlotteel?page=',
-    //   'category': 'UNC Charlotte',
-    //   'trilogy': 'TRUE'
-    // },
-    // {
-    //   'school': 'UT Austin',
-    //   'url': 'https://www.coursereport.com/schools/UT-Austin-Boot-Camps?page=',
-    //   'category': 'UT AUSTIN',
-    //   'trilogy': 'TRUE'
-    // },
-    // {
-    //   'school': 'UCIrvine',
-    //   'url': 'https://www.coursereport.com/schools/UC-Irvine-Boot-Camps?page=',
-    //   'category': 'UCIRVINE',
-    //   'trilogy': 'TRUE'
-    // },
+    {
+      'school': 'Hack Reactor',
+      'url': 'https://www.coursereport.com/schools/hack-reactor#reviews',
+      'category': 'HACKREACTOR',
+      'trilogy': 'FALSE',
+      'page': 1
+    },
+    {
+      'school': 'Hack Reactor',
+      'url': 'https://www.coursereport.com/schools/hack-reactor?page=2#/reviews',
+      'category': 'HACKREACTOR',
+      'trilogy': 'FALSE',
+      'page': 2
+    },
+    {
+      'school': 'Hack Reactor',
+      'url': 'https://www.coursereport.com/schools/hack-reactor?page=3#/reviews',
+      'category': 'HACKREACTOR',
+      'trilogy': 'FALSE',
+      'page': 3
+    },
+    {
+      'school': 'Hack Reactor',
+      'url': 'https://www.coursereport.com/schools/hack-reactor?page=4#/reviews',
+      'category': 'HACKREACTOR',
+      'trilogy': 'FALSE',
+      'page': 4
+    },
+    {
+      'school': 'Hack Reactor',
+      'url': 'https://www.coursereport.com/schools/hack-reactor?page=5#/reviews',
+      'category': 'HACKREACTOR',
+      'trilogy': 'FALSE',
+      'page': 5
+    },
+    {
+      'school': 'Hack Reactor',
+      'url': 'https://www.coursereport.com/schools/hack-reactor?page=6#/reviews',
+      'category': 'HACKREACTOR',
+      'trilogy': 'FALSE',
+      'page': 6
+    },
+    {
+      'school': 'Hack Reactor',
+      'url': 'https://www.coursereport.com/schools/hack-reactor?page=7#/reviews',
+      'category': 'HACKREACTOR',
+      'trilogy': 'FALSE',
+      'page': 7
+    },
+    {
+      'school': 'Galvanize',
+      'url': 'https://www.coursereport.com/schools/galvanize#/reviews',
+      'category': 'GALVANIZE',
+      'trilogy': 'FALSE',
+      'page': 1
+    },
+    {
+      'school': 'Galvanize',
+      'url': 'https://www.coursereport.com/schools/galvanize?page=2#/reviews',
+      'category': 'GALVANIZE',
+      'trilogy': 'FALSE',
+      'page': 2
+    },
+    {
+      'school': 'Galvanize',
+      'url': 'https://www.coursereport.com/schools/galvanize?page=2#/reviews',
+      'category': 'GALVANIZE',
+      'trilogy': 'FALSE',
+      'page': 3
+    },
+    {
+      'school': 'Galvanize',
+      'url': 'https://www.coursereport.com/schools/galvanize?page=4#/reviews',
+      'category': 'GALVANIZE',
+      'trilogy': 'FALSE',
+      'page': 4
+    },
+    {
+      'school': 'Flat-Iron',
+      'url': 'https://www.coursereport.com/schools/flatiron-school#/reviews',
+      'category': 'FLATIRON',
+      'trilogy': 'FALSE',
+      'page': 1
+    },
+    {
+      'school': 'Flat-Iron',
+      'url': 'https://www.coursereport.com/schools/flatiron-school?page=2#/reviews',
+      'category': 'FLATIRON',
+      'trilogy': 'FALSE',
+      'page': 2
+    },
+    {
+      'school': 'Flat-Iron',
+      'url': 'https://www.coursereport.com/schools/flatiron-school?page=3#/reviews',
+      'category': 'FLATIRON',
+      'trilogy': 'FALSE',
+      'page': 3
+    },
+    {
+      'school': 'Flat-Iron',
+      'url': 'https://www.coursereport.com/schools/flatiron-school?page=4#/reviews',
+      'category': 'FLATIRON',
+      'trilogy': 'FALSE',
+      'page': 4
+    },
+    {
+      'school': 'Flat-Iron',
+      'url': 'https://www.coursereport.com/schools/flatiron-school?page=5#/reviews',
+      'category': 'FLATIRON',
+      'trilogy': 'FALSE',
+      'page': 5
+    },
+    {
+      'school': 'Flat-Iron',
+      'url': 'https://www.coursereport.com/schools/flatiron-school?page=6#/reviews',
+      'category': 'FLATIRON',
+      'trilogy': 'FALSE',
+      'page': 6
+    },
+    {
+      'school': 'Flat-Iron',
+      'url': 'https://www.coursereport.com/schools/flatiron-school?page=7#/reviews',
+      'category': 'FLATIRON',
+      'trilogy': 'FALSE',
+      'page': 7
+    },
+    {
+      'school': 'UCF Orlando',
+      'url': 'https://www.coursereport.com/schools/ucf-coding-boot-camp#/reviews',
+      'category': 'UCF',
+      'trilogy': 'TRUE',
+      'page': 1
+    },
+    {
+      'school': 'UCLA',
+      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-ucla-extension#/reviews',
+      'category': 'UCLA',
+      'trilogy': 'TRUE',
+      'page': 1
+    },
+    {
+      'school': 'UC San Diego',
+      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-uc-san-diego-extension',
+      'category': 'UCSD',
+      'trilogy': 'TRUE',
+      'page': 1
+    },
+    {
+      'school': 'UNC Chapel Hill',
+      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-unc-chapel-hill#/reviews',
+      'category': 'UNC Chapel Hill',
+      'trilogy': 'TRUE',
+      'page': 1
+    },
+    {
+      'school': 'UNC Charlotte',
+      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-unc-charlotte#/reviews',
+      'category': 'UNC Charlotte',
+      'trilogy': 'TRUE',
+      'page': 1
+    },
+    {
+      'school': 'UT Austin',
+      'url': 'https://www.coursereport.com/schools/UT-Austin-Boot-Camps#/reviews',
+      'category': 'UT AUSTIN',
+      'trilogy': 'TRUE',
+      'page': 1
+    },
+    {
+      'school': 'UC Irvine',
+      'url': 'https://www.coursereport.com/schools/UC-Irvine-Boot-Camps#/reviews',
+      'category': 'UCIRVINE',
+      'trilogy': 'TRUE',
+      'page': 1
+    },
     {
       'school': 'Thinkful',
       'url': 'https://www.coursereport.com/schools/thinkful#/reviews',
@@ -106,14 +282,111 @@ var data = [
       'trilogy': 'FALSE',
       'page': 1
     },
+    {
+      'school': 'Thinkful',
+      'url': 'https://www.coursereport.com/schools/thinkful?page=2#/reviews',
+      'category': 'THINKFUL',
+      'trilogy': 'FALSE',
+      'page': 2
+    },
+    {
+      'school': 'Thinkful',
+      'url': 'https://www.coursereport.com/schools/thinkful?page=3#/reviews',
+      'category': 'THINKFUL',
+      'trilogy': 'FALSE',
+      'page': 3
+    },
+    {
+      'school': 'Thinkful',
+      'url': 'https://www.coursereport.com/schools/thinkful?page=4#/reviews',
+      'category': 'THINKFUL',
+      'trilogy': 'FALSE',
+      'page': 4
+    },
+    {
+      'school': 'Thinkful',
+      'url': 'https://www.coursereport.com/schools/thinkful?page=5#/reviews',
+      'category': 'THINKFUL',
+      'trilogy': 'FALSE',
+      'page': 5
+    },
+    {
+      'school': 'Thinkful',
+      'url': 'https://www.coursereport.com/schools/thinkful?page=6#/reviews',
+      'category': 'THINKFUL',
+      'trilogy': 'FALSE',
+      'page': 6
+    },
+      {
+      'school': 'Thinkful',
+      'url': 'https://www.coursereport.com/schools/thinkful?page=7#/reviews',
+      'category': 'THINKFUL',
+      'trilogy': 'FALSE',
+      'page': 7
+    },
+    {
+      'school': 'Thinkful',
+      'url': 'https://www.coursereport.com/schools/thinkful?page=8#/reviews',
+      'category': 'THINKFUL',
+      'trilogy': 'FALSE',
+      'page': 8
+    },
+    {
+      'school': 'Thinkful',
+      'url': 'https://www.coursereport.com/schools/thinkful?page=9#/reviews',
+      'category': 'THINKFUL',
+      'trilogy': 'FALSE',
+      'page': 9
+    },
+    {
+      'school': 'Thinkful',
+      'url': 'https://www.coursereport.com/schools/thinkful?page=10#/reviews',
+      'category': 'THINKFUL',
+      'trilogy': 'FALSE',
+      'page': 10
+    },
+    {
+      'school': 'Thinkful',
+      'url': 'https://www.coursereport.com/schools/thinkful?page=11#/reviews',
+      'category': 'THINKFUL',
+      'trilogy': 'FALSE',
+      'page': 11
+    },
+    {
+      'school': 'Thinkful',
+      'url': 'https://www.coursereport.com/schools/thinkful?page=12#/reviews',
+      'category': 'THINKFUL',
+      'trilogy': 'FALSE',
+      'page': 12
+    }
   ];
 
 
-// pass in urlOb to determine which url we are scraping from
+var scrapeCounter = 0;
+
+function runScrape(){
+  console.log('counter', scrapeCounter)
+  scrape(data[scrapeCounter])
+};
+
+
+var cleanRowHeadings = ['School', 'Trilogy' , 'Date', 'Course', 'Location', 'Verified', 'Overall Exp.', 'Curriculum', 'Instructors', 'Job Assistance', 'Comments'];
+
+fs.writeFile('bootcamp-reviews.csv', cleanRowHeadings + "\n" , 'utf8', function (err) {
+    if (err) {
+      console.log('Some error occured - file either not saved or corrupted file saved.');
+    } else{
+      console.log('File Created!');
+      runScrape()
+    }
+  });
+
+// pass in urlOb to determine which school object we are scraping from
 function scrape(urlOb){
 
   var schoolName = urlOb.school.toUpperCase()
   // console.log(urlOb.url())
+  console.log(schoolName);
 
   var scrape = new Nightmare({
           show: false
@@ -135,8 +408,6 @@ function scrape(urlOb){
 
     var entry = $(".review");
 
-  console.log(schoolName);
-
     entry.each(function(reviewId, reviewEntry){
       var cleanRow = [];
       cleanRow.push(schoolName)
@@ -145,8 +416,6 @@ function scrape(urlOb){
     // console.log((reviewId + 1) + ")")
 
       var review = $(this).children("div");
-
-
   // ============================ REVIEW DATE ============================ //
 
       // children[2] gives us the object inside review that holds review-date information
@@ -319,38 +588,22 @@ function scrape(urlOb){
 
     // var fileToAppendTo = categOb[urlOb.category];
 
-    fs.appendFile('bootcamp-reviews.csv', cleanRow + "\n" , 'utf8', function (err) {
-      if (err) {
-        console.log('Some error occured - file either not saved or corrupted file saved.');
-      } else{
-        console.log('It\'s saved!');
-      }
-    });
+      fs.appendFile('bootcamp-reviews.csv', cleanRow + "\n" , 'utf8', function (err) {
+        if (err) {
+          console.log('Some error occured - file either not saved or corrupted file saved.');
+        } else{
+          console.log('It\'s saved!');
+        }
+      });
 
     // console.log("--------------------------------------------------------");
     });
-
+      scrapeCounter++;
+      runScrape();
   });
-  
-};
 
-  var cleanRowHeadings = ['School', 'Trilogy' , 'Date', 'Course', 'Location', 'Verified', 'Overall Exp.', 'Curriculum', 'Instructors', 'Job Assistance', 'Comments'];
-
-  fs.writeFile('bootcamp-reviews.csv', cleanRowHeadings + "\n" , 'utf8', function (err) {
-      if (err) {
-        console.log('Some error occured - file either not saved or corrupted file saved.');
-      } else{
-        console.log('File Created!');
-      }
-    });
+}; // End of Scrape
 
 
-function runScrape(){
-  for (var i = 0; i < data.length; i++) {
-    scrape(data[i])
-  }
-};
-
-runScrape()
 
 
