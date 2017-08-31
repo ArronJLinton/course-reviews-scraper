@@ -3,6 +3,9 @@ GENERAL ASSEMBLY,FALSE,8/20/2017,    Web Development Immersive ,    Sydney , Lin
 GENERAL ASSEMBLY,FALSE,8/17/2017,    Web Development Immersive ,    Sydney , LinkedIn,5,5,5,5
 GENERAL ASSEMBLY,FALSE,8/10/2017,    User Experience Design (Part-time) ,    Sydney , LinkedIn,5,5,5,0
 GENERAL ASSEMBLY,FALSE,7/22/2017,    Product Management Immersive ,    Sydney , LinkedIn,4,4,4,3
+GENERAL ASSEMBLY,FALSE,6/6/2017,    Web Development Immersive ,    New York City , GitHub,5,5,5,0
+GENERAL ASSEMBLY,FALSE,5/11/2017,    User Experience Design Immersive ,    Singapore , LinkedIn,5,5,5,4
+GENERAL ASSEMBLY,FALSE,3/12/2017,    Data Analytics (Part-time) ,    London , LinkedIn,5,5,5,4
 GENERAL ASSEMBLY,FALSE,3/3/2017,    Product Management Immersive ,    San Francisco , LinkedIn,5,4,5,5
 GENERAL ASSEMBLY,FALSE,1/5/2017,    Data Science (Part-time) ,    Sydney , GitHub,5,4,5,4
 GENERAL ASSEMBLY,FALSE,8/20/2017,    User Experience Design Immersive ,    London ,,5,5,5,0
@@ -10,8 +13,8 @@ GENERAL ASSEMBLY,FALSE,8/10/2017,    Data Science Immersive ,    Washington ,,5,
 GENERAL ASSEMBLY,FALSE,8/9/2017,    User Experience Design Immersive ,    London ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,8/9/2017,    User Experience Design (Part-time) ,    Sydney ,,5,5,5,0
 GENERAL ASSEMBLY,FALSE,8/7/2017,    Web Development Immersive ,    Los Angeles ,,1,1,1,1
-GENERAL ASSEMBLY,FALSE,8/3/2017,    Digital Marketing (Part-time) ,    Sydney ,,4,4,5,0
 GENERAL ASSEMBLY,FALSE,8/2/2017,    User Experience Design Immersive ,    London ,,5,5,5,5
+GENERAL ASSEMBLY,FALSE,8/3/2017,    Digital Marketing (Part-time) ,    Sydney ,,4,4,5,0
 GENERAL ASSEMBLY,FALSE,8/1/2017,    Web Development Immersive ,    London ,,5,4,5,3
 GENERAL ASSEMBLY,FALSE,8/1/2017,    Web Development Immersive ,    London ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,7/19/2017,    Web Development Immersive ,    London ,,2,2,4,3
@@ -21,16 +24,13 @@ GENERAL ASSEMBLY,FALSE,6/30/2017,,    Melbourne ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,6/29/2017,    Digital Marketing  (Part-time) ,    New York City ,,2,3,4,1
 GENERAL ASSEMBLY,FALSE,6/28/2017,,    Sydney ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,6/17/2017,    Product Management Immersive ,    Los Angeles ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,5/11/2017,    User Experience Design Immersive ,    Singapore , LinkedIn,5,5,5,4
-GENERAL ASSEMBLY,FALSE,3/12/2017,    Data Analytics (Part-time) ,    London , LinkedIn,5,5,5,4
-GENERAL ASSEMBLY,FALSE,6/6/2017,    Web Development Immersive ,    New York City , GitHub,5,5,5,0
 GENERAL ASSEMBLY,FALSE,6/7/2017,    Digital Marketing (Part-time) ,    Chicago ,,4,4,4,0
-GENERAL ASSEMBLY,FALSE,5/23/2017,    User Experience Design (Part-time) ,    San Francisco ,,5,5,5,4
 GENERAL ASSEMBLY,FALSE,6/2/2017,    Web Development Immersive  ,    Denver ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,5/19/2017,    Data Science (Part-time) ,    London ,,1,1,1,1
+GENERAL ASSEMBLY,FALSE,5/23/2017,    User Experience Design (Part-time) ,    San Francisco ,,5,5,5,4
 GENERAL ASSEMBLY,FALSE,5/2/2017,,    London ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,4/25/2017,    Data Science (Part-time) ,    Sydney ,,5,5,5,4
+GENERAL ASSEMBLY,FALSE,5/19/2017,    Data Science (Part-time) ,    London ,,1,1,1,1
 GENERAL ASSEMBLY,FALSE,4/15/2017,,    Washington ,,5,5,5,0
+GENERAL ASSEMBLY,FALSE,4/25/2017,    Data Science (Part-time) ,    Sydney ,,5,5,5,4
 GENERAL ASSEMBLY,FALSE,4/7/2017,    Front-End Web Development  (Part-time) ,    New York City ,,5,5,5,0
 GENERAL ASSEMBLY,FALSE,4/7/2017,    User Experience Design Immersive ,    Melbourne ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,4/5/2017,    Digital Marketing (Part-time) ,    Melbourne ,,5,5,5,0
@@ -40,8 +40,8 @@ GENERAL ASSEMBLY,FALSE,3/31/2017,,    London ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,3/29/2017,    Data Analytics (Part-time) ,    Atlanta ,,5,5,5,0
 GENERAL ASSEMBLY,FALSE,3/24/2017,    Data Science Immersive ,    San Francisco ,,5,5,5,4
 GENERAL ASSEMBLY,FALSE,3/1/2017,    Web Development Immersive ,    New York City ,,5,5,5,4
-GENERAL ASSEMBLY,FALSE,2/28/2017,    Data Science (Part-time) ,    Boston ,,3,3,5,0
 GENERAL ASSEMBLY,FALSE,2/24/2017,    User Experience Design Immersive ,    London ,,5,5,5,5
+GENERAL ASSEMBLY,FALSE,2/28/2017,    Data Science (Part-time) ,    Boston ,,3,3,5,0
 GENERAL ASSEMBLY,FALSE,2/16/2017,,    New York City ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,2/15/2017,    Web Development Immersive ,    Austin ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,2/14/2017,    Data Science Immersive ,    San Francisco ,,1,1,1,1
@@ -95,21 +95,21 @@ GENERAL ASSEMBLY,FALSE,8/31/2016,    Web Development Immersive ,    Austin ,,5,5
 GENERAL ASSEMBLY,FALSE,8/31/2016,,    Austin ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,8/30/2016,    Web Development Immersive ,    Austin ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,8/20/2016,    Web Development Immersive - Remote  ,    Online ,,5,5,5,0
+GENERAL ASSEMBLY,FALSE,8/18/2016,,    Online ,,5,5,5,5
+GENERAL ASSEMBLY,FALSE,8/8/2016,    User Experience Design Immersive ,    Melbourne ,,4,3,5,5
 GENERAL ASSEMBLY,FALSE,8/5/2016,    Front-End Web Development  (Part-time) ,    New York City ,,4,4,5,0
 GENERAL ASSEMBLY,FALSE,8/5/2016,    Web Development Immersive ,    London ,,5,4,5,4
-GENERAL ASSEMBLY,FALSE,8/8/2016,    User Experience Design Immersive ,    Melbourne ,,4,3,5,5
-GENERAL ASSEMBLY,FALSE,8/18/2016,,    Online ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,8/4/2016,    Web Development Immersive ,    Atlanta ,,5,5,5,4
 GENERAL ASSEMBLY,FALSE,8/4/2016,    User Experience Design (Part-time) ,    New York City ,,5,4,5,3
 GENERAL ASSEMBLY,FALSE,8/4/2016,    Web Development Immersive ,    Melbourne ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,8/3/2016,    Front-End Web Development (Part-time) ,    Melbourne ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,8/2/2016,    Front-End Web Development (Part-time) ,    Melbourne ,,5,5,5,3
-GENERAL ASSEMBLY,FALSE,8/1/2016,    Web Development Immersive ,    Melbourne ,,5,4,5,5
 GENERAL ASSEMBLY,FALSE,8/4/2016,    Web Development Immersive ,    Washington ,,5,4,5,2
-GENERAL ASSEMBLY,FALSE,8/1/2016,    User Experience Design Immersive (full-time) ,    Seattle ,,5,4,5,4
-GENERAL ASSEMBLY,FALSE,7/28/2016,    User Experience Design Immersive (full-time) ,    Seattle ,,5,5,5,4
 GENERAL ASSEMBLY,FALSE,8/3/2016,    HTML, CSS, and Web Design Circuit ,    Online ,,4,5,5,0
 GENERAL ASSEMBLY,FALSE,8/4/2016,    Web Development Immersive ,    Sydney ,,5,5,5,5
+GENERAL ASSEMBLY,FALSE,8/3/2016,    Front-End Web Development (Part-time) ,    Melbourne ,,5,5,5,5
+GENERAL ASSEMBLY,FALSE,8/1/2016,    Web Development Immersive ,    Melbourne ,,5,4,5,5
+GENERAL ASSEMBLY,FALSE,8/2/2016,    Front-End Web Development (Part-time) ,    Melbourne ,,5,5,5,3
+GENERAL ASSEMBLY,FALSE,8/1/2016,    User Experience Design Immersive (full-time) ,    Seattle ,,5,4,5,4
+GENERAL ASSEMBLY,FALSE,7/28/2016,    User Experience Design Immersive (full-time) ,    Seattle ,,5,5,5,4
 GENERAL ASSEMBLY,FALSE,7/27/2016,    User Experience Design Immersive (full-time) ,    Seattle ,,5,4,5,5
 GENERAL ASSEMBLY,FALSE,7/25/2016,    Digital Marketing  (Part-time) ,    New York City ,,5,5,5,0
 GENERAL ASSEMBLY,FALSE,7/25/2016,    Data Science (Part-time) ,    New York City ,,5,5,5,5
@@ -124,35 +124,10 @@ GENERAL ASSEMBLY,FALSE,7/7/2016,    Front-End Web Development  (Part-time) ,    
 GENERAL ASSEMBLY,FALSE,7/4/2016,    Web Development Immersive ,    London ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,7/2/2016,    Web Development Immersive ,    London ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,7/1/2016,,,,5,4,5,5
-GENERAL ASSEMBLY,FALSE,6/29/2016,    Web Development Immersive ,    New York City ,,5,5,5,4
-GENERAL ASSEMBLY,FALSE,6/29/2016,,    London ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,6/29/2016,    Web Development Immersive ,    London ,,5,4,5,5
-GENERAL ASSEMBLY,FALSE,6/29/2016,    HTML, CSS, and Web Design Circuit ,    Online ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,6/29/2016,    Web Development Immersive ,    New York City ,,5,5,5,4
-GENERAL ASSEMBLY,FALSE,6/29/2016,    Web Development Immersive ,    London ,,5,5,5,4
-GENERAL ASSEMBLY,FALSE,6/29/2016,    Web Development Immersive ,    London ,,5,4,5,4
-GENERAL ASSEMBLY,FALSE,5/23/2016,,    Boston ,,1,1,1,1
-GENERAL ASSEMBLY,FALSE,5/19/2016,    Data Science (Part-time) ,    Boston ,,2,2,1,1
-GENERAL ASSEMBLY,FALSE,4/18/2016,,    Melbourne ,,3,2,5,1
-GENERAL ASSEMBLY,FALSE,4/2/2016,    Web Development Immersive ,    San Francisco ,,3,3,4,4
-GENERAL ASSEMBLY,FALSE,3/20/2016,,    Melbourne ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,3/16/2016,    Digital Marketing Circuit ,    Online ,,1,1,2,1
-GENERAL ASSEMBLY,FALSE,2/20/2016,    Web Development Immersive ,    Atlanta ,,5,4,5,4
-GENERAL ASSEMBLY,FALSE,2/8/2016,    Web Development Immersive ,    Los Angeles ,,5,4,5,4
-GENERAL ASSEMBLY,FALSE,2/3/2016,,    Sydney ,,1,1,1,0
-GENERAL ASSEMBLY,FALSE,1/4/2016,,,,2,1,3,3
-GENERAL ASSEMBLY,FALSE,11/24/2015,    Web Development Immersive ,    New York City ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,11/5/2015,,    Los Angeles ,,2,2,2,2
-GENERAL ASSEMBLY,FALSE,9/14/2015,    Web Development Immersive ,    Washington ,,3,3,3,3
-GENERAL ASSEMBLY,FALSE,8/21/2015,,    Seattle ,,5,5,4,4
-GENERAL ASSEMBLY,FALSE,8/28/2015,    Web Development Immersive ,    Seattle ,,5,5,5,4
-GENERAL ASSEMBLY,FALSE,8/19/2015,    Digital Marketing  (Part-time) ,    New York City ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,10/12/2015,,    Online ,,3,4,4,0
-GENERAL ASSEMBLY,FALSE,8/16/2015,,    Seattle ,,5,5,5,4
 GENERAL ASSEMBLY,FALSE,8/14/2015,    Web Development Immersive ,    Seattle ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,8/14/2015,    Web Development Immersive ,    Seattle ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,8/13/2015,    Web Development Immersive ,    Seattle ,,5,4,5,5
 GENERAL ASSEMBLY,FALSE,8/12/2015,    Web Development Immersive ,    Seattle ,,5,5,5,5
+GENERAL ASSEMBLY,FALSE,8/13/2015,    Web Development Immersive ,    Seattle ,,5,4,5,5
 GENERAL ASSEMBLY,FALSE,8/11/2015,    User Experience Design Immersive (full-time) ,    Seattle ,,5,4,5,4
 GENERAL ASSEMBLY,FALSE,8/10/2015,    Web Development Immersive ,    Seattle ,,5,5,5,4
 GENERAL ASSEMBLY,FALSE,6/5/2015,    Web Development Immersive ,    New York City ,,3,3,3,3
@@ -169,36 +144,11 @@ GENERAL ASSEMBLY,FALSE,8/8/2017,    Data Analytics (Part-time) ,    New York Cit
 GENERAL ASSEMBLY,FALSE,7/5/2017,    User Experience Design Immersive ,    Washington ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,6/29/2017,    Digital Marketing  (Part-time) ,    New York City ,,5,5,5,4
 GENERAL ASSEMBLY,FALSE,6/28/2017,    JavaScript Development (10 week part-time) ,    Seattle ,,5,4,5,0
-GENERAL ASSEMBLY,FALSE,6/28/2017,    Product Management (Part-time) ,    New York City ,,4,4,5,1
-GENERAL ASSEMBLY,FALSE,6/25/2017,    Web Development Immersive ,    London ,,4,4,5,5
 GENERAL ASSEMBLY,FALSE,6/20/2017,    Web Development Immersive ,    Seattle ,,4,5,4,3
+GENERAL ASSEMBLY,FALSE,6/28/2017,    Product Management (Part-time) ,    New York City ,,4,4,5,1
 GENERAL ASSEMBLY,FALSE,4/27/2017,,    Online ,,5,5,5,0
 GENERAL ASSEMBLY,FALSE,4/19/2017,    Data Science (Part-time) ,    New York City ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,4/17/2017,,    New York City ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,3/30/2017,,    Washington ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,3/30/2017,    Front-End Web Development  (Part-time) ,    New York City ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,3/30/2017,    Web Development Immersive ,    Melbourne ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,3/30/2017,    User Experience Design (Part-time) ,    Hong Kong ,,4,4,4,0
-GENERAL ASSEMBLY,FALSE,3/29/2017,,    Washington ,,5,4,4,0
-GENERAL ASSEMBLY,FALSE,3/29/2017,    Digital Marketing Circuit ,    Online ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,3/21/2017,    User Experience Design Immersive ,    San Francisco ,,4,3,3,4
-GENERAL ASSEMBLY,FALSE,2/13/2017,    User Experience Design Immersive ,    Los Angeles ,,2,3,4,1
-GENERAL ASSEMBLY,FALSE,1/10/2017,,    London ,,1,3,3,5
-GENERAL ASSEMBLY,FALSE,1/19/2017,    Web Development Immersive ,    Hong Kong ,,4,4,5,3
-GENERAL ASSEMBLY,FALSE,12/20/2016,    Data Science Immersive ,    San Francisco ,,1,1,1,1
-GENERAL ASSEMBLY,FALSE,12/18/2016,    Data Science Immersive ,    San Francisco ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,12/11/2016,    Data Science Immersive ,    San Francisco ,,1,1,1,1
-GENERAL ASSEMBLY,FALSE,11/20/2016,    Digital Marketing (Part-time) ,    San Francisco ,,5,5,5,4
-GENERAL ASSEMBLY,FALSE,11/14/2016,    Data Analytics (Part-time) ,    San Francisco ,,4,3,5,3
-GENERAL ASSEMBLY,FALSE,3/29/2017,    Data Science (Part-time) ,    San Francisco ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,11/11/2016,    Web Development Immersive ,    San Francisco ,,2,2,1,5
-GENERAL ASSEMBLY,FALSE,11/6/2016,,    Sydney ,,4,5,4,0
-GENERAL ASSEMBLY,FALSE,11/4/2016,    Data Science Immersive ,    Washington ,,2,2,2,2
-GENERAL ASSEMBLY,FALSE,10/11/2016,    Web Development Immersive ,    Melbourne ,,4,4,5,4
-GENERAL ASSEMBLY,FALSE,10/10/2016,    Data Analysis Circuit ,    Online ,,5,5,5,5
-GENERAL ASSEMBLY,FALSE,10/4/2016,    Data Science Immersive ,    Washington ,,1,2,3,3
-GENERAL ASSEMBLY,FALSE,9/15/2016,    Web Development Immersive ,    Seattle ,,3,4,3,1
-GENERAL ASSEMBLY,FALSE,10/11/2016,    Front End Web Development (10 week part-time) ,    Seattle ,,2,3,2,0
+GENERAL ASSEMBLY,FALSE,6/25/2017,    Web Development Immersive ,    London ,,4,4,5,5
 GENERAL ASSEMBLY,FALSE,8/30/2016,    Web Development Immersive ,    New York City ,,5,5,5,2
 GENERAL ASSEMBLY,FALSE,8/15/2016,    User Experience Design (Part-time) ,    Melbourne ,,4,5,4,1
 GENERAL ASSEMBLY,FALSE,8/9/2016,,    San Francisco ,,3,3,3,0
@@ -213,25 +163,25 @@ GENERAL ASSEMBLY,FALSE,8/3/2016,    Web Development Immersive ,    Atlanta ,,5,4
 GENERAL ASSEMBLY,FALSE,8/3/2016,    HTML, CSS, and Web Design Circuit ,    Online ,,4,4,5,5
 GENERAL ASSEMBLY,FALSE,8/3/2016,,    New York City ,,4,5,4,0
 GENERAL ASSEMBLY,FALSE,8/3/2016,    Web Development Immersive ,    Seattle ,,4,5,4,3
-GENERAL ASSEMBLY,FALSE,8/3/2016,    Web Development Immersive ,    Boston ,,5,4,4,3
 GENERAL ASSEMBLY,FALSE,8/3/2016,    Web Development Immersive ,    New York City ,,4,4,4,2
+GENERAL ASSEMBLY,FALSE,8/3/2016,    Web Development Immersive ,    Boston ,,5,4,4,3
 GENERAL ASSEMBLY,FALSE,8/3/2016,    Web Development Immersive ,    Washington ,,4,5,5,5
-GENERAL ASSEMBLY,FALSE,8/3/2016,,    San Francisco ,,4,5,5,3
 GENERAL ASSEMBLY,FALSE,8/3/2016,    HTML, CSS, and Web Design Circuit ,    Online ,,4,5,5,0
 GENERAL ASSEMBLY,FALSE,8/3/2016,    Web Development Immersive ,    New York City ,,5,4,5,5
 GENERAL ASSEMBLY,FALSE,8/3/2016,    Web Development Immersive ,    New York City ,,4,5,4,4
 GENERAL ASSEMBLY,FALSE,8/1/2016,    Product Management (10 week part-time) ,    Seattle ,,5,5,5,0
+GENERAL ASSEMBLY,FALSE,8/3/2016,,    San Francisco ,,4,5,5,3
 GENERAL ASSEMBLY,FALSE,7/26/2016,,    San Francisco ,,1,1,1,1
 GENERAL ASSEMBLY,FALSE,7/26/2016,,    Austin ,,4,5,4,0
 GENERAL ASSEMBLY,FALSE,7/25/2016,    User Experience Design Immersive ,    San Francisco ,,5,5,5,5
 GENERAL ASSEMBLY,FALSE,7/17/2016,    Web Development Immersive ,    Washington ,,1,1,1,0
 GENERAL ASSEMBLY,FALSE,7/13/2016,,    London ,,5,5,5,0
 GENERAL ASSEMBLY,FALSE,7/12/2016,    Web Development Immersive ,    London ,,5,4,5,5
-GENERAL ASSEMBLY,FALSE,7/11/2016,    User Experience Design Immersive ,    London ,,5,4,5,4
-GENERAL ASSEMBLY,FALSE,7/1/2016,    Web Development Immersive ,    London ,,5,5,5,0
 GENERAL ASSEMBLY,FALSE,7/6/2016,,    London ,,5,5,5,0
-GENERAL ASSEMBLY,FALSE,6/30/2016,    Web Development Immersive ,    Atlanta ,,2,3,2,3
+GENERAL ASSEMBLY,FALSE,7/11/2016,    User Experience Design Immersive ,    London ,,5,4,5,4
 GENERAL ASSEMBLY,FALSE,7/4/2016,    User Experience Design Immersive ,    Atlanta ,,5,5,5,5
+GENERAL ASSEMBLY,FALSE,7/1/2016,    Web Development Immersive ,    London ,,5,5,5,0
+GENERAL ASSEMBLY,FALSE,6/30/2016,    Web Development Immersive ,    Atlanta ,,2,3,2,3
 GENERAL ASSEMBLY,FALSE,6/29/2016,    Web Development Immersive ,    New York City ,,5,4,4,3
 GENERAL ASSEMBLY,FALSE,6/28/2016,    Data Science Immersive ,    Washington ,,4,2,3,4
 GENERAL ASSEMBLY,FALSE,6/27/2016,    Data Science Immersive ,    Washington ,,3,3,4,5
@@ -240,3 +190,2109 @@ GENERAL ASSEMBLY,FALSE,6/21/2016,,    Washington ,,4,4,4,0
 GENERAL ASSEMBLY,FALSE,6/20/2016,    Web Development Immersive ,    Seattle ,,2,1,4,1
 GENERAL ASSEMBLY,FALSE,6/15/2016,,    Washington ,,5,3,4,5
 GENERAL ASSEMBLY,FALSE,5/31/2016,,    Washington ,,1,2,1,4
+BLOC,FALSE,8/28/2017,    Part-Time Web Developer Track ,    Online , GitHub,5,5,5,0
+BLOC,FALSE,8/28/2017,    Part Time Web Developer Track ,    Online , GitHub,5,5,5,0
+BLOC,FALSE,8/28/2017,    Part Time Web Developer Track ,    Online , GitHub,5,4,5,0
+BLOC,FALSE,8/19/2017,    Design Track ,    Online , LinkedIn,5,5,5,0
+BLOC,FALSE,7/31/2017,    Part Time Web Developer Track ,    Online , GitHub,5,5,5,5
+BLOC,FALSE,7/29/2017,    Design Track ,    Online , LinkedIn,5,5,5,0
+BLOC,FALSE,7/28/2017,,    Online , GitHub,5,5,5,0
+BLOC,FALSE,7/28/2017,    Rails Web Development ,    Online , LinkedIn,5,5,5,0
+BLOC,FALSE,7/25/2017,    Software Developer Track ,    Online , GitHub,5,4,4,0
+BLOC,FALSE,7/25/2017,    UX Design ,    Online , LinkedIn,4,4,5,4
+BLOC,FALSE,7/24/2017,    Rails Web Development ,    Online , GitHub,5,5,5,5
+BLOC,FALSE,7/21/2017,    Software Engineering Track ,    Online , GitHub,4,4,5,0
+BLOC,FALSE,7/19/2017,    Software Developer Track ,    Online , LinkedIn,5,4,5,4
+BLOC,FALSE,7/19/2017,    iOS Development ,    Online , LinkedIn,4,5,5,0
+BLOC,FALSE,7/16/2017,    Part-Time Web Developer Track ,    Online , GitHub,5,5,5,0
+BLOC,FALSE,7/16/2017,    UX Design ,    Online , LinkedIn,5,5,5,4
+BLOC,FALSE,7/14/2017,    Part Time Web Developer Track ,    Online , LinkedIn,5,5,5,5
+BLOC,FALSE,7/11/2017,    UX Design ,    Online , LinkedIn,4,4,4,0
+BLOC,FALSE,7/7/2017,    Rails ,    Online , GitHub,3,5,3,1
+BLOC,FALSE,7/7/2017,    Part Time Web Developer Track ,    Online , LinkedIn,5,5,5,0
+BLOC,FALSE,7/7/2017,    Frontend Web Development ,    Online , GitHub,5,5,5,5
+BLOC,FALSE,7/5/2017,    Part Time Web Developer Track ,    Online , LinkedIn,5,5,5,0
+BLOC,FALSE,7/1/2017,    Part Time Web Developer Track ,    Online , GitHub,5,5,5,0
+BLOC,FALSE,6/1/2017,    Design Track ,    Online , LinkedIn,5,5,5,0
+BLOC,FALSE,5/20/2017,    Part Time Web Developer Track ,    Online , GitHub,5,4,4,4
+BLOC,FALSE,5/15/2017,    Software Engineering Track ,    Online , GitHub,5,5,5,0
+BLOC,FALSE,5/5/2017,    Part Time Web Developer Track ,    Online , LinkedIn,4,4,4,2
+BLOC,FALSE,5/14/2017,,    Online , LinkedIn,5,5,5,5
+BLOC,FALSE,5/1/2017,    Part Time Web Developer Track ,    Online , GitHub,5,5,5,4
+BLOC,FALSE,4/28/2017,    Software Engineering Track ,    Online , GitHub,4,4,5,0
+BLOC,FALSE,4/26/2017,    Design Track ,    Online , GitHub,5,5,5,0
+BLOC,FALSE,3/2/2017,    Part Time Web Developer Track ,    Online , GitHub,5,5,5,0
+BLOC,FALSE,2/25/2017,    Software Developer Track ,    Online , GitHub,5,5,5,0
+BLOC,FALSE,2/24/2017,    Part-Time Web Developer Track ,    Online , GitHub,5,5,5,0
+BLOC,FALSE,1/4/2017,    Part Time Web Developer Track ,    Online , GitHub,5,5,5,5
+BLOC,FALSE,8/28/2017,    Design Track ,    Online ,,5,4,5,0
+BLOC,FALSE,8/27/2017,    Frontend Web Development ,    Online ,,5,5,5,0
+BLOC,FALSE,8/18/2017,,    Online ,,4,4,5,0
+BLOC,FALSE,8/9/2017,    iOS ,    Online ,,5,5,5,5
+BLOC,FALSE,8/7/2017,    UX/UI ,    Online ,,4,4,5,4
+BLOC,FALSE,8/1/2017,    Part Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,3/1/2017,    Software Developer Track ,    Online , GitHub,5,5,5,5
+BLOC,FALSE,7/29/2017,    Design Track ,    Online ,,4,5,5,0
+BLOC,FALSE,7/28/2017,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,7/25/2017,    Frontend Web Development ,    Online ,,4,4,4,3
+BLOC,FALSE,7/22/2017,    Software Engineering Track ,    Online ,,4,4,5,5
+BLOC,FALSE,7/20/2017,    Part-Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,7/18/2017,    Software Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,2/26/2017,    Software Developer Track ,    Online , GitHub,5,5,5,5
+BLOC,FALSE,4/30/2017,    UX Design ,    Online , LinkedIn,5,5,5,5
+BLOC,FALSE,7/17/2017,    UX / UI ,    Online ,,5,5,5,0
+BLOC,FALSE,7/14/2017,    Frontend Web Development ,    Online ,,5,5,5,4
+BLOC,FALSE,7/16/2017,    UX Design ,    Online ,,5,5,5,0
+BLOC,FALSE,7/13/2017,    Frontend Web Development ,    Online ,,1,1,3,1
+BLOC,FALSE,7/5/2017,    Design Track ,    Online ,,5,5,5,5
+BLOC,FALSE,7/7/2017,    UX/UI ,    Online ,,4,5,4,4
+BLOC,FALSE,7/2/2017,    Part-Time Web Developer Track ,    Online ,,5,5,5,4
+BLOC,FALSE,7/1/2017,    Part-Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,6/30/2017,    Part-Time Web Developer Track ,    Online ,,5,5,5,4
+BLOC,FALSE,6/30/2017,    UX Design ,    Online ,,4,4,4,3
+BLOC,FALSE,6/28/2017,    Part-Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,6/28/2017,    iOS Development ,    Online ,,5,5,5,0
+BLOC,FALSE,6/27/2017,    Rails Web Development ,    Online ,,5,5,5,5
+BLOC,FALSE,6/27/2017,    Software Engineering Track ,    Online ,,5,5,5,5
+BLOC,FALSE,6/26/2017,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,6/19/2017,    Software Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,6/13/2017,    Design Track ,    Online ,,5,5,5,5
+BLOC,FALSE,6/10/2017,    UX/UI ,    Online ,,5,5,5,0
+BLOC,FALSE,6/10/2017,    Part-Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,6/8/2017,    Design Track ,    Online ,,5,5,4,0
+BLOC,FALSE,6/5/2017,    Part-Time Web Developer Track ,    Online ,,4,4,5,0
+BLOC,FALSE,6/4/2017,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,5/29/2017,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,7/10/2017,    Software Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,7/5/2017,    Frontend ,    Online ,,5,5,5,5
+BLOC,FALSE,5/22/2017,    UX Design ,    Online ,,5,4,5,0
+BLOC,FALSE,5/16/2017,    Design Track ,    Online ,,5,5,5,5
+BLOC,FALSE,5/5/2017,    Software Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,5/10/2017,    Design Track ,    Online ,,5,5,5,0
+BLOC,FALSE,5/11/2017,    Software Engineering Track ,    Online ,,5,5,4,5
+BLOC,FALSE,5/4/2017,    Design Track ,    Online ,,5,4,4,0
+BLOC,FALSE,4/28/2017,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,4/28/2017,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,4/27/2017,    UX Design ,    Online ,,5,5,5,4
+BLOC,FALSE,4/27/2017,,,,5,5,5,4
+BLOC,FALSE,4/27/2017,    Software Engineering Track ,    Online ,,5,5,5,0
+BLOC,FALSE,4/27/2017,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,4/27/2017,    Design Track ,    Online ,,5,5,5,5
+BLOC,FALSE,4/27/2017,    Frontend Web Development ,    Online ,,5,5,5,5
+BLOC,FALSE,4/27/2017,    Software Engineering Track ,    Online ,,5,5,5,5
+BLOC,FALSE,4/26/2017,    Design Track ,    Online ,,5,5,5,0
+BLOC,FALSE,4/26/2017,,    Online ,,5,5,5,5
+BLOC,FALSE,4/26/2017,    Part Time Web Developer Track ,    Online ,,4,4,5,0
+BLOC,FALSE,4/26/2017,    UX/UI ,    Online ,,5,5,5,0
+BLOC,FALSE,3/22/2017,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,3/3/2017,    Design Track ,    Online ,,5,5,5,4
+BLOC,FALSE,2/27/2017,    Design Track ,    Online ,,5,5,4,0
+BLOC,FALSE,2/25/2017,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,5/8/2017,    Design Track ,    Online ,,5,5,5,5
+BLOC,FALSE,5/3/2017,    Software Engineering Track ,    Online ,,5,5,5,5
+BLOC,FALSE,1/27/2017,    Software Developer Track ,    Online ,,5,5,4,0
+BLOC,FALSE,1/9/2017,    Part Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,12/28/2016,    Part-Time Web Developer Track ,    Online ,,4,4,5,0
+BLOC,FALSE,12/12/2016,    Rails Web Development ,    Online ,,5,5,5,0
+BLOC,FALSE,11/8/2016,    Part-Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,11/7/2016,    Design Track ,    Online ,,5,5,5,4
+BLOC,FALSE,10/31/2016,    UX Design ,    Online ,,5,5,5,0
+BLOC,FALSE,10/31/2016,    Software Engineering Track ,    Online ,,5,5,5,4
+BLOC,FALSE,10/31/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+BLOC,FALSE,10/31/2016,    Software Engineering Track ,    Online ,,5,5,5,0
+BLOC,FALSE,10/18/2016,    Software Engineering Track ,    Online ,,5,4,5,0
+BLOC,FALSE,9/20/2016,    Software Engineering Track ,    Online ,,5,5,5,5
+BLOC,FALSE,9/19/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,9/18/2016,    UX / UI ,    Online ,,5,5,5,5
+BLOC,FALSE,9/15/2016,    Part-Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,9/14/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,9/14/2016,    Software Engineering Track ,    Online ,,5,5,5,0
+BLOC,FALSE,9/14/2016,    Part-Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,9/14/2016,    UX/UI ,    Online ,,5,5,5,0
+BLOC,FALSE,8/23/2016,    Rails Web Development ,    Online ,,5,5,5,3
+BLOC,FALSE,8/22/2016,    UX / UI ,    Online ,,5,5,5,0
+BLOC,FALSE,8/21/2016,    Part Time Web Developer Track ,    Online ,,2,4,2,1
+BLOC,FALSE,1/6/2017,    UX Design ,    Online ,,5,5,5,0
+BLOC,FALSE,1/4/2017,    UX Design ,    Online ,,5,5,5,5
+BLOC,FALSE,8/21/2016,    Part Time Web Developer Track ,    Online ,,5,4,5,0
+BLOC,FALSE,8/18/2016,    UX Design ,    Online ,,4,4,4,0
+BLOC,FALSE,8/17/2016,    Part-Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,8/17/2016,    Software Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,8/16/2016,    Design Track ,    Online ,,4,4,5,4
+BLOC,FALSE,8/11/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,8/11/2016,,    Online ,,5,4,5,5
+BLOC,FALSE,8/10/2016,    UX Design ,    Online ,,5,5,5,0
+BLOC,FALSE,8/9/2016,    Design Track ,    Online ,,5,5,5,0
+BLOC,FALSE,8/9/2016,    Software Engineering Track ,    Online ,,5,5,5,3
+BLOC,FALSE,8/9/2016,    UX Design ,    Online ,,5,4,5,4
+BLOC,FALSE,8/9/2016,    Software Engineering Track ,    Online ,,5,5,5,5
+BLOC,FALSE,8/4/2016,    UX/UI ,    Online ,,5,5,5,0
+BLOC,FALSE,8/4/2016,    Software Engineering Track ,    Online ,,5,4,5,5
+BLOC,FALSE,8/3/2016,    Part Time Web Developer Track ,    Online ,,5,4,5,0
+BLOC,FALSE,8/3/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,8/3/2016,    Software Engineering Track ,    Online ,,5,5,5,5
+BLOC,FALSE,8/3/2016,    Software Developer Track ,    Online ,,5,4,5,5
+BLOC,FALSE,7/26/2016,    Software Developer Track ,    Online ,,4,4,5,4
+BLOC,FALSE,7/22/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,7/20/2016,    Rails Web Development ,    Online ,,5,5,5,0
+BLOC,FALSE,7/10/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,4
+BLOC,FALSE,6/20/2016,    Software Engineering Track ,    Online ,,5,5,4,0
+BLOC,FALSE,6/11/2016,,    Online ,,5,4,5,3
+BLOC,FALSE,6/10/2016,    Part Time Web Developer Track ,    Online ,,5,4,5,4
+BLOC,FALSE,6/5/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,5/27/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,5/27/2016,    Software Engineering Track ,    Online ,,5,5,5,5
+BLOC,FALSE,5/27/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,5/25/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,5/27/2016,    UX/UI ,    Online ,,5,5,5,5
+BLOC,FALSE,5/25/2016,    UX Design ,    Online ,,5,5,5,0
+BLOC,FALSE,5/16/2016,    Rails Web Development ,    Online ,,5,5,5,2
+BLOC,FALSE,5/12/2016,,    Online ,,5,5,5,0
+BLOC,FALSE,5/11/2016,    iOS ,    Online ,,5,5,5,3
+BLOC,FALSE,5/10/2016,,    Online ,,5,5,5,5
+BLOC,FALSE,5/10/2016,    Part Time Web Developer Track ,    Online ,,5,4,5,0
+BLOC,FALSE,5/10/2016,,    Online ,,5,5,5,5
+BLOC,FALSE,5/10/2016,    Rails Web Development ,    Online ,,4,3,5,0
+BLOC,FALSE,5/9/2016,    Part Time Web Developer Track ,    Online ,,4,4,4,0
+BLOC,FALSE,5/9/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,5/25/2016,    Software Engineering Track ,    Online ,,5,5,5,5
+BLOC,FALSE,5/8/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,5/7/2016,    Part Time Web Developer Track ,    Online ,,5,4,5,5
+BLOC,FALSE,5/7/2016,    Part Time Web Developer Track ,    Online ,,5,4,5,0
+BLOC,FALSE,5/6/2016,    UX/UI ,    Online ,,4,4,4,0
+BLOC,FALSE,5/6/2016,    Part Time Web Developer Track ,    Online ,,5,4,5,0
+BLOC,FALSE,5/6/2016,,    Online ,,5,5,5,5
+BLOC,FALSE,5/6/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,4
+BLOC,FALSE,5/6/2016,    iOS Development ,    Online ,,5,5,5,0
+BLOC,FALSE,5/5/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,5/5/2016,    Part Time Web Developer Track ,    Online ,,5,5,4,0
+BLOC,FALSE,5/5/2016,    Part Time Web Developer Track ,    Online ,,5,4,5,3
+BLOC,FALSE,5/5/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,5/4/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,5/5/2016,    iOS Development ,    Online ,,5,5,5,5
+BLOC,FALSE,5/4/2016,    Part Time Web Developer Track ,    Online ,,5,5,4,0
+BLOC,FALSE,5/4/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,5/4/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,5/4/2016,    iOS Development ,    Online ,,5,4,5,0
+BLOC,FALSE,5/4/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,4
+BLOC,FALSE,5/4/2016,    Rails Web Development ,    Online ,,5,5,5,0
+BLOC,FALSE,5/4/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,4
+BLOC,FALSE,5/4/2016,    Rails Web Development ,    Online ,,4,4,4,0
+BLOC,FALSE,5/4/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,5/4/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,5/4/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,4
+BLOC,FALSE,5/3/2016,    UX Design ,    Online ,,5,5,5,0
+BLOC,FALSE,5/2/2016,    UX Design ,    Online ,,5,3,5,3
+BLOC,FALSE,5/1/2016,,    Online ,,5,4,5,3
+BLOC,FALSE,4/30/2016,,    Online ,,4,3,4,2
+BLOC,FALSE,4/28/2016,    UX Design ,    Online ,,4,3,5,0
+BLOC,FALSE,4/28/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+BLOC,FALSE,4/28/2016,    UX Design ,    Online ,,5,4,5,0
+BLOC,FALSE,4/28/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+BLOC,FALSE,4/28/2016,    UX Design ,    Online ,,5,5,5,5
+BLOC,FALSE,4/27/2016,    UX Design ,    Online ,,5,5,5,0
+BLOC,FALSE,4/27/2016,,    Online ,,5,4,4,3
+BLOC,FALSE,4/27/2016,    UX Design ,    Online ,,5,5,5,0
+BLOC,FALSE,4/26/2016,,    Online ,,5,5,5,4
+BLOC,FALSE,4/26/2016,    Frontend Web Development ,    Online ,,5,4,5,5
+BLOC,FALSE,4/25/2016,    Software Engineering Track ,    Online ,,5,5,5,0
+BLOC,FALSE,4/23/2016,    Software Engineering Track ,    Online ,,5,5,5,5
+BLOC,FALSE,4/23/2016,    Software Engineering Track ,    Online ,,5,5,5,5
+BLOC,FALSE,4/22/2016,    Software Engineering Track ,    Online ,,4,4,5,0
+BLOC,FALSE,4/22/2016,    Software Engineering Track ,    Online ,,5,4,4,0
+BLOC,FALSE,4/22/2016,    Software Engineering Track ,    Online ,,5,5,5,0
+BLOC,FALSE,4/22/2016,    Software Engineering Track ,    Online ,,5,5,5,0
+BLOC,FALSE,4/21/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,3
+BLOC,FALSE,3/15/2016,,    Online ,,5,5,5,5
+BLOC,FALSE,3/9/2016,    Rails Web Development ,    Online ,,5,5,5,5
+BLOC,FALSE,3/3/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,3/1/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,2/24/2016,    Frontend Web Development ,    Online ,,2,2,3,1
+BLOC,FALSE,2/19/2016,    UX Design ,    Online ,,3,1,5,0
+BLOC,FALSE,2/18/2016,    UX Design ,    Online ,,5,5,5,4
+BLOC,FALSE,2/16/2016,    Part Time Web Developer Track ,    Online ,,1,1,3,0
+BLOC,FALSE,2/8/2016,,    Online ,,1,3,2,0
+BLOC,FALSE,2/6/2016,    Frontend Web Development ,    Online ,,5,5,5,5
+BLOC,FALSE,2/1/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,2/1/2016,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,2/1/2016,    Rails Web Development ,    Online ,,5,5,5,5
+BLOC,FALSE,1/25/2016,    Rails Web Development ,    Online ,,1,1,1,1
+BLOC,FALSE,1/25/2016,    Part Time Web Developer Track ,    Online ,,5,4,5,5
+BLOC,FALSE,1/23/2016,    Rails Web Development ,    Online ,,5,5,3,1
+BLOC,FALSE,1/21/2016,    UX Design ,    Online ,,5,5,5,5
+BLOC,FALSE,12/24/2015,    Part Time Web Developer Track ,    Online ,,4,4,5,0
+BLOC,FALSE,1/31/2016,    iOS Development ,    Online ,,5,5,5,5
+BLOC,FALSE,1/29/2016,,    Online ,,2,3,2,3
+BLOC,FALSE,12/2/2015,    Part Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,11/6/2015,    Rails Web Development ,    Online ,,1,1,1,0
+BLOC,FALSE,8/14/2015,,    Online ,,5,5,5,5
+BLOC,FALSE,8/8/2015,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,7/16/2015,    Frontend Web Development ,    Online ,,5,5,5,5
+BLOC,FALSE,7/9/2015,,    Online ,,5,4,5,4
+BLOC,FALSE,7/9/2015,    Rails Web Development ,    Online ,,1,1,3,1
+BLOC,FALSE,6/16/2015,    Rails Web Development ,    Online ,,5,5,5,5
+BLOC,FALSE,6/8/2015,    Rails Web Development ,    Online ,,5,5,5,4
+BLOC,FALSE,6/5/2015,    Frontend Web Development ,    Online ,,1,1,1,1
+BLOC,FALSE,1/21/2015,    Frontend Web Development ,    Online ,,4,4,5,3
+BLOC,FALSE,1/20/2015,,    Online ,,5,5,5,5
+BLOC,FALSE,1/20/2015,    Rails Web Development ,    Online ,,5,5,5,5
+BLOC,FALSE,6/3/2015,,    Online ,,5,5,5,3
+BLOC,FALSE,1/21/2015,    Rails Web Development ,    Online ,,4,5,3,1
+BLOC,FALSE,1/15/2015,    Rails Web Development ,    Online ,,5,4,5,3
+BLOC,FALSE,1/15/2015,    Rails Web Development ,    Online ,,5,5,5,5
+BLOC,FALSE,1/14/2015,    UX Design ,    Online ,,5,5,5,5
+BLOC,FALSE,1/14/2015,    Rails Web Development ,    Online ,,5,5,5,5
+BLOC,FALSE,1/14/2015,,,,5,4,5,4
+BLOC,FALSE,1/13/2015,    Rails Web Development ,    Online ,,5,5,5,5
+BLOC,FALSE,10/29/2014,    Frontend Web Development ,    Online ,,3,2,4,2
+BLOC,FALSE,11/21/2014,,,,3,3,5,2
+BLOC,FALSE,12/4/2014,,,,2,3,5,2
+BLOC,FALSE,8/26/2017,    Design Track ,    Online ,,5,5,5,0
+BLOC,FALSE,8/2/2017,    Part Time Web Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,7/7/2017,    Part Time Web Developer Track ,    Online ,,4,4,4,2
+BLOC,FALSE,2/27/2017,    Part-Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,1/5/2017,    Part Time Web Developer Track ,    Online ,,2,2,1,2
+BLOC,FALSE,9/15/2016,    UX/UI ,    Online ,,5,5,5,1
+BLOC,FALSE,9/4/2016,,,,1,1,1,1
+BLOC,FALSE,8/21/2016,    iOS Development ,    Online ,,5,5,5,0
+BLOC,FALSE,8/20/2016,    Part Time Web Developer Track ,    Online ,,2,2,1,1
+BLOC,FALSE,8/17/2016,    Part-Time Web Developer Track ,    Online ,,5,5,5,0
+BLOC,FALSE,8/16/2016,    Software Developer Track ,    Online ,,5,5,5,5
+BLOC,FALSE,8/9/2016,,    Online ,,5,5,5,5
+BLOC,FALSE,7/26/2016,,    Online ,,5,5,5,0
+BLOC,FALSE,11/21/2014,,,,5,5,5,5
+BLOC,FALSE,5/25/2016,    Software Engineering Track ,    Online ,,5,5,4,0
+APP ACADEMY,FALSE,8/30/2017,    Full Stack Web Development ,    New York City , GitHub,5,5,5,3
+APP ACADEMY,FALSE,8/9/2017,    Full Stack Web Development ,    San Francisco , GitHub,5,4,5,4
+APP ACADEMY,FALSE,7/6/2017,    Full Stack Web Development ,    New York City , GitHub,5,5,5,5
+APP ACADEMY,FALSE,6/17/2017,    Full Stack Web Development ,    New York City , LinkedIn,5,5,5,5
+APP ACADEMY,FALSE,6/15/2017,    Full Stack Web Development ,    San Francisco , GitHub,5,5,5,5
+APP ACADEMY,FALSE,6/13/2017,    Full Stack Web Development ,    San Francisco , GitHub,5,5,5,5
+APP ACADEMY,FALSE,6/12/2017,,, GitHub,5,5,5,4
+APP ACADEMY,FALSE,5/30/2017,    Full Stack Web Development ,    San Francisco , GitHub,4,4,4,5
+APP ACADEMY,FALSE,5/29/2017,    Full Stack Web Development ,    San Francisco , GitHub,5,5,5,0
+APP ACADEMY,FALSE,5/29/2017,    Full Stack Web Development ,    San Francisco , GitHub,5,5,5,5
+APP ACADEMY,FALSE,5/29/2017,    Full Stack Web Development ,    San Francisco , GitHub,5,5,5,5
+APP ACADEMY,FALSE,5/28/2017,    Full Stack Web Development ,    San Francisco , GitHub,5,5,4,0
+APP ACADEMY,FALSE,5/26/2017,    Bootcamp Prep (New York City) ,    New York City , GitHub,5,5,5,0
+APP ACADEMY,FALSE,5/24/2017,    Bootcamp Prep (New York City) ,    New York City , GitHub,5,5,5,4
+APP ACADEMY,FALSE,5/12/2017,    Bootcamp Prep (New York City) ,    New York City , GitHub,5,5,5,0
+APP ACADEMY,FALSE,5/8/2017,    Bootcamp Prep (New York City) ,    New York City , GitHub,5,5,5,5
+APP ACADEMY,FALSE,5/4/2017,    Bootcamp Prep (New York City) ,    New York City , GitHub,5,5,5,0
+APP ACADEMY,FALSE,3/29/2017,    Full Stack Web Development ,    New York City , GitHub,5,5,5,5
+APP ACADEMY,FALSE,2/18/2017,    Full Stack Web Development ,    New York City , GitHub,5,5,5,5
+APP ACADEMY,FALSE,2/4/2017,    Full Stack Web Development ,    New York City , LinkedIn,5,5,5,5
+APP ACADEMY,FALSE,1/23/2017,    Full Stack Web Development ,    San Francisco , GitHub,5,5,5,5
+APP ACADEMY,FALSE,1/22/2017,    Full Stack Web Development ,    San Francisco , GitHub,5,5,5,5
+APP ACADEMY,FALSE,1/14/2017,    Full Stack Web Development ,    New York City , GitHub,5,4,5,4
+APP ACADEMY,FALSE,1/12/2017,    Full Stack Web Development ,    New York City , GitHub,5,5,5,5
+APP ACADEMY,FALSE,1/12/2017,    Full Stack Web Development ,    New York City , GitHub,5,5,5,5
+APP ACADEMY,FALSE,1/11/2017,    Full Stack Web Development ,    New York City , GitHub,5,5,5,5
+APP ACADEMY,FALSE,1/10/2017,    Full Stack Web Development ,    New York City , LinkedIn,5,5,4,5
+APP ACADEMY,FALSE,8/24/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,8/17/2017,    Full Stack Web Development ,    New York City ,,5,5,5,4
+APP ACADEMY,FALSE,1/10/2017,    Full Stack Web Development ,    New York City , LinkedIn,5,5,5,5
+APP ACADEMY,FALSE,1/10/2017,    Full Stack Web Development ,    New York City , GitHub,4,5,5,5
+APP ACADEMY,FALSE,8/16/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,8/17/2017,    Bootcamp Prep (San Francisco) ,    San Francisco ,,4,5,4,3
+APP ACADEMY,FALSE,1/10/2017,    Full Stack Web Development ,    New York City , GitHub,5,5,5,5
+APP ACADEMY,FALSE,8/15/2017,    Full Stack Web Development ,    San Francisco ,,4,5,5,4
+APP ACADEMY,FALSE,8/12/2017,    Full Stack Web Development ,    San Francisco ,,5,3,3,5
+APP ACADEMY,FALSE,8/11/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,8/10/2017,    Bootcamp Prep (San Francisco) ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,8/15/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,8/9/2017,    Full Stack Web Development ,    San Francisco ,,4,3,4,4
+APP ACADEMY,FALSE,8/9/2017,    Full Stack Web Development ,    San Francisco ,,4,5,5,3
+APP ACADEMY,FALSE,8/6/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,8/5/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,7/31/2017,    Full Stack Web Development ,    San Francisco ,,5,4,5,4
+APP ACADEMY,FALSE,7/26/2017,    Full Stack Web Development ,    New York City ,,4,5,5,4
+APP ACADEMY,FALSE,7/12/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,6/28/2017,    Bootcamp Prep (New York City) ,    New York City ,,5,5,5,0
+APP ACADEMY,FALSE,6/28/2017,,    New York City ,,5,5,5,0
+APP ACADEMY,FALSE,6/28/2017,    Bootcamp Prep (New York City) ,    New York City ,,5,5,5,0
+APP ACADEMY,FALSE,6/27/2017,    Bootcamp Prep (New York City) ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,6/21/2017,    Full Stack Web Development ,    New York City ,,4,5,4,4
+APP ACADEMY,FALSE,6/15/2017,    Full Stack Web Development ,    San Francisco ,,5,4,5,5
+APP ACADEMY,FALSE,6/13/2017,    Full Stack Web Development ,    San Francisco ,,4,4,5,5
+APP ACADEMY,FALSE,6/13/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,6/7/2017,    Bootcamp Prep (New York City) ,    New York City ,,2,1,4,0
+APP ACADEMY,FALSE,6/2/2017,    Bootcamp Prep (San Francisco) ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,5/31/2017,    Full Stack Web Development ,    San Francisco ,,4,5,5,4
+APP ACADEMY,FALSE,5/29/2017,    Full Stack Web Development ,    San Francisco ,,4,4,5,4
+APP ACADEMY,FALSE,5/29/2017,,,,5,4,5,4
+APP ACADEMY,FALSE,5/29/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,5/28/2017,    Full Stack Web Development ,    San Francisco ,,5,5,4,0
+APP ACADEMY,FALSE,5/28/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,0
+APP ACADEMY,FALSE,5/26/2017,    Bootcamp Prep (New York City) ,    New York City ,,5,5,5,0
+APP ACADEMY,FALSE,5/26/2017,    Bootcamp Prep (New York City) ,    New York City ,,5,5,5,0
+APP ACADEMY,FALSE,5/26/2017,    Bootcamp Prep (New York City) ,    New York City ,,5,5,5,0
+APP ACADEMY,FALSE,5/24/2017,    Bootcamp Prep (New York City) ,    New York City ,,5,5,5,0
+APP ACADEMY,FALSE,5/22/2017,    Full Stack Web Development ,    San Francisco ,,5,5,4,4
+APP ACADEMY,FALSE,5/19/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,5/15/2017,    Bootcamp Prep (San Francisco) ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,5/8/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,4/26/2017,    Full Stack Web Development ,    New York City ,,3,3,5,2
+APP ACADEMY,FALSE,4/20/2017,    Full Stack Web Development ,    San Francisco ,,4,4,4,5
+APP ACADEMY,FALSE,4/19/2017,    Bootcamp Prep (San Francisco) ,    San Francisco ,,1,1,1,1
+APP ACADEMY,FALSE,3/31/2017,    Full Stack Web Development ,    New York City ,,2,4,2,4
+APP ACADEMY,FALSE,3/28/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,3/28/2017,    Full Stack Web Development ,    San Francisco ,,4,4,5,5
+APP ACADEMY,FALSE,3/28/2017,    Full Stack Web Development ,    San Francisco ,,4,5,5,5
+APP ACADEMY,FALSE,3/27/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,3/27/2017,    Full Stack Web Development ,    San Francisco ,,5,4,5,5
+APP ACADEMY,FALSE,3/25/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,3/22/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,3/8/2017,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,3/5/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,3/2/2017,,,,4,4,5,5
+APP ACADEMY,FALSE,2/23/2017,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,2/16/2017,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,2/16/2017,    Full Stack Web Development ,    New York City ,,5,5,5,4
+APP ACADEMY,FALSE,2/16/2017,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,2/11/2017,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,2/9/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,3/26/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,3/27/2017,    Full Stack Web Development ,    San Francisco ,,4,4,4,4
+APP ACADEMY,FALSE,2/8/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,2/7/2017,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,1/25/2017,    Full Stack Web Development ,    New York City ,,5,5,5,4
+APP ACADEMY,FALSE,1/25/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,1/24/2017,,,,5,5,5,5
+APP ACADEMY,FALSE,1/24/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,1/24/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,1/23/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,1/23/2017,,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,1/23/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,1/23/2017,    Bootcamp Prep (San Francisco) ,    San Francisco ,,5,5,5,0
+APP ACADEMY,FALSE,1/22/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,1/22/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,1/21/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,1/12/2017,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,1/12/2017,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,1/11/2017,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,1/10/2017,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,1/10/2017,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,1/9/2017,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,1/8/2017,,,,2,2,3,4
+APP ACADEMY,FALSE,1/5/2017,    Bootcamp Prep (San Francisco) ,    San Francisco ,,1,1,1,0
+APP ACADEMY,FALSE,1/3/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,1/3/2017,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,12/2/2016,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,11/28/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,3
+APP ACADEMY,FALSE,11/27/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,11/25/2016,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,11/22/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/22/2016,,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/22/2016,    Full Stack Web Development ,    San Francisco ,,4,5,5,4
+APP ACADEMY,FALSE,11/21/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/19/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/19/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/18/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/18/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/18/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/18/2016,    Full Stack Web Development ,    San Francisco ,,5,4,5,5
+APP ACADEMY,FALSE,11/18/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/18/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/18/2016,,    San Francisco ,,4,4,5,5
+APP ACADEMY,FALSE,11/18/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/18/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/18/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/17/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/17/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/17/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/17/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/7/2016,    Full Stack Web Development ,    San Francisco ,,1,1,1,1
+APP ACADEMY,FALSE,10/21/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,10/20/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,10/13/2016,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,8/30/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,8/29/2016,    Bootcamp Prep (San Francisco) ,    San Francisco ,,5,5,5,0
+APP ACADEMY,FALSE,8/18/2016,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,7/26/2016,    Full Stack Web Development ,    San Francisco ,,4,5,4,4
+APP ACADEMY,FALSE,7/22/2016,    Full Stack Web Development ,    New York City ,,5,4,5,5
+APP ACADEMY,FALSE,7/19/2016,    Full Stack Web Development ,    New York City ,,5,4,5,4
+APP ACADEMY,FALSE,7/16/2016,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,7/14/2016,    Bootcamp Prep (San Francisco) ,    San Francisco ,,2,3,4,0
+APP ACADEMY,FALSE,7/14/2016,    Bootcamp Prep (New York City) ,    New York City ,,5,5,5,0
+APP ACADEMY,FALSE,7/14/2016,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,7/13/2016,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,7/13/2016,    Full Stack Web Development ,    New York City ,,4,5,5,4
+APP ACADEMY,FALSE,7/13/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,3
+APP ACADEMY,FALSE,7/13/2016,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,7/13/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,7/13/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,7/13/2016,    Full Stack Web Development ,    San Francisco ,,4,4,4,2
+APP ACADEMY,FALSE,7/13/2016,    Full Stack Web Development ,    San Francisco ,,5,5,4,3
+APP ACADEMY,FALSE,7/12/2016,    Bootcamp Prep (New York City) ,    New York City ,,5,5,5,0
+APP ACADEMY,FALSE,7/13/2016,    Bootcamp Prep (San Francisco) ,    San Francisco ,,5,5,5,0
+APP ACADEMY,FALSE,12/4/2015,    Full Stack Web Development ,    New York City ,,4,5,4,5
+APP ACADEMY,FALSE,11/20/2015,,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,10/14/2015,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,8/21/2015,    Full Stack Web Development ,    New York City ,,5,5,5,3
+APP ACADEMY,FALSE,7/12/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,12/6/2014,    Full Stack Web Development ,    New York City ,,4,4,5,3
+APP ACADEMY,FALSE,12/4/2014,    Full Stack Web Development ,    San Francisco ,,5,5,4,4
+APP ACADEMY,FALSE,11/21/2014,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,9/30/2014,    Full Stack Web Development ,    San Francisco ,,4,4,5,3
+APP ACADEMY,FALSE,3/17/2016,,    New York City ,,3,4,4,0
+APP ACADEMY,FALSE,8/2/2015,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,8/26/2017,,    San Francisco ,,4,5,5,4
+APP ACADEMY,FALSE,8/18/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,8/15/2017,    Full Stack Web Development ,    San Francisco ,,4,5,4,3
+APP ACADEMY,FALSE,8/11/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,8/15/2017,    Full Stack Web Development ,    San Francisco ,,4,5,4,3
+APP ACADEMY,FALSE,8/3/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,8/9/2017,    Full Stack Web Development ,    San Francisco ,,5,4,5,5
+APP ACADEMY,FALSE,8/9/2017,    Full Stack Web Development ,    San Francisco ,,5,4,5,4
+APP ACADEMY,FALSE,8/2/2017,    Full Stack Web Development ,    San Francisco ,,4,4,5,4
+APP ACADEMY,FALSE,8/2/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,7/21/2017,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,6/15/2017,    Bootcamp Prep (San Francisco) ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,6/13/2017,    Full Stack Web Development ,    San Francisco ,,5,5,4,5
+APP ACADEMY,FALSE,6/13/2017,,,,4,4,4,5
+APP ACADEMY,FALSE,6/11/2017,    Full Stack Web Development ,    San Francisco ,,4,4,5,5
+APP ACADEMY,FALSE,6/11/2017,,    San Francisco ,,5,5,4,5
+APP ACADEMY,FALSE,6/10/2017,    Full Stack Web Development ,    San Francisco ,,5,4,5,5
+APP ACADEMY,FALSE,6/9/2017,    Full Stack Web Development ,    San Francisco ,,4,4,4,2
+APP ACADEMY,FALSE,6/9/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,8/1/2017,    Full Stack Web Development ,    San Francisco ,,4,4,5,4
+APP ACADEMY,FALSE,8/2/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,6/1/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,6/1/2017,    Full Stack Web Development ,    San Francisco ,,5,4,5,5
+APP ACADEMY,FALSE,5/30/2017,    Full Stack Web Development ,    San Francisco ,,3,3,3,4
+APP ACADEMY,FALSE,5/16/2017,,    San Francisco ,,5,5,4,5
+APP ACADEMY,FALSE,4/6/2017,    Full Stack Web Development ,    San Francisco ,,4,5,5,3
+APP ACADEMY,FALSE,3/26/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,3/25/2017,    Full Stack Web Development ,    San Francisco ,,4,5,5,5
+APP ACADEMY,FALSE,3/24/2017,,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,1/24/2017,    Full Stack Web Development ,    San Francisco ,,4,5,4,0
+APP ACADEMY,FALSE,1/24/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,1/22/2017,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,12/15/2016,    Full Stack Web Development ,    San Francisco ,,4,5,5,4
+APP ACADEMY,FALSE,11/21/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,11/21/2016,,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/18/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,11/18/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,11/17/2016,,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,10/20/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,8/10/2016,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,8/1/2016,    Full Stack Web Development ,    New York City ,,5,5,5,5
+APP ACADEMY,FALSE,7/18/2016,    Full Stack Web Development ,    New York City ,,3,5,3,4
+APP ACADEMY,FALSE,7/14/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,7/14/2016,    Full Stack Web Development ,    San Francisco ,,5,5,4,4
+APP ACADEMY,FALSE,7/13/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,7/13/2016,    Full Stack Web Development ,    New York City ,,5,5,4,4
+APP ACADEMY,FALSE,7/13/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,5
+APP ACADEMY,FALSE,7/13/2016,    Full Stack Web Development ,    San Francisco ,,5,5,4,4
+APP ACADEMY,FALSE,7/13/2016,    Full Stack Web Development ,    San Francisco ,,5,5,5,4
+APP ACADEMY,FALSE,7/13/2016,    Full Stack Web Development ,    San Francisco ,,1,2,3,1
+APP ACADEMY,FALSE,7/13/2016,    Full Stack Web Development ,    San Francisco ,,2,5,4,1
+LE WAGON,FALSE,8/29/2017,    Coding Bootcamp ,    London , GitHub,5,5,5,5
+LE WAGON,FALSE,8/22/2017,    Coding Bootcamp ,    Montreal , LinkedIn,5,5,5,5
+LE WAGON,FALSE,8/9/2017,    Coding Bootcamp ,    Barcelona , LinkedIn,5,5,5,5
+LE WAGON,FALSE,8/7/2017,    Coding Bootcamp ,    Paris , LinkedIn,5,5,5,5
+LE WAGON,FALSE,8/2/2017,    Coding Bootcamp ,    London , LinkedIn,5,5,5,5
+LE WAGON,FALSE,7/25/2017,    Coding Bootcamp ,    Bordeaux , GitHub,5,5,5,4
+LE WAGON,FALSE,7/24/2017,    Coding Bootcamp ,    London , GitHub,5,5,5,5
+LE WAGON,FALSE,7/21/2017,    Coding Bootcamp ,    London , GitHub,5,5,5,5
+LE WAGON,FALSE,7/17/2017,    Coding Bootcamp ,    London , GitHub,5,5,5,4
+LE WAGON,FALSE,7/12/2017,    Coding Bootcamp ,    Paris , GitHub,5,5,5,5
+LE WAGON,FALSE,7/10/2017,    Coding Bootcamp ,    Paris , LinkedIn,5,5,5,0
+LE WAGON,FALSE,7/9/2017,    Coding Bootcamp ,    Paris , LinkedIn,5,5,5,5
+LE WAGON,FALSE,7/7/2017,    Coding Bootcamp ,    Paris , LinkedIn,5,5,5,5
+LE WAGON,FALSE,7/7/2017,    Coding Bootcamp ,    Paris , LinkedIn,5,5,5,5
+LE WAGON,FALSE,7/5/2017,    Coding Bootcamp ,    Sao Paulo , LinkedIn,5,5,5,5
+LE WAGON,FALSE,7/4/2017,    Coding Bootcamp ,    Paris , LinkedIn,5,5,5,5
+LE WAGON,FALSE,6/18/2017,    Coding Bootcamp ,    Bordeaux , GitHub,5,5,5,5
+LE WAGON,FALSE,6/15/2017,,    Bordeaux , GitHub,5,5,5,5
+LE WAGON,FALSE,6/15/2017,    Coding Bootcamp ,    Bordeaux , GitHub,5,5,5,5
+LE WAGON,FALSE,6/15/2017,    Coding Bootcamp ,    Bordeaux , GitHub,5,5,5,5
+LE WAGON,FALSE,6/13/2017,    Coding Bootcamp ,    Amsterdam , LinkedIn,5,5,5,5
+LE WAGON,FALSE,6/6/2017,    Coding Bootcamp ,    Paris , LinkedIn,5,5,5,5
+LE WAGON,FALSE,6/1/2017,    Coding Bootcamp ,    Barcelona , LinkedIn,5,5,5,4
+LE WAGON,FALSE,5/31/2017,,    Lisbon , LinkedIn,5,5,5,5
+LE WAGON,FALSE,5/30/2017,    Full Stack Bootcamp ,    Lisbon , LinkedIn,5,5,5,5
+LE WAGON,FALSE,5/28/2017,    Coding Bootcamp ,    Lisbon , LinkedIn,5,5,5,5
+LE WAGON,FALSE,5/22/2017,    Coding Bootcamp ,    Paris , LinkedIn,5,5,5,5
+LE WAGON,FALSE,5/22/2017,    Coding Bootcamp ,    Paris , GitHub,5,5,5,5
+LE WAGON,FALSE,5/5/2017,    Coding Bootcamp ,    London , GitHub,5,5,5,5
+LE WAGON,FALSE,5/2/2017,    Coding Bootcamp ,    London , GitHub,5,5,5,5
+LE WAGON,FALSE,5/1/2017,    Coding Bootcamp ,    Amsterdam , LinkedIn,5,5,4,0
+LE WAGON,FALSE,4/29/2017,,, LinkedIn,5,5,5,5
+LE WAGON,FALSE,4/28/2017,    Coding Bootcamp ,    Amsterdam , LinkedIn,5,5,5,5
+LE WAGON,FALSE,4/28/2017,    Coding Bootcamp ,    London , LinkedIn,5,5,5,5
+LE WAGON,FALSE,4/27/2017,    Coding Bootcamp ,    London , LinkedIn,5,5,5,5
+LE WAGON,FALSE,4/25/2017,    Coding Bootcamp ,    Paris , LinkedIn,5,5,5,4
+LE WAGON,FALSE,4/19/2017,    Coding Bootcamp ,    London , GitHub,5,5,5,5
+LE WAGON,FALSE,4/17/2017,    Coding Bootcamp ,    Paris , LinkedIn,5,5,5,5
+LE WAGON,FALSE,4/12/2017,    Coding Bootcamp ,    Bordeaux , GitHub,5,5,5,5
+LE WAGON,FALSE,4/10/2017,    Coding Bootcamp ,    London , GitHub,5,5,5,5
+LE WAGON,FALSE,4/7/2017,    Coding Bootcamp ,    Paris , GitHub,5,5,5,5
+LE WAGON,FALSE,4/4/2017,    Coding Bootcamp ,    Bordeaux , GitHub,5,5,5,5
+LE WAGON,FALSE,4/3/2017,    Coding Bootcamp ,    Bordeaux , GitHub,5,5,5,5
+LE WAGON,FALSE,4/3/2017,    Coding Bootcamp ,    Bordeaux , GitHub,5,5,5,5
+LE WAGON,FALSE,3/29/2017,    Coding Bootcamp ,    Barcelona , LinkedIn,5,5,5,5
+LE WAGON,FALSE,3/26/2017,    Full Stack Bootcamp ,    Lisbon , LinkedIn,5,5,5,5
+LE WAGON,FALSE,3/23/2017,    Full Stack Bootcamp ,    Lisbon , GitHub,5,5,5,5
+LE WAGON,FALSE,3/13/2017,    Coding Bootcamp ,    Paris , LinkedIn,5,5,5,5
+LE WAGON,FALSE,3/6/2017,    Coding Bootcamp ,    Sao Paulo , LinkedIn,5,5,5,0
+LE WAGON,FALSE,3/13/2017,    Coding Bootcamp ,    Paris , LinkedIn,5,5,5,5
+LE WAGON,FALSE,7/17/2017,    Coding Bootcamp ,    London , LinkedIn,5,5,5,0
+LE WAGON,FALSE,3/29/2017,    Coding Bootcamp ,    Paris , LinkedIn,5,5,5,0
+LE WAGON,FALSE,8/22/2017,    Coding Bootcamp ,    Lyon ,,5,5,5,5
+LE WAGON,FALSE,8/22/2017,    Coding Bootcamp ,    Lyon ,,5,5,5,5
+LE WAGON,FALSE,8/2/2017,    Coding Bootcamp ,    London ,,5,5,5,5
+LE WAGON,FALSE,8/2/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,8/8/2017,    Coding Bootcamp ,    Shanghai ,,5,5,5,5
+LE WAGON,FALSE,8/4/2017,    Coding Bootcamp ,    Barcelona ,,5,5,5,5
+LE WAGON,FALSE,8/1/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,8/1/2017,    Coding Bootcamp ,    Paris ,,5,4,4,4
+LE WAGON,FALSE,7/21/2017,    Coding Bootcamp ,    Bordeaux ,,5,5,5,5
+LE WAGON,FALSE,8/1/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,7/20/2017,    Coding Bootcamp ,    Bordeaux ,,5,5,5,5
+LE WAGON,FALSE,8/2/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,7/20/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,7/19/2017,    Coding Bootcamp ,    Paris ,,5,5,5,4
+LE WAGON,FALSE,7/14/2017,    Coding Bootcamp ,    London ,,5,5,5,5
+LE WAGON,FALSE,7/13/2017,    Coding Bootcamp ,    Sao Paulo ,,5,5,5,0
+LE WAGON,FALSE,7/19/2017,    Coding Bootcamp ,    London ,,5,5,5,5
+LE WAGON,FALSE,7/12/2017,    Coding Bootcamp ,    Sao Paulo ,,5,5,5,5
+LE WAGON,FALSE,7/11/2017,    Coding Bootcamp ,    Barcelona ,,5,5,5,4
+LE WAGON,FALSE,7/11/2017,,    Barcelona ,,5,5,5,5
+LE WAGON,FALSE,7/6/2017,    Coding Bootcamp ,    Barcelona ,,5,5,5,4
+LE WAGON,FALSE,7/6/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,7/3/2017,    Coding Bootcamp ,    Amsterdam ,,5,5,5,5
+LE WAGON,FALSE,7/2/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,6/27/2017,    Full Stack Bootcamp ,    Lisbon ,,5,5,5,5
+LE WAGON,FALSE,7/2/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,6/30/2017,,    Lisbon ,,5,4,4,5
+LE WAGON,FALSE,6/15/2017,    Coding Bootcamp ,    Bordeaux ,,5,5,5,5
+LE WAGON,FALSE,6/14/2017,    Coding Bootcamp ,    Montreal ,,5,5,5,5
+LE WAGON,FALSE,6/6/2017,    Coding Bootcamp ,    Amsterdam ,,5,5,5,5
+LE WAGON,FALSE,6/4/2017,    Coding Bootcamp ,    Barcelona ,,5,5,5,5
+LE WAGON,FALSE,6/1/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,5/31/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,5/31/2017,,    Montreal ,,5,5,5,5
+LE WAGON,FALSE,5/13/2017,    Coding Bootcamp ,    Amsterdam ,,5,5,5,5
+LE WAGON,FALSE,5/11/2017,    Coding Bootcamp ,    London ,,5,5,5,0
+LE WAGON,FALSE,5/4/2017,    Coding Bootcamp ,    Paris ,,5,5,4,4
+LE WAGON,FALSE,5/2/2017,    Coding Bootcamp ,    Amsterdam ,,5,5,5,5
+LE WAGON,FALSE,5/1/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,4/18/2017,    Coding Bootcamp ,    London ,,5,5,5,5
+LE WAGON,FALSE,4/17/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,4/7/2017,    Coding Bootcamp ,    Bordeaux ,,5,5,5,5
+LE WAGON,FALSE,4/7/2017,    Coding Bootcamp ,    Paris ,,5,5,5,0
+LE WAGON,FALSE,4/7/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,4/5/2017,    Coding Bootcamp ,    Rio de Janeiro ,,5,5,5,5
+LE WAGON,FALSE,4/4/2017,    Coding Bootcamp ,    Rio de Janeiro ,,5,5,5,3
+LE WAGON,FALSE,4/4/2017,    Coding Bootcamp ,    Barcelona ,,5,5,5,5
+LE WAGON,FALSE,4/3/2017,    Coding Bootcamp ,    Bordeaux ,,5,4,5,3
+LE WAGON,FALSE,3/23/2017,    Full Stack Bootcamp ,    Lisbon ,,5,5,5,0
+LE WAGON,FALSE,3/13/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/2/2017,,    Barcelona ,,5,5,5,5
+LE WAGON,FALSE,2/27/2017,    Full Stack Bootcamp ,    Lisbon ,,5,5,5,0
+LE WAGON,FALSE,2/22/2017,    Coding Bootcamp ,    Sao Paulo ,,5,5,5,5
+LE WAGON,FALSE,2/15/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,2/8/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,2/6/2017,    Coding Bootcamp ,    Sao Paulo ,,5,5,5,5
+LE WAGON,FALSE,1/29/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,1/17/2017,    Coding Bootcamp ,    Amsterdam ,,5,5,5,5
+LE WAGON,FALSE,1/10/2017,    Coding Bootcamp ,    Amsterdam ,,5,5,5,5
+LE WAGON,FALSE,1/10/2017,,    Copenhagen ,,5,5,5,0
+LE WAGON,FALSE,1/7/2017,    Coding Bootcamp ,    London ,,5,5,5,4
+LE WAGON,FALSE,1/3/2017,    Coding Bootcamp ,    Barcelona ,,5,5,5,0
+LE WAGON,FALSE,1/3/2017,    Coding Bootcamp ,    Bordeaux ,,5,5,5,5
+LE WAGON,FALSE,1/3/2017,    Coding Bootcamp ,    Paris ,,5,5,5,4
+LE WAGON,FALSE,1/3/2017,,    Bordeaux ,,5,5,5,5
+LE WAGON,FALSE,12/27/2016,    Coding Bootcamp ,    London ,,5,5,5,4
+LE WAGON,FALSE,12/20/2016,    Coding Bootcamp ,    London ,,5,5,5,5
+LE WAGON,FALSE,12/20/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,12/22/2016,    Coding Bootcamp ,    Paris ,,5,5,5,0
+LE WAGON,FALSE,12/20/2016,    Coding Bootcamp ,    Paris ,,5,5,5,4
+LE WAGON,FALSE,12/20/2016,    Coding Bootcamp ,    London ,,5,5,5,0
+LE WAGON,FALSE,12/19/2016,    Coding Bootcamp ,    London ,,5,5,5,5
+LE WAGON,FALSE,12/18/2016,    Coding Bootcamp ,    London ,,5,5,5,0
+LE WAGON,FALSE,12/9/2016,    Coding Bootcamp ,    Sao Paulo ,,5,5,5,0
+LE WAGON,FALSE,11/24/2016,    Coding Bootcamp ,    London ,,5,5,5,5
+LE WAGON,FALSE,11/29/2016,,    London ,,5,5,5,0
+LE WAGON,FALSE,11/25/2016,    Coding Bootcamp ,    London ,,5,5,5,0
+LE WAGON,FALSE,11/13/2016,    Coding Bootcamp ,    Copenhagen ,,5,5,5,0
+LE WAGON,FALSE,11/14/2016,    Full Stack Bootcamp ,    Lisbon ,,5,4,5,0
+LE WAGON,FALSE,11/19/2016,    Coding Bootcamp ,    London ,,5,5,5,5
+LE WAGON,FALSE,11/11/2016,    Coding Bootcamp ,    Copenhagen ,,5,5,5,0
+LE WAGON,FALSE,10/31/2016,    Coding Bootcamp ,    London ,,5,5,5,5
+LE WAGON,FALSE,10/27/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,10/27/2016,    Full Stack Bootcamp ,    Lisbon ,,5,5,5,5
+LE WAGON,FALSE,10/26/2016,    Full Stack Bootcamp ,    Lisbon ,,5,5,5,5
+LE WAGON,FALSE,10/25/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,10/18/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,10/18/2016,    Coding Bootcamp ,    Paris ,,5,5,5,4
+LE WAGON,FALSE,10/18/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,10/18/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,10/17/2016,    Coding Bootcamp ,    London ,,5,5,5,5
+LE WAGON,FALSE,10/17/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,10/17/2016,    Coding Bootcamp ,    London ,,5,5,5,4
+LE WAGON,FALSE,10/15/2016,    Coding Bootcamp ,    London ,,5,5,5,5
+LE WAGON,FALSE,10/7/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,9/21/2016,    Coding Bootcamp ,    Bordeaux ,,5,5,5,0
+LE WAGON,FALSE,9/21/2016,    Coding Bootcamp ,    Sao Paulo ,,5,5,5,0
+LE WAGON,FALSE,9/21/2016,    Coding Bootcamp ,    Bordeaux ,,5,5,5,5
+LE WAGON,FALSE,9/19/2016,    Coding Bootcamp ,    Sao Paulo ,,5,5,5,5
+LE WAGON,FALSE,9/13/2016,    Coding Bootcamp ,    Sao Paulo ,,5,5,5,5
+LE WAGON,FALSE,9/11/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,8/26/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,7/26/2016,,    Brussels ,,5,4,4,5
+LE WAGON,FALSE,7/3/2016,    Coding Bootcamp ,    Paris ,,5,4,5,0
+LE WAGON,FALSE,7/3/2016,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,7/1/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,6/30/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,6/29/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,6/25/2016,    Coding Bootcamp ,    Paris ,,5,5,5,4
+LE WAGON,FALSE,6/24/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,6/23/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,6/23/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,6/23/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,7/26/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,7/6/2016,    Coding Bootcamp ,    Paris ,,5,4,5,4
+LE WAGON,FALSE,6/14/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,6/7/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,5/18/2016,    Coding Bootcamp ,    Paris ,,5,4,5,0
+LE WAGON,FALSE,6/14/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,6/8/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,4/28/2016,    Coding Bootcamp ,    Paris ,,5,5,5,0
+LE WAGON,FALSE,4/21/2016,    Coding Bootcamp ,    Brussels ,,5,5,4,5
+LE WAGON,FALSE,4/19/2016,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,4/19/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/17/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/17/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/16/2016,,    Paris ,,5,4,5,3
+LE WAGON,FALSE,3/16/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/15/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/15/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/15/2016,,    Paris ,,5,5,5,4
+LE WAGON,FALSE,3/15/2016,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/14/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/14/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/13/2016,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/11/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/10/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/10/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/10/2016,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/10/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/10/2016,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,3/9/2016,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,12/1/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/27/2015,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/26/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/26/2015,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/26/2015,    Coding Bootcamp ,    Paris ,,5,5,5,4
+LE WAGON,FALSE,11/24/2015,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/24/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/24/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/24/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/24/2015,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/23/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/23/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/23/2015,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/9/2015,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/7/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/5/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/5/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/5/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/5/2015,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/5/2015,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/5/2015,    Coding Bootcamp ,    Paris ,,5,5,5,4
+LE WAGON,FALSE,11/24/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/5/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/24/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/5/2015,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/5/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/4/2015,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,11/3/2015,,    Paris ,,5,5,5,5
+LE WAGON,FALSE,8/18/2015,    Coding Bootcamp ,    Brussels ,,5,5,5,4
+LE WAGON,FALSE,8/9/2015,,    Brussels ,,5,5,5,5
+LE WAGON,FALSE,11/24/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,8/6/2015,    Coding Bootcamp ,    Brussels ,,5,5,5,5
+LE WAGON,FALSE,8/6/2015,    Coding Bootcamp ,    Brussels ,,5,4,5,4
+LE WAGON,FALSE,7/17/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,6/4/2015,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,8/6/2015,    Coding Bootcamp ,    Brussels ,,5,5,5,5
+LE WAGON,FALSE,6/2/2017,    Coding Bootcamp ,    Paris ,,5,5,5,5
+LE WAGON,FALSE,8/5/2015,    Coding Bootcamp ,    Brussels ,,5,5,5,5
+LE WAGON,FALSE,4/29/2017,    Coding Bootcamp ,    Barcelona ,,5,5,3,2
+LE WAGON,FALSE,8/30/2017,    Coding Bootcamp ,    London ,,5,5,5,0
+LE WAGON,FALSE,6/1/2016,,    Amsterdam ,,5,5,5,0
+LE WAGON,FALSE,5/31/2016,    Coding Bootcamp ,    Paris ,,5,5,5,0
+LE WAGON,FALSE,6/23/2016,,    London ,,5,4,5,4
+DEV MOUNTAIN,FALSE,8/29/2017,    Web Development Immersive ,    Provo , LinkedIn,5,5,5,5
+DEV MOUNTAIN,FALSE,8/28/2017,    iOS Development Immersive ,    Salt Lake City , LinkedIn,5,4,4,5
+DEV MOUNTAIN,FALSE,8/18/2017,    Web Development After Hours ,    Salt Lake City , LinkedIn,5,5,5,5
+DEV MOUNTAIN,FALSE,7/28/2017,    Web Development Immersive ,    Provo , LinkedIn,5,5,5,5
+DEV MOUNTAIN,FALSE,7/12/2017,,, LinkedIn,5,5,5,5
+DEV MOUNTAIN,FALSE,7/9/2017,    Web Development Immersive ,    Provo , GitHub,5,4,4,5
+DEV MOUNTAIN,FALSE,7/6/2017,    Web Development Immersive ,    Provo , LinkedIn,1,1,1,1
+DEV MOUNTAIN,FALSE,6/26/2017,    UX Design Immersive ,    Salt Lake City , LinkedIn,5,5,5,4
+DEV MOUNTAIN,FALSE,6/15/2017,    Web Development After Hours ,    Provo , LinkedIn,5,4,5,5
+DEV MOUNTAIN,FALSE,6/8/2017,    Web Development After Hours ,    Provo , LinkedIn,5,5,4,4
+DEV MOUNTAIN,FALSE,5/31/2017,    Web Development Immersive ,    Provo , LinkedIn,5,4,5,5
+DEV MOUNTAIN,FALSE,5/31/2017,,    Provo , LinkedIn,5,5,4,5
+DEV MOUNTAIN,FALSE,4/25/2017,    Web Development Immersive ,    Provo , LinkedIn,5,5,5,5
+DEV MOUNTAIN,FALSE,3/29/2017,    Web Development Immersive ,    Provo , LinkedIn,5,5,5,5
+DEV MOUNTAIN,FALSE,2/15/2017,    Web Development Immersive ,    Dallas , LinkedIn,5,5,5,5
+DEV MOUNTAIN,FALSE,2/6/2017,    Web Development Immersive ,    Provo , LinkedIn,5,5,4,3
+DEV MOUNTAIN,FALSE,2/2/2017,    Web Development Immersive ,    Provo , LinkedIn,5,5,5,5
+DEV MOUNTAIN,FALSE,1/27/2017,    Web Development Immersive ,    Provo , GitHub,5,5,5,5
+DEV MOUNTAIN,FALSE,1/4/2017,    Web Development Immersive ,    Provo , LinkedIn,5,5,5,4
+DEV MOUNTAIN,FALSE,4/24/2017,    Web Development Immersive ,    Provo , LinkedIn,4,4,5,1
+DEV MOUNTAIN,FALSE,8/28/2017,    Web Development Immersive ,    Dallas ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/10/2017,    Web Development Immersive ,    Dallas ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/9/2017,    Web Development Immersive ,    Phoenix ,,5,5,5,5
+DEV MOUNTAIN,FALSE,7/24/2017,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,7/20/2017,    Web Development Immersive ,    Provo ,,5,4,5,5
+DEV MOUNTAIN,FALSE,7/10/2017,,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,6/27/2017,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,6/22/2017,    iOS Development Immersive ,    Salt Lake City ,,2,1,3,2
+DEV MOUNTAIN,FALSE,6/13/2017,    UX Design Immersive ,    Salt Lake City ,,5,5,5,5
+DEV MOUNTAIN,FALSE,5/31/2017,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,5/31/2017,    iOS After Hours ,    Salt Lake City ,,5,5,5,5
+DEV MOUNTAIN,FALSE,5/30/2017,    Web Development Immersive ,    Provo ,,5,5,5,4
+DEV MOUNTAIN,FALSE,5/30/2017,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,5/29/2017,    Web Development Immersive ,    Provo ,,5,5,5,3
+DEV MOUNTAIN,FALSE,5/25/2017,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,5/23/2017,,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,5/23/2017,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,5/17/2017,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,5/2/2017,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,5/1/2017,    Web Development Immersive ,    Provo ,,5,4,5,5
+DEV MOUNTAIN,FALSE,4/21/2017,    UX Design Immersive ,    Salt Lake City ,,5,5,5,5
+DEV MOUNTAIN,FALSE,4/20/2017,    Web Development Immersive ,    Provo ,,5,5,5,3
+DEV MOUNTAIN,FALSE,2/22/2017,    Web Development Immersive ,    Provo ,,5,4,4,5
+DEV MOUNTAIN,FALSE,2/6/2017,    Web Development Immersive ,    Dallas ,,5,5,5,5
+DEV MOUNTAIN,FALSE,2/6/2017,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,5
+DEV MOUNTAIN,FALSE,2/4/2017,    Web Development After Hours ,    Provo ,,5,5,5,3
+DEV MOUNTAIN,FALSE,2/1/2017,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,2
+DEV MOUNTAIN,FALSE,1/2/2017,    Web Development Immersive ,    Provo ,,5,4,5,5
+DEV MOUNTAIN,FALSE,12/27/2016,    Web Development After Hours ,    Salt Lake City ,,5,5,5,4
+DEV MOUNTAIN,FALSE,12/19/2016,    Web Development Immersive ,    Provo ,,5,5,5,4
+DEV MOUNTAIN,FALSE,12/12/2016,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,4
+DEV MOUNTAIN,FALSE,11/13/2016,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,5
+DEV MOUNTAIN,FALSE,11/2/2016,    Web Development Immersive ,    Provo ,,5,5,5,4
+DEV MOUNTAIN,FALSE,11/28/2016,    iOS Development Immersive ,    Salt Lake City ,,5,5,4,4
+DEV MOUNTAIN,FALSE,10/30/2016,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,10/11/2016,    Web Development After Hours ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,10/18/2016,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,11/17/2016,    Web Development Immersive ,    Dallas ,,5,5,5,5
+DEV MOUNTAIN,FALSE,10/3/2016,    Web Development Immersive ,    Provo ,,5,4,5,4
+DEV MOUNTAIN,FALSE,9/26/2016,    Web Development Immersive ,    Provo ,,5,4,5,4
+DEV MOUNTAIN,FALSE,9/22/2016,    iOS Development Immersive ,    Salt Lake City ,,4,4,5,4
+DEV MOUNTAIN,FALSE,9/21/2016,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,9/15/2016,    Web Development Immersive ,    Provo ,,5,4,5,5
+DEV MOUNTAIN,FALSE,11/15/2016,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,5
+DEV MOUNTAIN,FALSE,10/10/2016,    Web Development Immersive ,    Provo ,,5,5,5,4
+DEV MOUNTAIN,FALSE,9/15/2016,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,9/14/2016,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,9/13/2016,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,9/13/2016,    iOS Development Immersive ,    Salt Lake City ,,5,4,5,3
+DEV MOUNTAIN,FALSE,9/13/2016,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,4
+DEV MOUNTAIN,FALSE,9/13/2016,    Web Development Immersive ,    Provo ,,5,4,5,4
+DEV MOUNTAIN,FALSE,8/23/2016,    Web Development Immersive ,    Provo ,,5,4,5,5
+DEV MOUNTAIN,FALSE,8/22/2016,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/11/2016,    Web Development Immersive ,    Provo ,,4,4,4,4
+DEV MOUNTAIN,FALSE,8/9/2016,    Web Development After Hours ,    Provo ,,5,4,5,4
+DEV MOUNTAIN,FALSE,8/8/2016,    Web Development Immersive ,    Provo ,,5,5,5,4
+DEV MOUNTAIN,FALSE,8/8/2016,    Web Development Immersive ,    Provo ,,5,4,4,4
+DEV MOUNTAIN,FALSE,8/1/2016,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,5/24/2016,    Web Development Immersive ,    Dallas ,,5,5,5,5
+DEV MOUNTAIN,FALSE,7/21/2016,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,5/19/2016,    iOS Development Immersive ,    Salt Lake City ,,4,4,4,4
+DEV MOUNTAIN,FALSE,5/16/2016,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,5/16/2016,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,4
+DEV MOUNTAIN,FALSE,5/10/2016,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,5/9/2016,,    Provo ,,5,4,4,5
+DEV MOUNTAIN,FALSE,5/9/2016,    Web Development Immersive ,    Provo ,,1,1,1,1
+DEV MOUNTAIN,FALSE,4/27/2016,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,4/20/2016,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,4/12/2016,    Web Development Immersive ,    Provo ,,5,4,4,5
+DEV MOUNTAIN,FALSE,2/19/2016,    Web Development Immersive ,    Dallas ,,5,5,5,5
+DEV MOUNTAIN,FALSE,2/16/2016,    Web Development Immersive ,    Provo ,,5,4,4,5
+DEV MOUNTAIN,FALSE,2/14/2016,    Web Development Immersive ,    Dallas ,,5,5,5,5
+DEV MOUNTAIN,FALSE,2/11/2016,    Web Development Immersive ,    Provo ,,5,4,5,5
+DEV MOUNTAIN,FALSE,2/11/2016,    Web Development Immersive ,    Provo ,,5,4,4,5
+DEV MOUNTAIN,FALSE,2/11/2016,    Web Development Immersive ,    Provo ,,5,4,5,5
+DEV MOUNTAIN,FALSE,2/11/2016,    Web Development After Hours ,    Provo ,,1,2,1,1
+DEV MOUNTAIN,FALSE,2/8/2016,    Web Development Immersive ,    Dallas ,,5,5,5,5
+DEV MOUNTAIN,FALSE,1/31/2016,    Web Development Immersive ,    Dallas ,,5,5,4,5
+DEV MOUNTAIN,FALSE,5/18/2016,,    Provo ,,2,3,2,1
+DEV MOUNTAIN,FALSE,1/6/2016,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,12/14/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,11/20/2015,    Web Development Immersive ,    Provo ,,2,2,2,1
+DEV MOUNTAIN,FALSE,11/20/2015,    Web Development After Hours ,    Salt Lake City ,,5,5,5,4
+DEV MOUNTAIN,FALSE,11/17/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,11/11/2015,,    Provo ,,2,3,2,1
+DEV MOUNTAIN,FALSE,11/11/2015,    Web Development After Hours ,    Provo ,,5,5,5,4
+DEV MOUNTAIN,FALSE,11/10/2015,,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,11/10/2015,    Web Development Immersive ,    Provo ,,1,3,2,1
+DEV MOUNTAIN,FALSE,11/8/2015,,    Provo ,,1,1,1,1
+DEV MOUNTAIN,FALSE,11/6/2015,    Web Development After Hours ,    Provo ,,2,1,2,1
+DEV MOUNTAIN,FALSE,11/4/2015,    iOS Development Immersive ,    Salt Lake City ,,4,4,4,5
+DEV MOUNTAIN,FALSE,11/6/2015,,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,11/4/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,11/4/2015,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,4
+DEV MOUNTAIN,FALSE,11/4/2015,    Web Development After Hours ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,10/19/2015,    Web Development After Hours ,    Provo ,,2,2,1,1
+DEV MOUNTAIN,FALSE,10/15/2015,,    Provo ,,5,5,5,4
+DEV MOUNTAIN,FALSE,10/5/2015,    Web Development Immersive ,    Provo ,,5,5,4,4
+DEV MOUNTAIN,FALSE,9/23/2015,    Web Development Immersive ,    Provo ,,3,3,3,1
+DEV MOUNTAIN,FALSE,8/23/2015,,    Provo ,,5,5,5,4
+DEV MOUNTAIN,FALSE,8/21/2015,    Web Development Immersive ,    Provo ,,5,5,5,4
+DEV MOUNTAIN,FALSE,8/21/2015,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,4
+DEV MOUNTAIN,FALSE,8/21/2015,,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/21/2015,,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/21/2015,,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/21/2015,    Web Development After Hours ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/21/2015,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,3
+DEV MOUNTAIN,FALSE,8/21/2015,    Web Development After Hours ,    Provo ,,5,5,5,4
+DEV MOUNTAIN,FALSE,8/21/2015,    Web Development After Hours ,    Salt Lake City ,,3,4,3,1
+DEV MOUNTAIN,FALSE,8/21/2015,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/7/2015,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/6/2015,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/6/2015,,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/6/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/6/2015,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/4/2015,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/4/2015,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,4
+DEV MOUNTAIN,FALSE,8/4/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/4/2015,    Web Development Immersive ,    Provo ,,4,5,4,4
+DEV MOUNTAIN,FALSE,8/21/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,8/21/2015,    Web Development After Hours ,    Salt Lake City ,,4,4,3,1
+DEV MOUNTAIN,FALSE,7/15/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,7/10/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,7/15/2015,    Web Development After Hours ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,7/6/2015,    Web Development After Hours ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,5/1/2015,    Web Development After Hours ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,7/6/2015,    Web Development Immersive ,    Provo ,,4,4,4,4
+DEV MOUNTAIN,FALSE,4/22/2015,,    Provo ,,5,5,5,4
+DEV MOUNTAIN,FALSE,4/22/2015,,    Provo ,,5,5,5,4
+DEV MOUNTAIN,FALSE,8/21/2015,,    Salt Lake City ,,5,5,5,5
+DEV MOUNTAIN,FALSE,4/22/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,4/22/2015,,    Provo ,,5,5,5,4
+DEV MOUNTAIN,FALSE,4/21/2015,,,,5,5,5,5
+DEV MOUNTAIN,FALSE,4/21/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,4/21/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,4/21/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,4/21/2015,,    Provo ,,5,4,5,3
+DEV MOUNTAIN,FALSE,4/21/2015,    Web Development Immersive ,    Provo ,,5,5,5,3
+DEV MOUNTAIN,FALSE,4/21/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,4/21/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,4/21/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,4/20/2015,    Web Development After Hours ,    Provo ,,5,5,5,4
+DEV MOUNTAIN,FALSE,4/15/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,4/13/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,4/6/2015,    Web Development Immersive ,    Provo ,,5,5,5,4
+DEV MOUNTAIN,FALSE,4/5/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,4/3/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,2/26/2015,    Web Development After Hours ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,2/17/2015,    Web Development Immersive ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,11/6/2014,,,,5,5,5,5
+DEV MOUNTAIN,FALSE,10/24/2014,    Web Development After Hours ,    Salt Lake City ,,5,5,5,5
+DEV MOUNTAIN,FALSE,9/15/2014,    Web Development After Hours ,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,9/15/2014,,    Provo ,,5,5,5,5
+DEV MOUNTAIN,FALSE,5/31/2017,    Web Development Immersive ,    Provo ,,1,1,1,1
+DEV MOUNTAIN,FALSE,1/10/2017,    Web Development Immersive ,    Provo ,,3,3,3,1
+DEV MOUNTAIN,FALSE,12/17/2016,    Web Development After Hours ,    Provo ,,3,1,5,1
+DEV MOUNTAIN,FALSE,10/24/2016,    Web Development Immersive ,    Provo ,,5,4,5,4
+DEV MOUNTAIN,FALSE,10/12/2016,    Web Development Immersive ,    Provo ,,4,4,4,1
+DEV MOUNTAIN,FALSE,9/27/2016,,    Provo ,,4,5,4,2
+DEV MOUNTAIN,FALSE,9/14/2016,    Web Development After Hours ,    Provo ,,5,3,5,4
+DEV MOUNTAIN,FALSE,8/10/2016,    Web Development Immersive ,    Provo ,,5,4,4,5
+DEV MOUNTAIN,FALSE,7/21/2016,    iOS Development Immersive ,    Salt Lake City ,,5,5,5,5
+DEV MOUNTAIN,FALSE,6/18/2016,    Web Development Immersive ,    Provo ,,5,4,5,5
+DEV MOUNTAIN,FALSE,6/17/2016,,    Provo ,,5,5,5,5
+IRON HACK,FALSE,8/25/2017,    Web Development Bootcamp (Full-time)  ,    Barcelona , GitHub,5,5,5,5
+IRON HACK,FALSE,8/23/2017,    Web Development Part-Time ,    Miami , LinkedIn,5,4,4,5
+IRON HACK,FALSE,8/22/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,8/21/2017,    Web Development Bootcamp (Full-time)  ,    Miami , GitHub,5,5,5,5
+IRON HACK,FALSE,8/21/2017,    UX/UI Design ,    Miami , LinkedIn,5,3,5,5
+IRON HACK,FALSE,8/19/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,0
+IRON HACK,FALSE,8/18/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,4,5,0
+IRON HACK,FALSE,8/16/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,8/16/2017,    UX/UI Design ,    Miami , LinkedIn,4,4,4,4
+IRON HACK,FALSE,8/14/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,8/9/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,8/5/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,7/27/2017,    Web Development Bootcamp (Full-time)  ,    Barcelona , LinkedIn,4,4,5,4
+IRON HACK,FALSE,7/26/2017,    Web Development Bootcamp (Full-time)  ,    Barcelona , LinkedIn,5,5,5,5
+IRON HACK,FALSE,7/20/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,4,4,5,5
+IRON HACK,FALSE,7/6/2017,    UX/UI Design ,    Madrid , LinkedIn,5,5,5,5
+IRON HACK,FALSE,7/4/2017,    Web Development Bootcamp (Full-time)  ,    Barcelona , LinkedIn,5,5,4,5
+IRON HACK,FALSE,6/24/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,6/20/2017,    Web Development Bootcamp ,    Madrid , LinkedIn,5,5,5,5
+IRON HACK,FALSE,6/19/2017,    Web Development Bootcamp ,    Madrid , LinkedIn,5,5,5,5
+IRON HACK,FALSE,6/16/2017,    Web Development Bootcamp ,    Madrid , LinkedIn,5,5,5,5
+IRON HACK,FALSE,6/15/2017,    Web Development Bootcamp ,    Madrid , LinkedIn,5,5,5,5
+IRON HACK,FALSE,6/13/2017,    Web Development Bootcamp ,    Madrid , GitHub,5,5,4,5
+IRON HACK,FALSE,6/12/2017,    Web Development Bootcamp ,    Madrid , LinkedIn,5,5,5,4
+IRON HACK,FALSE,6/12/2017,    Web Development Bootcamp ,    Madrid , GitHub,5,5,5,5
+IRON HACK,FALSE,6/9/2017,    UX/UI Design ,    Madrid , LinkedIn,5,5,5,5
+IRON HACK,FALSE,6/8/2017,    UX/UI Design ,    Madrid , LinkedIn,5,5,5,5
+IRON HACK,FALSE,6/8/2017,    Web Development Bootcamp ,    Madrid , LinkedIn,5,5,5,5
+IRON HACK,FALSE,6/8/2017,    Web Development Bootcamp ,    Madrid , LinkedIn,5,5,4,4
+IRON HACK,FALSE,6/7/2017,    Web Development Bootcamp ,    Madrid , LinkedIn,5,5,5,4
+IRON HACK,FALSE,6/6/2017,    Web Development Bootcamp ,    Madrid , LinkedIn,5,5,5,5
+IRON HACK,FALSE,6/6/2017,,    Madrid , LinkedIn,5,5,5,5
+IRON HACK,FALSE,6/5/2017,    UX/UI Design ,    Miami , LinkedIn,5,4,5,4
+IRON HACK,FALSE,6/5/2017,    UX/UI Design ,    Madrid , LinkedIn,5,4,4,5
+IRON HACK,FALSE,6/5/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,6/4/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,4,5,5
+IRON HACK,FALSE,6/2/2017,    Web Development Bootcamp ,    Madrid , LinkedIn,5,5,4,4
+IRON HACK,FALSE,6/2/2017,    UX/UI Design ,    Madrid , LinkedIn,5,5,5,5
+IRON HACK,FALSE,6/1/2017,    Web Development Bootcamp ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/31/2017,    Web Development Bootcamp ,    Madrid , GitHub,5,5,5,5
+IRON HACK,FALSE,5/30/2017,    UX/UI Design ,    Madrid , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/29/2017,,    Barcelona , GitHub,5,5,5,4
+IRON HACK,FALSE,5/28/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/27/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/26/2017,    Web Development Part-Time ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/25/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,4,5,4
+IRON HACK,FALSE,5/25/2017,    UX/UI Design ,    Madrid , Linkedin,5,4,5,0
+IRON HACK,FALSE,5/25/2017,    UX/UI Design ,    Madrid , Linkedin,5,5,5,5
+IRON HACK,FALSE,5/23/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,4
+IRON HACK,FALSE,5/23/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/23/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/23/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/23/2017,    UX/UI Design ,    Madrid , LinkedIn,5,4,4,4
+IRON HACK,FALSE,5/22/2017,    UX/UI Design ,    Miami , LinkedIn,4,4,5,4
+IRON HACK,FALSE,5/22/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,0
+IRON HACK,FALSE,5/20/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/19/2017,    UX/UI Design ,    Madrid , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/17/2017,,    Miami , LinkedIn,5,4,5,4
+IRON HACK,FALSE,5/17/2017,    UX/UI Design ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/17/2017,    Web Development Bootcamp ,    Madrid , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/17/2017,    Web Development Bootcamp ,    Madrid , Linkedin,5,4,5,5
+IRON HACK,FALSE,5/11/2017,    Web Development Bootcamp ,    Madrid , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/7/2017,    Web Development Bootcamp ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/3/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/2/2017,    UX/UI Design ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/2/2017,    Web Development Bootcamp ,    Miami , LinkedIn,5,5,5,0
+IRON HACK,FALSE,5/2/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,4/6/2017,,    Barcelona , GitHub,4,4,4,4
+IRON HACK,FALSE,3/29/2017,,    Barcelona , LinkedIn,4,5,5,0
+IRON HACK,FALSE,3/28/2017,,    Miami , GitHub,5,5,5,5
+IRON HACK,FALSE,3/27/2017,,    Barcelona , LinkedIn,4,4,5,0
+IRON HACK,FALSE,3/13/2017,    UX/UI Design ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,5/23/2017,    Web Development Bootcamp ,    Madrid , Linkedin,5,5,5,5
+IRON HACK,FALSE,1/9/2017,    Web Development Bootcamp (Full-time)  ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,3/18/2017,    Web Development Part-Time ,    Miami , LinkedIn,5,5,5,5
+IRON HACK,FALSE,7/26/2017,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,7/13/2017,    Web Development Bootcamp (Full-time)  ,    Barcelona ,,5,5,5,5
+IRON HACK,FALSE,7/10/2017,    UX/UI Design ,    Miami ,,4,4,4,0
+IRON HACK,FALSE,7/7/2017,    Web Development Bootcamp (Full-time)  ,    Barcelona ,,5,5,5,0
+IRON HACK,FALSE,7/3/2017,    Web Development Bootcamp (Full-time)  ,    Barcelona ,,5,5,5,0
+IRON HACK,FALSE,6/20/2017,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/16/2017,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/15/2017,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,6/15/2017,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/14/2017,    UX/UI Design ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/13/2017,    Web Development Bootcamp (Full-time)  ,    Madrid ,,4,4,4,5
+IRON HACK,FALSE,6/10/2017,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/9/2017,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/8/2017,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/7/2017,    Web Development Bootcamp (Full-time)  ,    Barcelona ,,5,5,5,5
+IRON HACK,FALSE,6/6/2017,    Web Development Bootcamp ,    Madrid ,,5,4,5,5
+IRON HACK,FALSE,6/5/2017,,    Miami ,,5,5,5,5
+IRON HACK,FALSE,6/5/2017,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/3/2017,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,5,5,0
+IRON HACK,FALSE,6/2/2017,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/1/2017,    Front-End Web Development ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,5/30/2017,    Web Development Part-Time ,    Miami ,,5,5,5,4
+IRON HACK,FALSE,5/29/2017,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,5/24/2017,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,5/22/2017,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,5/22/2017,,    Miami ,,4,3,5,4
+IRON HACK,FALSE,5/17/2017,    UX/UI Design ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,4/25/2017,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,4/10/2017,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,4/6/2017,,    Barcelona ,,4,3,2,3
+IRON HACK,FALSE,5/1/2017,    UX/UI Design ,    Miami ,,5,4,5,5
+IRON HACK,FALSE,4/17/2017,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,4/3/2017,,    Barcelona ,,5,5,5,5
+IRON HACK,FALSE,3/28/2017,    UX/UI Design ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,3/28/2017,,    Barcelona ,,5,5,5,5
+IRON HACK,FALSE,3/28/2017,,    Barcelona ,,4,3,4,3
+IRON HACK,FALSE,3/28/2017,    UX/UI Design ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,3/21/2017,    UX/UI Design ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,3/18/2017,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,4/18/2017,,    Barcelona ,,5,4,5,5
+IRON HACK,FALSE,4/4/2017,,    Barcelona ,,5,4,5,5
+IRON HACK,FALSE,3/15/2017,    UX/UI Design ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,3/10/2017,    UX/UI Design ,    Miami ,,5,5,5,0
+IRON HACK,FALSE,3/2/2017,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,1/17/2017,    UX/UI Design ,    Miami ,,4,5,5,5
+IRON HACK,FALSE,11/26/2016,    Web Development Bootcamp ,    Miami ,,5,4,5,4
+IRON HACK,FALSE,11/16/2016,,    Miami ,,5,5,5,5
+IRON HACK,FALSE,11/7/2016,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,10/17/2016,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,9/3/2016,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,4,4,5
+IRON HACK,FALSE,8/4/2016,,,,5,5,5,5
+IRON HACK,FALSE,7/26/2016,    Web Development Bootcamp ,    Madrid ,,5,4,4,5
+IRON HACK,FALSE,6/28/2016,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,6/23/2016,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,7/18/2016,    Web Development Bootcamp ,    Miami ,,5,4,5,5
+IRON HACK,FALSE,6/14/2016,    Web Development Bootcamp ,    Madrid ,,5,4,4,4
+IRON HACK,FALSE,6/9/2016,    Web Development Bootcamp ,    Madrid ,,4,4,4,4
+IRON HACK,FALSE,5/30/2016,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,4,5,5
+IRON HACK,FALSE,5/26/2016,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,5/23/2016,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,5/3/2016,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,4,4,3
+IRON HACK,FALSE,4/10/2016,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,5,5,0
+IRON HACK,FALSE,4/9/2016,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,6/29/2016,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,4/6/2016,,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,4/4/2016,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,5,5,0
+IRON HACK,FALSE,4/1/2016,,    Miami ,,5,5,5,5
+IRON HACK,FALSE,4/1/2016,,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,4/1/2016,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,4/1/2016,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,3/25/2016,,    Miami ,,5,5,5,5
+IRON HACK,FALSE,3/21/2016,    Web Development Bootcamp ,    Madrid ,,5,4,5,5
+IRON HACK,FALSE,3/20/2016,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,3/16/2016,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,2/1/2016,,    Miami ,,5,5,5,5
+IRON HACK,FALSE,1/25/2016,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,5,5,0
+IRON HACK,FALSE,1/19/2016,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,12/29/2015,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,12/19/2015,    Web Development Bootcamp ,    Miami ,,4,4,5,5
+IRON HACK,FALSE,12/21/2015,,,,5,5,5,5
+IRON HACK,FALSE,12/19/2015,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,12/16/2015,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,12/18/2015,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,10/29/2015,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,10/25/2015,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,10/23/2015,    Web Development Bootcamp (Full-time)  ,    Miami ,,4,5,4,2
+IRON HACK,FALSE,12/19/2015,,    Miami ,,5,5,5,5
+IRON HACK,FALSE,12/21/2015,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,9/29/2015,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,9/1/2015,    iOS Mobile Bootcamp ,    Madrid ,,4,5,4,5
+IRON HACK,FALSE,8/26/2015,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,8/26/2015,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,8/25/2015,,    Miami ,,5,5,5,5
+IRON HACK,FALSE,8/21/2015,,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,8/16/2015,    Web Development Bootcamp (Full-time)  ,    Miami ,,3,3,3,1
+IRON HACK,FALSE,8/12/2015,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,4,5,5
+IRON HACK,FALSE,7/31/2015,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,7/31/2015,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,7/31/2015,    Web Development Bootcamp ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,7/24/2015,    iOS Mobile Bootcamp ,    Miami ,,5,4,4,4
+IRON HACK,FALSE,7/8/2015,    iOS Mobile Bootcamp ,    Miami ,,5,4,4,4
+IRON HACK,FALSE,7/1/2015,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/22/2015,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/20/2015,    iOS Mobile Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/18/2015,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/17/2015,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/17/2015,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/5/2015,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,6/2/2015,    Web Development Bootcamp ,    Miami ,,5,4,5,5
+IRON HACK,FALSE,6/1/2015,,    Miami ,,5,5,5,5
+IRON HACK,FALSE,5/14/2015,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,5/12/2015,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,4/13/2015,,    Miami ,,5,5,4,5
+IRON HACK,FALSE,4/12/2015,    Web Development Bootcamp ,    Miami ,,5,4,5,4
+IRON HACK,FALSE,3/31/2015,,    Miami ,,5,4,5,5
+IRON HACK,FALSE,3/13/2015,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,2/1/2015,    Web Development Bootcamp ,    Madrid ,,5,5,5,5
+IRON HACK,FALSE,2/1/2015,    iOS Mobile Bootcamp ,    Madrid ,,5,4,5,5
+IRON HACK,FALSE,1/30/2015,,    Miami ,,5,5,5,5
+IRON HACK,FALSE,1/27/2015,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,4,4,5
+IRON HACK,FALSE,1/22/2015,,    Miami ,,5,4,5,4
+IRON HACK,FALSE,12/17/2014,    Web Development Bootcamp (Full-time)  ,    Miami ,,3,3,3,2
+IRON HACK,FALSE,11/12/2014,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,5,5,5
+IRON HACK,FALSE,12/22/2016,    Web Development Bootcamp ,    Miami ,,5,4,5,5
+IRON HACK,FALSE,11/30/2016,    Web Development Bootcamp (Full-time)  ,    Miami ,,5,4,5,5
+HACK REACTOR,FALSE,8/18/2017,    Hack Reactor ,    Los Angeles , LinkedIn,5,5,5,4
+HACK REACTOR,FALSE,7/27/2017,    Hack Reactor Remote ,    Online , GitHub,5,5,5,5
+HACK REACTOR,FALSE,7/13/2017,    Hack Reactor ,    Austin , LinkedIn,5,5,5,5
+HACK REACTOR,FALSE,6/30/2017,    Hack Reactor ,    Austin , GitHub,5,5,5,5
+HACK REACTOR,FALSE,6/16/2017,    Hack Reactor ,    Los Angeles , GitHub,5,5,5,5
+HACK REACTOR,FALSE,5/29/2017,    Hack Reactor Remote ,    Online , Linkedin,5,5,5,5
+HACK REACTOR,FALSE,5/3/2017,    Hack Reactor Remote ,    Online , LinkedIn,5,5,5,5
+HACK REACTOR,FALSE,5/3/2017,    Hack Reactor Remote ,    Online , LinkedIn,5,5,5,5
+HACK REACTOR,FALSE,5/2/2017,    Hack Reactor Remote ,    Online , LinkedIn,5,5,5,5
+HACK REACTOR,FALSE,5/2/2017,    Hack Reactor Remote ,    Online , LinkedIn,5,5,5,5
+HACK REACTOR,FALSE,4/18/2017,    Hack Reactor ,    New York City , LinkedIn,5,5,5,5
+HACK REACTOR,FALSE,1/4/2017,    Hack Reactor ,    Austin , LinkedIn,5,5,5,5
+HACK REACTOR,FALSE,6/5/2017,    Hack Reactor Remote ,    Online , LinkedIn,5,5,5,5
+HACK REACTOR,FALSE,8/30/2017,    Hack Reactor ,    San Francisco ,,1,4,4,0
+HACK REACTOR,FALSE,8/29/2017,    Hack Reactor ,    Los Angeles ,,5,5,5,5
+HACK REACTOR,FALSE,8/23/2017,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,8/17/2017,    Hack Reactor ,    Austin ,,4,5,5,3
+HACK REACTOR,FALSE,8/3/2017,    Hack Reactor ,    Los Angeles ,,5,5,5,5
+HACK REACTOR,FALSE,8/4/2017,    Hack Reactor ,    Austin , LinkedIn,5,5,5,5
+HACK REACTOR,FALSE,8/2/2017,    Hack Reactor ,    Los Angeles ,,5,5,5,5
+HACK REACTOR,FALSE,7/13/2017,    Hack Reactor ,    Austin ,,5,5,5,5
+HACK REACTOR,FALSE,7/12/2017,,    Austin ,,5,5,4,3
+HACK REACTOR,FALSE,6/23/2017,    Hack Reactor ,    Austin ,,4,5,3,5
+HACK REACTOR,FALSE,5/15/2017,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,5/14/2017,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,5/9/2017,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,5/4/2017,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,5/2/2017,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,4/11/2017,    Hack Reactor ,    San Francisco ,,5,5,5,4
+HACK REACTOR,FALSE,3/8/2017,    Hack Reactor ,    Los Angeles ,,5,5,5,5
+HACK REACTOR,FALSE,2/28/2017,    Hack Reactor ,    San Francisco ,,3,3,3,3
+HACK REACTOR,FALSE,1/5/2017,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,1/2/2017,    Hack Reactor ,    Austin ,,5,5,5,5
+HACK REACTOR,FALSE,12/20/2016,    Hack Reactor ,    San Francisco ,,5,5,5,4
+HACK REACTOR,FALSE,12/19/2016,    Hack Reactor Remote ,    Online ,,5,5,4,3
+HACK REACTOR,FALSE,12/16/2016,    Hack Reactor ,    San Francisco ,,5,5,5,4
+HACK REACTOR,FALSE,12/15/2016,,    San Francisco ,,5,5,5,3
+HACK REACTOR,FALSE,12/14/2016,    Hack Reactor ,    San Francisco ,,5,5,5,3
+HACK REACTOR,FALSE,12/14/2016,    Hack Reactor ,    San Francisco ,,5,4,4,2
+HACK REACTOR,FALSE,12/14/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,12/14/2016,    Hack Reactor ,    Austin ,,5,5,5,5
+HACK REACTOR,FALSE,12/13/2016,    Hack Reactor ,    Austin ,,5,5,5,5
+HACK REACTOR,FALSE,12/13/2016,    Hack Reactor ,    Austin ,,5,5,5,5
+HACK REACTOR,FALSE,12/13/2016,    Hack Reactor Remote ,    Online ,,5,4,4,5
+HACK REACTOR,FALSE,12/13/2016,    Hack Reactor ,    San Francisco ,,4,4,4,4
+HACK REACTOR,FALSE,12/13/2016,    Hack Reactor Remote ,    Online ,,5,4,5,4
+HACK REACTOR,FALSE,12/13/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,12/12/2016,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,12/12/2016,    Hack Reactor ,    San Francisco ,,5,4,5,4
+HACK REACTOR,FALSE,12/12/2016,,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,12/12/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,12/11/2016,    Hack Reactor Remote ,    Online ,,5,4,4,4
+HACK REACTOR,FALSE,11/20/2016,    Hack Reactor ,    Los Angeles ,,1,1,1,1
+HACK REACTOR,FALSE,11/19/2016,,    Online ,,1,1,1,1
+HACK REACTOR,FALSE,11/9/2016,    Hack Reactor ,    New York City ,,5,5,5,5
+HACK REACTOR,FALSE,11/5/2016,    Hack Reactor ,    New York City ,,1,1,1,1
+HACK REACTOR,FALSE,12/10/2016,    Hack Reactor ,    San Francisco ,,4,4,4,4
+HACK REACTOR,FALSE,10/31/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/28/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/31/2016,    Hack Reactor Remote ,    Online ,,5,5,5,4
+HACK REACTOR,FALSE,10/28/2016,,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/28/2016,    Hack Reactor ,    San Francisco ,,4,4,4,3
+HACK REACTOR,FALSE,10/28/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/27/2016,,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/27/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/27/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/26/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/25/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/23/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/22/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/22/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/21/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,12/10/2016,    Hack Reactor ,    San Francisco ,,5,4,5,4
+HACK REACTOR,FALSE,12/10/2016,    Hack Reactor ,    San Francisco ,,5,5,5,4
+HACK REACTOR,FALSE,10/21/2016,,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/21/2016,    Hack Reactor ,    San Francisco ,,5,5,5,0
+HACK REACTOR,FALSE,8/25/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,7/22/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,5/17/2016,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,6/17/2016,    Hack Reactor ,    San Francisco ,,2,2,1,2
+HACK REACTOR,FALSE,5/12/2016,    Hack Reactor ,    San Francisco ,,5,5,5,0
+HACK REACTOR,FALSE,3/29/2016,    Hack Reactor Remote ,    Online ,,1,1,1,0
+HACK REACTOR,FALSE,4/23/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,3/19/2016,,    San Francisco ,,2,4,1,0
+HACK REACTOR,FALSE,1/14/2016,,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,11/4/2015,    Hack Reactor ,    San Francisco ,,5,5,5,0
+HACK REACTOR,FALSE,10/29/2015,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,10/13/2015,,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,10/9/2015,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/14/2015,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,9/28/2015,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,10/9/2015,,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,10/8/2015,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,9/4/2015,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,8/21/2015,,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,5/2/2015,,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,5/2/2015,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,12/19/2014,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,7/2/2015,    Hack Reactor ,    San Francisco ,,5,4,5,5
+HACK REACTOR,FALSE,5/8/2015,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,12/11/2014,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,11/12/2014,,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,11/12/2014,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/25/2014,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/27/2014,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/18/2014,,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/18/2014,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/17/2014,    Hack Reactor ,    San Francisco ,,5,4,5,5
+HACK REACTOR,FALSE,10/17/2014,,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/16/2014,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/14/2014,,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,8/17/2017,    Hack Reactor Remote ,    Online ,,1,1,1,1
+HACK REACTOR,FALSE,7/10/2017,    Hack Reactor ,    San Francisco ,,3,3,3,1
+HACK REACTOR,FALSE,5/3/2017,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,4/22/2017,,    San Francisco ,,1,1,1,2
+HACK REACTOR,FALSE,4/16/2017,    Hack Reactor Remote ,    Online ,,2,3,2,2
+HACK REACTOR,FALSE,4/15/2017,    Hack Reactor ,    Los Angeles ,,1,2,1,1
+HACK REACTOR,FALSE,2/27/2017,    Hack Reactor ,    San Francisco ,,1,1,4,1
+HACK REACTOR,FALSE,12/20/2016,,    Online ,,2,2,4,2
+HACK REACTOR,FALSE,12/19/2016,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,12/16/2016,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,12/15/2016,    Hack Reactor ,    San Francisco ,,5,4,4,3
+HACK REACTOR,FALSE,12/15/2016,    Hack Reactor ,    San Francisco ,,5,4,4,3
+HACK REACTOR,FALSE,12/15/2016,,    San Francisco ,,5,4,5,5
+HACK REACTOR,FALSE,12/15/2016,    Hack Reactor ,    San Francisco ,,5,5,5,4
+HACK REACTOR,FALSE,12/13/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,12/14/2016,,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,12/13/2016,    Hack Reactor Remote ,    Online ,,5,5,4,4
+HACK REACTOR,FALSE,12/11/2016,,    San Francisco ,,5,3,3,0
+HACK REACTOR,FALSE,12/12/2016,    Hack Reactor ,    San Francisco ,,4,4,4,4
+HACK REACTOR,FALSE,12/10/2016,    Hack Reactor ,    San Francisco ,,5,4,5,4
+HACK REACTOR,FALSE,12/11/2016,    Hack Reactor ,    San Francisco ,,3,3,3,0
+HACK REACTOR,FALSE,12/10/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,12/9/2016,    Hack Reactor Remote ,    Online ,,5,5,5,5
+HACK REACTOR,FALSE,12/9/2016,    Hack Reactor ,    San Francisco ,,1,3,1,3
+HACK REACTOR,FALSE,12/1/2016,,    San Francisco ,,2,3,4,2
+HACK REACTOR,FALSE,11/29/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,11/29/2016,    Hack Reactor Remote ,    San Francisco ,,2,3,1,0
+HACK REACTOR,FALSE,12/1/2016,,    Los Angeles ,,3,4,4,1
+HACK REACTOR,FALSE,11/25/2016,    Hack Reactor Remote ,    Online ,,2,4,3,2
+HACK REACTOR,FALSE,11/24/2016,,    Online ,,1,3,1,3
+HACK REACTOR,FALSE,12/8/2016,    Hack Reactor ,    San Francisco ,,1,1,1,2
+HACK REACTOR,FALSE,11/14/2016,    Hack Reactor ,    New York City ,,5,5,5,5
+HACK REACTOR,FALSE,11/7/2016,    Hack Reactor ,    New York City ,,5,5,5,5
+HACK REACTOR,FALSE,11/2/2016,    Hack Reactor Remote ,    Online ,,5,4,4,5
+HACK REACTOR,FALSE,10/28/2016,    Hack Reactor ,    San Francisco ,,5,5,5,4
+HACK REACTOR,FALSE,10/28/2016,    Hack Reactor ,    San Francisco ,,2,3,1,4
+HACK REACTOR,FALSE,10/28/2016,    Hack Reactor ,    San Francisco ,,5,5,5,0
+HACK REACTOR,FALSE,10/28/2016,,    San Francisco ,,5,5,5,5
+HACK REACTOR,FALSE,10/25/2016,    Hack Reactor ,    San Francisco ,,5,5,5,4
+HACK REACTOR,FALSE,10/24/2016,    Hack Reactor ,    San Francisco ,,5,4,5,0
+HACK REACTOR,FALSE,10/23/2016,    Hack Reactor ,    San Francisco ,,4,5,5,5
+HACK REACTOR,FALSE,10/22/2016,    Hack Reactor ,    San Francisco ,,5,5,5,5
+GALVANIZE,FALSE,7/11/2017,    Web Development Immersive ,    Austin , LinkedIn,5,5,5,5
+GALVANIZE,FALSE,6/24/2017,    Data Science Immersive ,    Austin , GitHub,5,5,5,5
+GALVANIZE,FALSE,6/23/2017,    Data Science Immersive ,    Austin , LinkedIn,5,5,5,4
+GALVANIZE,FALSE,3/23/2017,    Web Development Immersive ,    San Francisco , GitHub,3,2,3,3
+GALVANIZE,FALSE,3/10/2017,    Data Science Immersive ,    San Francisco , LinkedIn,5,5,5,5
+GALVANIZE,FALSE,3/1/2017,    Web Development Immersive ,    San Francisco , GitHub,5,5,5,5
+GALVANIZE,FALSE,7/22/2017,    Web Development Immersive ,    Phoenix ,,5,5,5,5
+GALVANIZE,FALSE,7/16/2017,    Web Development Immersive ,    Seattle ,,2,2,2,0
+GALVANIZE,FALSE,7/11/2017,    Data Science Immersive ,    Austin ,,5,4,5,4
+GALVANIZE,FALSE,6/25/2017,    Data Science Immersive ,    Austin ,,5,5,5,5
+GALVANIZE,FALSE,6/24/2017,    Data Science Immersive ,    Austin ,,5,5,5,5
+GALVANIZE,FALSE,6/23/2017,    Data Science Immersive ,    Austin ,,5,5,5,5
+GALVANIZE,FALSE,6/23/2017,    Data Science Immersive ,    Austin ,,5,5,5,5
+GALVANIZE,FALSE,4/13/2017,    Web Development Immersive ,    Austin ,,5,5,5,5
+GALVANIZE,FALSE,3/30/2017,    Web Development Immersive ,    Denver ,,5,5,5,5
+GALVANIZE,FALSE,3/29/2017,    Web Development Immersive ,    San Francisco ,,1,2,2,2
+GALVANIZE,FALSE,3/18/2017,    Web Development Immersive ,    Boulder ,,5,4,4,4
+GALVANIZE,FALSE,3/6/2017,    Web Development Immersive ,    Boulder ,,5,4,5,4
+GALVANIZE,FALSE,3/3/2017,    Web Development Immersive ,    Boulder ,,5,5,5,5
+GALVANIZE,FALSE,3/2/2017,    Web Development Immersive ,    Boulder ,,5,4,5,5
+GALVANIZE,FALSE,1/18/2017,    Web Development Immersive ,    Austin ,,5,5,5,5
+GALVANIZE,FALSE,1/16/2017,    Web Development Immersive ,    Seattle ,,5,5,5,5
+GALVANIZE,FALSE,1/3/2017,    Data Science Immersive ,    San Francisco ,,5,5,5,5
+GALVANIZE,FALSE,12/7/2016,    Data Science Immersive ,    San Francisco ,,5,4,5,5
+GALVANIZE,FALSE,12/7/2016,,    Fort Collins ,,5,5,5,0
+GALVANIZE,FALSE,12/4/2016,    Data Science Immersive ,    San Francisco ,,5,5,5,0
+GALVANIZE,FALSE,12/2/2016,    Data Science Immersive ,    Austin ,,5,5,5,5
+GALVANIZE,FALSE,11/28/2016,    Web Development Immersive ,    Denver ,,5,5,5,5
+GALVANIZE,FALSE,11/25/2016,    Web Development Immersive ,    Denver ,,5,5,5,5
+GALVANIZE,FALSE,11/1/2016,    Web Development Immersive ,    Denver ,,5,5,5,5
+GALVANIZE,FALSE,9/22/2016,    Web Development Immersive ,    Denver ,,5,5,5,4
+GALVANIZE,FALSE,8/14/2016,    Web Development Immersive ,    San Francisco ,,5,5,5,4
+GALVANIZE,FALSE,7/27/2016,    Web Development Immersive ,    San Francisco ,,5,5,5,5
+GALVANIZE,FALSE,7/27/2016,    Data Science Immersive ,    San Francisco ,,5,5,5,5
+GALVANIZE,FALSE,7/26/2016,    Data Science Immersive ,    Denver ,,5,5,5,3
+GALVANIZE,FALSE,7/16/2016,,,,5,4,5,5
+GALVANIZE,FALSE,7/12/2016,    Web Development Immersive ,    Boulder ,,4,4,5,4
+GALVANIZE,FALSE,7/3/2016,    Data Science Immersive ,    San Francisco ,,5,4,5,5
+GALVANIZE,FALSE,6/25/2016,    Web Development Immersive ,    Denver ,,5,5,5,5
+GALVANIZE,FALSE,6/16/2016,    Data Science Immersive ,    Seattle ,,5,5,5,4
+GALVANIZE,FALSE,6/10/2016,    Data Science Immersive ,    Seattle ,,5,5,5,5
+GALVANIZE,FALSE,11/22/2016,,    Boulder ,,1,1,4,1
+GALVANIZE,FALSE,6/8/2016,    Data Science Immersive ,    San Francisco ,,5,5,5,5
+GALVANIZE,FALSE,6/2/2016,    Web Development Immersive ,    Boulder ,,4,4,4,1
+GALVANIZE,FALSE,11/1/2016,    Web Development Immersive ,    Denver ,,5,5,5,5
+GALVANIZE,FALSE,6/2/2016,    Data Science Immersive ,    San Francisco ,,5,5,5,5
+GALVANIZE,FALSE,5/27/2016,    Data Science Immersive ,    Denver ,,5,4,5,4
+GALVANIZE,FALSE,5/24/2016,    Web Development Immersive ,    Denver ,,5,5,5,5
+GALVANIZE,FALSE,10/5/2016,    Web Development Immersive ,    Denver ,,5,5,5,5
+GALVANIZE,FALSE,6/8/2016,    Web Development Immersive ,    Boulder ,,5,5,5,3
+GALVANIZE,FALSE,5/24/2016,    Data Science Immersive ,    Denver ,,5,5,5,5
+GALVANIZE,FALSE,5/18/2016,,    Seattle ,,5,5,5,5
+GALVANIZE,FALSE,5/10/2016,    Web Development Immersive ,    Denver ,,5,5,5,4
+GALVANIZE,FALSE,5/9/2016,    Data Science Immersive ,    Denver ,,4,4,5,0
+GALVANIZE,FALSE,5/11/2016,    Web Development Immersive ,    Boulder ,,5,5,5,5
+GALVANIZE,FALSE,5/5/2016,    Web Development Immersive ,    Denver ,,5,4,5,4
+GALVANIZE,FALSE,5/1/2016,    Data Science Immersive ,    Denver ,,2,5,2,1
+GALVANIZE,FALSE,3/3/2016,    Data Science Immersive ,    San Francisco ,,5,5,5,5
+GALVANIZE,FALSE,1/26/2016,    Data Science Immersive ,    San Francisco ,,1,2,2,1
+GALVANIZE,FALSE,12/15/2015,    Web Development Immersive ,    Seattle ,,3,5,4,2
+GALVANIZE,FALSE,12/8/2015,    Data Science Immersive ,    San Francisco ,,5,5,5,5
+GALVANIZE,FALSE,12/2/2015,    Data Science Immersive ,    San Francisco ,,2,3,3,2
+GALVANIZE,FALSE,6/21/2015,    Web Development Immersive ,    San Francisco ,,5,5,5,5
+GALVANIZE,FALSE,6/18/2015,    Web Development Immersive ,    San Francisco ,,5,5,5,5
+GALVANIZE,FALSE,6/18/2015,    Web Development Immersive ,    San Francisco ,,5,5,5,5
+GALVANIZE,FALSE,6/18/2015,    Web Development Immersive ,    San Francisco ,,5,4,5,4
+GALVANIZE,FALSE,6/18/2015,    Web Development Immersive ,    San Francisco ,,5,5,5,5
+GALVANIZE,FALSE,6/16/2015,    Web Development Immersive ,    San Francisco ,,3,3,3,2
+GALVANIZE,FALSE,5/5/2016,    Web Development Immersive ,    Denver ,,5,5,5,5
+GALVANIZE,FALSE,5/8/2016,    Web Development Immersive ,    Denver ,,5,3,5,4
+GALVANIZE,FALSE,11/13/2014,    Web Development Immersive ,    Denver ,,4,3,5,5
+GALVANIZE,FALSE,5/3/2017,    Web Development Immersive ,    Denver ,,1,4,5,1
+GALVANIZE,FALSE,11/13/2014,    Web Development Immersive ,    Denver ,,5,5,5,5
+GALVANIZE,FALSE,4/15/2017,,    Boulder ,,1,1,1,1
+GALVANIZE,FALSE,4/8/2017,    Data Science Immersive ,    San Francisco ,,3,3,4,3
+GALVANIZE,FALSE,1/12/2017,    Data Science Immersive ,    San Francisco ,,5,5,5,5
+GALVANIZE,FALSE,1/12/2017,    Web Development Immersive ,    Denver ,,5,5,5,5
+GALVANIZE,FALSE,1/11/2017,    Web Development Immersive ,    Seattle ,,1,3,5,1
+GALVANIZE,FALSE,12/14/2016,    Web Development Immersive ,    Boulder ,,4,3,4,3
+GALVANIZE,FALSE,12/19/2016,    Web Development Immersive ,    Seattle ,,5,5,5,4
+GALVANIZE,FALSE,10/20/2016,,    Seattle ,,5,5,5,5
+GALVANIZE,FALSE,8/17/2016,    Web Development Immersive ,    Boulder ,,5,3,5,3
+GALVANIZE,FALSE,8/2/2016,    Data Science Immersive ,    San Francisco ,,5,4,5,5
+GALVANIZE,FALSE,7/28/2016,    Data Science Immersive ,    San Francisco ,,2,5,3,1
+GALVANIZE,FALSE,7/14/2016,    Data Science Immersive ,    San Francisco ,,5,5,5,5
+GALVANIZE,FALSE,11/2/2016,    Web Development Immersive ,    San Francisco ,,5,4,5,5
+GALVANIZE,FALSE,7/12/2016,    Web Development Immersive ,    Boulder ,,5,5,5,5
+GALVANIZE,FALSE,7/1/2016,    Web Development Immersive ,    San Francisco ,,4,4,5,5
+GALVANIZE,FALSE,7/5/2016,    Data Science Immersive ,    Seattle ,,4,5,5,4
+GALVANIZE,FALSE,6/24/2016,    Data Science Immersive ,    San Francisco ,,3,3,3,4
+GALVANIZE,FALSE,6/22/2016,    Data Science Immersive ,    Seattle ,,4,4,5,4
+GALVANIZE,FALSE,6/12/2016,    Data Science Immersive ,    Seattle ,,5,5,5,4
+GALVANIZE,FALSE,6/9/2016,    Data Science Immersive ,    San Francisco ,,5,5,5,5
+GALVANIZE,FALSE,6/6/2016,    Web Development Immersive ,    San Francisco ,,3,4,5,5
+GALVANIZE,FALSE,6/2/2016,,    Denver ,,5,4,5,3
+GALVANIZE,FALSE,11/22/2016,,    Boulder ,,1,1,1,1
+GALVANIZE,FALSE,11/18/2016,    Data Science Immersive ,    Austin ,,5,5,5,5
+GALVANIZE,FALSE,6/2/2016,    Data Science Immersive ,    San Francisco ,,5,5,5,4
+GALVANIZE,FALSE,6/1/2016,    Web Development Immersive ,    Boulder ,,5,5,4,4
+GALVANIZE,FALSE,6/1/2016,    Web Development Immersive ,    Boulder ,,5,4,4,4
+FLAT-IRON,FALSE,8/29/2017,    Web Development Immersive ,    New York City , LinkedIn,5,4,5,5
+FLAT-IRON,FALSE,8/15/2017,    Web Development Immersive ,    New York City , GitHub,5,5,5,0
+FLAT-IRON,FALSE,8/4/2017,    Online Web Developer Program ,    Online , GitHub,5,5,5,5
+FLAT-IRON,FALSE,8/1/2017,    Community-Powered Bootcamp ,    Online , GitHub,5,5,5,0
+FLAT-IRON,FALSE,7/31/2017,,    Online , LinkedIn,5,5,5,0
+FLAT-IRON,FALSE,7/31/2017,,    Online , GitHub,5,5,5,0
+FLAT-IRON,FALSE,7/26/2017,,    Online , GitHub,5,5,5,0
+FLAT-IRON,FALSE,7/24/2017,    Online Web Developer Program ,    Online , LinkedIn,5,5,5,5
+FLAT-IRON,FALSE,7/21/2017,    Online Web Developer Program ,    Online , LinkedIn,5,5,5,5
+FLAT-IRON,FALSE,7/6/2017,    iOS Development Immersive ,    New York City , LinkedIn,5,4,5,5
+FLAT-IRON,FALSE,7/6/2017,    Online Web Developer Program ,    Online , GitHub,5,5,5,5
+FLAT-IRON,FALSE,7/5/2017,    Web Development Immersive ,    New York City , GitHub,5,5,5,4
+FLAT-IRON,FALSE,5/7/2017,    Web Development Immersive ,    New York City , GitHub,5,4,5,5
+FLAT-IRON,FALSE,4/26/2017,    Web Development Immersive ,    New York City , GitHub,5,4,5,5
+FLAT-IRON,FALSE,4/19/2017,    iOS Development Immersive ,    New York City , GitHub,5,5,5,5
+FLAT-IRON,FALSE,4/8/2017,    Online Web Developer Program ,    Online , GitHub,5,5,5,5
+FLAT-IRON,FALSE,4/3/2017,    iOS Development Immersive ,    New York City , GitHub,5,4,5,5
+FLAT-IRON,FALSE,3/29/2017,    iOS Development Immersive ,    New York City , LinkedIn,4,5,5,4
+FLAT-IRON,FALSE,3/17/2017,    Online Web Developer Program ,    Online , GitHub,3,3,3,3
+FLAT-IRON,FALSE,3/12/2017,    Online Web Developer Program ,    Online , GitHub,5,5,5,5
+FLAT-IRON,FALSE,2/9/2017,    iOS Development Immersive ,    New York City , GitHub,5,5,5,5
+FLAT-IRON,FALSE,2/5/2017,,    New York City , GitHub,5,5,5,5
+FLAT-IRON,FALSE,2/2/2017,    Web Development Immersive ,    New York City , GitHub,5,5,5,5
+FLAT-IRON,FALSE,1/30/2017,    iOS Development Immersive ,    New York City , GitHub,5,5,5,4
+FLAT-IRON,FALSE,1/27/2017,    iOS Development Immersive ,    New York City , LinkedIn,5,5,5,3
+FLAT-IRON,FALSE,1/26/2017,    Web Development Immersive ,    New York City , GitHub,5,5,5,0
+FLAT-IRON,FALSE,1/25/2017,    Web Development Immersive ,    New York City , LinkedIn,5,5,5,5
+FLAT-IRON,FALSE,1/23/2017,    Web Development Immersive ,    New York City , GitHub,5,5,5,5
+FLAT-IRON,FALSE,1/22/2017,    Web Development Immersive ,    New York City , GitHub,5,5,5,5
+FLAT-IRON,FALSE,1/22/2017,    Web Development Immersive ,    New York City , LinkedIn,5,5,5,5
+FLAT-IRON,FALSE,1/21/2017,    Web Development Immersive ,    New York City , LinkedIn,5,5,5,0
+FLAT-IRON,FALSE,1/20/2017,    Web Development Immersive ,    New York City , LinkedIn,5,5,5,5
+FLAT-IRON,FALSE,1/19/2017,    Web Development Immersive ,    New York City , LinkedIn,5,5,5,5
+FLAT-IRON,FALSE,1/19/2017,    Web Development Immersive ,    New York City , GitHub,5,5,5,5
+FLAT-IRON,FALSE,1/18/2017,    iOS Development Immersive ,    New York City , LinkedIn,5,5,5,5
+FLAT-IRON,FALSE,1/17/2017,    Web Development Immersive ,    New York City , GitHub,5,5,5,5
+FLAT-IRON,FALSE,1/17/2017,    Web Development Immersive ,    New York City , GitHub,5,5,5,5
+FLAT-IRON,FALSE,1/15/2017,    Web Development Immersive ,    New York City , GitHub,5,4,5,5
+FLAT-IRON,FALSE,1/14/2017,    Online Web Developer Program ,    Online , LinkedIn,5,5,5,5
+FLAT-IRON,FALSE,1/13/2017,,    New York City , LinkedIn,5,5,5,5
+FLAT-IRON,FALSE,1/12/2017,    Online Web Developer Program ,    Online , GitHub,5,5,5,5
+FLAT-IRON,FALSE,1/16/2017,    Web Development Immersive ,    New York City , GitHub,5,5,5,0
+FLAT-IRON,FALSE,8/24/2017,,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,8/12/2017,    Community-Powered Bootcamp ,    Online ,,4,4,4,0
+FLAT-IRON,FALSE,8/9/2017,,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,7/29/2017,,    Online ,,5,4,5,0
+FLAT-IRON,FALSE,7/25/2017,    Online Web Developer Program ,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,7/18/2017,,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,7/15/2017,,    New York City ,,5,5,5,0
+FLAT-IRON,FALSE,7/6/2017,    iOS Development Immersive ,    New York City ,,5,4,5,5
+FLAT-IRON,FALSE,5/20/2017,    Online Web Developer Program ,    Online ,,1,2,1,1
+FLAT-IRON,FALSE,5/5/2017,,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,5/1/2017,,    New York City ,,5,4,5,0
+FLAT-IRON,FALSE,4/23/2017,,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,4/22/2017,    Web Development Immersive ,    New York City ,,5,4,5,5
+FLAT-IRON,FALSE,4/18/2017,,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,4/5/2017,,    Online ,,5,5,5,5
+FLAT-IRON,FALSE,4/3/2017,,    New York City ,,5,5,5,0
+FLAT-IRON,FALSE,3/31/2017,    Community-Powered Bootcamp ,    Online ,,5,5,4,0
+FLAT-IRON,FALSE,3/21/2017,,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,2/28/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,2/28/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,2/14/2017,    Web Development Immersive ,    New York City ,,5,4,5,5
+FLAT-IRON,FALSE,2/7/2017,    iOS Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/30/2017,    Web Development Immersive ,    New York City ,,5,4,5,5
+FLAT-IRON,FALSE,1/27/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/25/2017,    iOS Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/24/2017,    iOS Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/23/2017,    Online Web Developer Program ,    Online ,,5,4,4,5
+FLAT-IRON,FALSE,1/21/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/21/2017,    Web Development Immersive ,    New York City ,,5,5,5,0
+FLAT-IRON,FALSE,1/20/2017,    Web Development Immersive ,    New York City ,,5,5,5,4
+FLAT-IRON,FALSE,1/20/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/20/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/19/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/19/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/19/2017,    Web Development Immersive ,    New York City ,,5,4,5,5
+FLAT-IRON,FALSE,1/19/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/18/2017,    iOS Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/18/2017,    iOS Development Immersive ,    New York City ,,4,4,5,0
+FLAT-IRON,FALSE,1/18/2017,    iOS Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/18/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/18/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/17/2017,    Web Development Immersive ,    New York City ,,4,4,5,5
+FLAT-IRON,FALSE,1/17/2017,    Web Development Immersive ,    New York City ,,5,5,5,4
+FLAT-IRON,FALSE,1/16/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/16/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/16/2017,    Web Development Immersive ,    New York City ,,5,5,5,3
+FLAT-IRON,FALSE,1/16/2017,    iOS Development Immersive ,    New York City ,,4,4,4,5
+FLAT-IRON,FALSE,1/16/2017,    Web Development Immersive ,    New York City ,,5,4,5,4
+FLAT-IRON,FALSE,1/15/2017,    Web Development Immersive ,    New York City ,,4,5,5,4
+FLAT-IRON,FALSE,1/15/2017,    Online Web Developer Program ,    Online ,,5,5,5,5
+FLAT-IRON,FALSE,1/15/2017,    Web Development Immersive ,    New York City ,,4,5,4,5
+FLAT-IRON,FALSE,1/15/2017,    Online Web Developer Program ,    Online ,,5,5,5,5
+FLAT-IRON,FALSE,1/15/2017,    iOS Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/18/2017,    iOS Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/15/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/15/2017,    Web Development Immersive ,    New York City ,,4,4,4,5
+FLAT-IRON,FALSE,1/15/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/18/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/15/2017,    iOS Development Immersive ,    New York City ,,5,5,5,0
+FLAT-IRON,FALSE,1/14/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/14/2017,,,,5,5,5,5
+FLAT-IRON,FALSE,1/13/2017,    iOS Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/13/2017,    Online Web Developer Program ,    Online ,,5,5,5,5
+FLAT-IRON,FALSE,1/13/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/13/2017,    iOS Development Immersive ,    New York City ,,5,5,5,4
+FLAT-IRON,FALSE,1/13/2017,    Web Development Immersive ,    New York City ,,5,5,5,4
+FLAT-IRON,FALSE,1/13/2017,    iOS Development Immersive ,    New York City ,,5,5,4,5
+FLAT-IRON,FALSE,1/12/2017,    iOS Development Immersive ,    New York City ,,5,5,4,5
+FLAT-IRON,FALSE,1/12/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/12/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/12/2017,    Web Development Immersive ,    New York City ,,4,5,4,5
+FLAT-IRON,FALSE,1/12/2017,    iOS Development Immersive ,    New York City ,,5,5,5,4
+FLAT-IRON,FALSE,1/12/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/12/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/7/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/4/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,12/22/2016,,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,12/13/2016,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,12/8/2016,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,12/6/2016,    Online Web Developer Program ,    Online ,,4,4,4,5
+FLAT-IRON,FALSE,10/24/2016,    Online Web Developer Program ,    Online ,,5,5,5,5
+FLAT-IRON,FALSE,9/18/2016,,    Online ,,5,5,5,4
+FLAT-IRON,FALSE,5/31/2016,    Online Web Developer Program ,    Online ,,5,5,5,5
+FLAT-IRON,FALSE,5/17/2016,    Online Web Developer Program ,    Online ,,2,1,1,0
+FLAT-IRON,FALSE,3/29/2016,,,,1,2,3,1
+FLAT-IRON,FALSE,3/20/2016,    Online Web Developer Program ,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,3/16/2016,,,,3,3,3,1
+FLAT-IRON,FALSE,3/16/2016,    iOS Development Immersive ,    New York City ,,1,2,2,1
+FLAT-IRON,FALSE,3/12/2016,    Online Web Developer Program ,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,3/1/2016,    Online Web Developer Program ,    Online ,,5,5,5,5
+FLAT-IRON,FALSE,2/29/2016,    Online Web Developer Program ,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,2/24/2016,    Online Web Developer Program ,    Online ,,5,4,4,0
+FLAT-IRON,FALSE,2/23/2016,    Online Web Developer Program ,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,2/23/2016,    Online Web Developer Program ,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,2/23/2016,    Online Web Developer Program ,    Online ,,5,5,5,5
+FLAT-IRON,FALSE,2/23/2016,    Online Web Developer Program ,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,2/12/2016,    iOS Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,11/9/2015,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,11/8/2015,,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,11/6/2015,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,11/4/2015,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,6/16/2015,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/6/2015,,    New York City ,,4,4,4,1
+FLAT-IRON,FALSE,1/6/2015,,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,7/11/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,7/10/2017,,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,5/30/2017,,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,5/25/2017,    Web Development Immersive ,    New York City ,,5,5,5,0
+FLAT-IRON,FALSE,4/21/2017,,    Online ,,5,5,5,0
+FLAT-IRON,FALSE,2/28/2017,    Web Development Immersive ,    New York City ,,5,4,4,5
+FLAT-IRON,FALSE,2/14/2017,    Web Development Immersive ,    New York City ,,5,4,5,4
+FLAT-IRON,FALSE,1/23/2017,    Web Development Immersive ,    New York City ,,5,4,5,5
+FLAT-IRON,FALSE,1/22/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/19/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/16/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/13/2017,    Web Development Immersive ,    New York City ,,5,5,5,4
+FLAT-IRON,FALSE,1/13/2017,    Web Development Immersive ,    New York City ,,5,5,5,4
+FLAT-IRON,FALSE,1/13/2017,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,1/12/2017,    Web Development Immersive ,    New York City ,,4,4,4,4
+FLAT-IRON,FALSE,1/3/2017,    Web Development Immersive ,    New York City ,,5,4,4,0
+FLAT-IRON,FALSE,12/26/2016,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,12/19/2016,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,12/18/2016,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,12/18/2016,    Web Development Immersive ,    New York City ,,5,5,4,5
+FLAT-IRON,FALSE,12/17/2016,    Web Development Immersive ,    New York City ,,5,5,5,4
+FLAT-IRON,FALSE,12/10/2016,    Online Web Developer Program ,    Online ,,5,5,5,5
+FLAT-IRON,FALSE,12/8/2016,    Web Development Immersive ,    New York City ,,5,5,5,5
+FLAT-IRON,FALSE,11/30/2016,    Web Development Immersive ,    New York City ,,1,1,1,1
+FLAT-IRON,FALSE,7/28/2016,,    New York City ,,1,1,1,1
+FLAT-IRON,FALSE,6/22/2016,    Online Web Developer Program ,    Online ,,2,2,2,0
+FULLSTACK ACADEMY,FALSE,7/13/2017,    Software Engineering Immersive ,    New York City , GitHub,5,5,5,5
+FULLSTACK ACADEMY,FALSE,7/8/2017,    Software Engineering Immersive ,    New York City , GitHub,5,5,5,5
+FULLSTACK ACADEMY,FALSE,6/18/2017,    Software Engineering Immersive ,    New York City , LinkedIn,4,5,4,3
+FULLSTACK ACADEMY,FALSE,5/9/2017,    Software Engineering Immersive ,    Chicago , LinkedIn,5,5,5,4
+FULLSTACK ACADEMY,FALSE,5/1/2017,    Software Engineering Immersive ,    New York City , LinkedIn,4,5,5,4
+FULLSTACK ACADEMY,FALSE,4/18/2017,    Software Engineering Immersive ,    New York City , GitHub,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/14/2017,    Software Engineering Immersive ,    New York City , LinkedIn,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/14/2017,    Software Engineering Immersive ,    New York City , LinkedIn,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/14/2017,    Software Engineering Immersive ,    Chicago , LinkedIn,5,5,5,5
+FULLSTACK ACADEMY,FALSE,7/11/2017,    Software Engineering Immersive ,    New York City , GitHub,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/12/2017,    Software Engineering Immersive ,    New York City , LinkedIn,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/10/2017,    Software Engineering Immersive ,    Chicago , GitHub,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/12/2017,    Software Engineering Immersive ,    New York City , GitHub,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/10/2017,    Software Engineering Immersive ,    Chicago , GitHub,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/7/2017,    Software Engineering Immersive ,    Chicago , GitHub,5,5,5,4
+FULLSTACK ACADEMY,FALSE,3/31/2017,    Software Engineering Immersive ,    New York City , LinkedIn,5,5,5,4
+FULLSTACK ACADEMY,FALSE,3/28/2017,    Software Engineering Immersive ,    New York City , LinkedIn,5,5,5,5
+FULLSTACK ACADEMY,FALSE,3/27/2017,    Flex (Part-Time) Immersive ,    New York City , GitHub,5,5,5,5
+FULLSTACK ACADEMY,FALSE,3/13/2017,    Software Engineering Immersive ,    New York City , LinkedIn,5,5,5,5
+FULLSTACK ACADEMY,FALSE,3/9/2017,    Software Engineering Immersive ,    New York City , LinkedIn,5,5,5,5
+FULLSTACK ACADEMY,FALSE,2/28/2017,    Remote Software Engineering Immersive ,    Online , LinkedIn,5,5,5,4
+FULLSTACK ACADEMY,FALSE,2/27/2017,    Software Engineering Immersive ,    New York City , LinkedIn,5,5,5,5
+FULLSTACK ACADEMY,FALSE,2/25/2017,    Remote Software Engineering Immersive ,    Online , LinkedIn,5,5,5,4
+FULLSTACK ACADEMY,FALSE,2/23/2017,    Remote Software Engineering Immersive ,    Online , LinkedIn,5,5,5,5
+FULLSTACK ACADEMY,FALSE,2/23/2017,    Remote Software Engineering Immersive ,    Online , GitHub,5,5,5,5
+FULLSTACK ACADEMY,FALSE,8/1/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,8/22/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,6/5/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,7/31/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,7/28/2017,    Software Engineering Immersive ,    New York City ,,5,4,5,5
+FULLSTACK ACADEMY,FALSE,4/17/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/14/2017,    Software Engineering Immersive ,    Chicago ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/14/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/12/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/11/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/10/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/9/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/3/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,3/28/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,7/5/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,3
+FULLSTACK ACADEMY,FALSE,3/28/2017,,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/18/2017,    Flex (Part-Time) Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,3/27/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,3/27/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,3/21/2017,    Software Engineering Immersive ,    New York City ,,5,5,4,3
+FULLSTACK ACADEMY,FALSE,2/11/2017,,,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,2/4/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,1/15/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,3/27/2017,,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,3/28/2017,    Flex (Part-Time) Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,12/14/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,11/18/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,4
+FULLSTACK ACADEMY,FALSE,11/16/2016,,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,11/8/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,0
+FULLSTACK ACADEMY,FALSE,10/28/2016,    Software Engineering Immersive ,    Chicago ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,9/10/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,4
+FULLSTACK ACADEMY,FALSE,5/8/2016,,    New York City ,,5,5,5,0
+FULLSTACK ACADEMY,FALSE,4/26/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/25/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,4/3/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,3/31/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,0
+FULLSTACK ACADEMY,FALSE,3/31/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,4
+FULLSTACK ACADEMY,FALSE,3/30/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,3/29/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,2
+FULLSTACK ACADEMY,FALSE,3/28/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,4
+FULLSTACK ACADEMY,FALSE,1/23/2016,    Software Engineering Immersive ,    New York City ,,5,4,5,4
+FULLSTACK ACADEMY,FALSE,1/9/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,1/8/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,1/3/2016,,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,1/2/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,4
+FULLSTACK ACADEMY,FALSE,12/8/2015,,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,12/3/2015,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,10/22/2015,    Summer of Code ,    New York City ,,5,5,5,0
+FULLSTACK ACADEMY,FALSE,9/22/2015,    Flex (Part-Time) Immersive ,    New York City ,,5,4,5,5
+FULLSTACK ACADEMY,FALSE,7/14/2015,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,6/9/2015,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,6/3/2015,    Software Engineering Immersive ,    New York City ,,5,4,5,2
+FULLSTACK ACADEMY,FALSE,5/28/2015,    Software Engineering Immersive ,    New York City ,,4,4,5,3
+FULLSTACK ACADEMY,FALSE,1/25/2015,,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,12/30/2014,,    New York City ,,5,5,5,4
+FULLSTACK ACADEMY,FALSE,12/8/2014,    Software Engineering Immersive ,    New York City ,,5,5,5,4
+FULLSTACK ACADEMY,FALSE,10/16/2014,,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,10/16/2014,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,10/10/2014,,    New York City ,,5,5,5,3
+FULLSTACK ACADEMY,FALSE,10/6/2014,,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,10/6/2014,,    New York City ,,5,5,5,4
+FULLSTACK ACADEMY,FALSE,10/2/2014,,    New York City ,,5,4,5,4
+FULLSTACK ACADEMY,FALSE,9/30/2014,,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,9/29/2014,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,9/28/2014,    Software Engineering Immersive ,    New York City ,,5,5,5,4
+FULLSTACK ACADEMY,FALSE,9/27/2014,    Software Engineering Immersive ,    New York City ,,5,5,5,4
+FULLSTACK ACADEMY,FALSE,9/25/2014,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,9/25/2014,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,5/24/2017,    Software Engineering Immersive ,    Chicago ,,5,5,4,3
+FULLSTACK ACADEMY,FALSE,4/20/2017,    Bootcamp Prep ,    New York City ,,5,5,5,0
+FULLSTACK ACADEMY,FALSE,3/27/2017,    Software Engineering Immersive ,    New York City ,,5,5,4,4
+FULLSTACK ACADEMY,FALSE,3/10/2017,    Software Engineering Immersive ,    New York City ,,4,4,4,4
+FULLSTACK ACADEMY,FALSE,3/9/2017,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,12/13/2016,,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,12/4/2016,    Introduction to Front-End Development ,    New York City ,,2,2,4,0
+FULLSTACK ACADEMY,FALSE,11/1/2016,    Software Engineering Immersive ,    New York City ,,5,5,5,5
+FULLSTACK ACADEMY,FALSE,8/18/2016,    Flex (Part-Time) Immersive ,    New York City ,,3,4,4,2
+FULLSTACK ACADEMY,FALSE,6/16/2016,    Flex (Part-Time) Immersive ,    New York City ,,4,4,5,3
+GRACE HOPPER PROGRAM,FALSE,3/21/2017,    Fullstack JavaScript Immersive ,    New York City , LinkedIn,5,5,5,5
+GRACE HOPPER PROGRAM,FALSE,8/13/2017,    Fullstack JavaScript Immersive ,    New York City ,,4,5,5,5
+GRACE HOPPER PROGRAM,FALSE,4/14/2017,    Fullstack JavaScript Immersive ,    New York City ,,5,5,5,5
+GRACE HOPPER PROGRAM,FALSE,4/14/2017,    Fullstack JavaScript Immersive ,    New York City ,,5,5,5,5
+GRACE HOPPER PROGRAM,FALSE,4/12/2017,    Fullstack JavaScript Immersive ,    New York City ,,5,5,5,3
+GRACE HOPPER PROGRAM,FALSE,3/22/2017,    Fullstack JavaScript Immersive ,    New York City ,,5,5,5,5
+GRACE HOPPER PROGRAM,FALSE,3/4/2017,    Fullstack JavaScript Immersive ,    New York City ,,5,5,5,5
+GRACE HOPPER PROGRAM,FALSE,2/19/2017,    Fullstack JavaScript Immersive ,    New York City ,,5,4,5,4
+GRACE HOPPER PROGRAM,FALSE,11/2/2016,    Fullstack JavaScript Immersive ,    New York City ,,5,5,5,5
+GRACE HOPPER PROGRAM,FALSE,9/13/2016,,    New York City ,,5,5,5,4
+GRACE HOPPER PROGRAM,FALSE,8/9/2016,    Fullstack JavaScript Immersive ,    New York City ,,5,5,5,5
+GRACE HOPPER PROGRAM,FALSE,8/8/2016,    Fullstack JavaScript Immersive ,    New York City ,,5,4,5,4
+GRACE HOPPER PROGRAM,FALSE,7/14/2016,    Fullstack JavaScript Immersive ,    New York City ,,5,5,5,5
+GRACE HOPPER PROGRAM,FALSE,6/2/2016,    Fullstack JavaScript Immersive ,    New York City ,,5,5,5,5
+GRACE HOPPER PROGRAM,FALSE,5/25/2016,    Fullstack JavaScript Immersive ,    New York City ,,5,5,5,5
+GRACE HOPPER PROGRAM,FALSE,5/21/2016,,    New York City ,,5,5,5,5
+GRACE HOPPER PROGRAM,FALSE,5/25/2016,    Fullstack JavaScript Immersive ,    New York City ,,5,5,5,5
+RUTGERS,TRUE,8/9/2017,    Full Stack Flex - Full Time ,    Somerset , GitHub,5,4,5,4
+RUTGERS,TRUE,6/13/2017,    Full Stack Flex ,    Jersey City , LinkedIn,4,5,5,2
+RUTGERS,TRUE,6/8/2017,    Full Stack Flex ,    Jersey City , LinkedIn,5,5,5,3
+RUTGERS,TRUE,4/2/2017,    Full Stack Flex ,    Somerset , GitHub,5,4,5,3
+RUTGERS,TRUE,2/27/2017,    Full Stack Flex ,    Somerset , LinkedIn,5,5,5,0
+RUTGERS,TRUE,2/3/2017,    Full Stack Flex ,    Jersey City , GitHub,5,5,5,5
+RUTGERS,TRUE,8/9/2017,,    Jersey City ,,5,5,5,3
+RUTGERS,TRUE,8/9/2017,    Full Stack Flex - Full Time ,    Somerset ,,5,5,5,5
+RUTGERS,TRUE,7/15/2017,    Full Stack Flex ,    Jersey City ,,5,5,5,5
+RUTGERS,TRUE,6/29/2017,    Full Stack Flex ,    Jersey City ,,4,5,5,1
+RUTGERS,TRUE,6/7/2017,    Full Stack Flex ,    Jersey City ,,5,5,5,5
+RUTGERS,TRUE,4/17/2017,    Full Stack Flex ,    Jersey City ,,4,5,5,4
+RUTGERS,TRUE,2/21/2017,    Full Stack Flex ,    Jersey City ,,5,5,5,5
+RUTGERS,TRUE,2/7/2017,    Full Stack Flex ,    Jersey City ,,5,5,5,5
+RUTGERS,TRUE,2/4/2017,    Full Stack Flex ,    Jersey City ,,5,4,5,4
+RUTGERS,TRUE,1/23/2017,    Full Stack Flex ,    Jersey City ,,5,5,5,4
+RUTGERS,TRUE,1/23/2017,    Full Stack Flex ,    Jersey City ,,5,5,5,5
+RUTGERS,TRUE,1/20/2017,    Full Stack Flex ,    Jersey City ,,5,5,5,5
+RUTGERS,TRUE,12/21/2016,    Full Stack Flex ,    New Brunswick ,,4,4,4,4
+RUTGERS,TRUE,9/11/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,9/14/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,9/9/2016,    Full Stack Flex ,    New Brunswick ,,5,4,5,5
+RUTGERS,TRUE,9/8/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,4
+RUTGERS,TRUE,8/28/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,9/6/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,8/25/2016,    Full Stack Flex ,    Jersey City ,,5,5,5,5
+RUTGERS,TRUE,8/24/2016,    Full Stack Flex ,    Jersey City ,,5,5,5,5
+RUTGERS,TRUE,8/24/2016,    Full Stack Flex ,    Jersey City ,,5,5,5,5
+RUTGERS,TRUE,8/23/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,8/23/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,8/22/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,8/22/2016,    Full Stack Flex ,    New Brunswick ,,5,4,4,3
+RUTGERS,TRUE,8/21/2016,    Full Stack Flex ,    New Brunswick ,,4,5,5,4
+RUTGERS,TRUE,8/20/2016,,    Jersey City ,,1,1,1,1
+RUTGERS,TRUE,8/19/2016,    Full Stack Flex ,    Jersey City ,,5,5,5,4
+RUTGERS,TRUE,8/19/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,4
+RUTGERS,TRUE,8/18/2016,    Full Stack Flex ,    New Brunswick ,,4,4,5,1
+RUTGERS,TRUE,8/16/2016,    Full Stack Flex ,    Somerset ,,5,5,5,5
+RUTGERS,TRUE,8/16/2016,,    Somerset ,,5,5,5,5
+RUTGERS,TRUE,8/5/2016,,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,8/2/2016,,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,7/26/2016,    Full Stack Flex ,    Somerset ,,5,5,5,5
+RUTGERS,TRUE,7/25/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,7/19/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,7/9/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,6/26/2016,    Full Stack Flex ,    New Brunswick ,,5,5,5,5
+RUTGERS,TRUE,11/16/2016,    Full Stack Flex ,    New Brunswick ,,4,5,3,5
+RUTGERS,TRUE,11/10/2016,    Full Stack Flex ,    New Brunswick ,,3,2,2,1
+RUTGERS,TRUE,11/4/2016,,,,5,5,5,5
+RUTGERS,TRUE,11/3/2016,    Full Stack Flex ,    New Brunswick ,,1,1,1,1
+RUTGERS,TRUE,10/28/2016,    Full Stack Flex ,    Somerset ,,1,1,1,1
+RUTGERS,TRUE,8/23/2016,    Full Stack Flex ,    Jersey City ,,1,1,1,1
+RUTGERS,TRUE,8/16/2016,    Full Stack Flex ,    New Brunswick ,,1,1,1,1
+RUTGERS,TRUE,8/16/2016,    Full Stack Flex ,    Jersey City ,,5,4,5,4
+RUTGERS,TRUE,8/19/2016,,    New Brunswick ,,5,5,5,1
+UCF ORLANDO,TRUE,8/28/2017,    Full Stack Flex - Full Time ,    Orlando , LinkedIn,5,5,5,4
+UCF ORLANDO,TRUE,8/11/2017,    Full Stack Flex ,    Fort Lauderdale , GitHub,5,5,5,5
+UCF ORLANDO,TRUE,6/21/2017,    Full Stack Flex - Part Time ,    Orlando , LinkedIn,5,5,5,5
+UCF ORLANDO,TRUE,6/7/2017,    Full Stack Flex - Part Time ,    Orlando , LinkedIn,5,5,5,4
+UCF ORLANDO,TRUE,4/6/2017,    Full Stack Flex - Part Time ,    Orlando , LinkedIn,5,5,5,5
+UCF ORLANDO,TRUE,1/15/2017,    Full Stack Flex - Part Time ,    Orlando , LinkedIn,5,5,5,5
+UCF ORLANDO,TRUE,8/21/2017,    Full Stack Flex ,    Fort Lauderdale ,,5,5,5,5
+UCF ORLANDO,TRUE,8/15/2017,    Full Stack Flex - Full Time ,    Orlando ,,5,4,5,5
+UCF ORLANDO,TRUE,6/6/2017,,    Orlando ,,1,1,1,1
+UCF ORLANDO,TRUE,5/12/2017,    Full Stack Flex ,    Fort Lauderdale ,,1,1,1,0
+UCF ORLANDO,TRUE,11/15/2016,    Full Stack Flex - Part Time ,    Orlando ,,5,5,5,5
+UCF ORLANDO,TRUE,10/14/2016,    Full Stack Flex - Part Time ,    Orlando ,,5,5,5,5
+UCF ORLANDO,TRUE,9/1/2016,    Full Stack Flex - Part Time ,    Orlando ,,5,5,5,5
+UCLA,TRUE,8/13/2017,    Full Stack Flex - Part Time ,    Los Angeles , LinkedIn,5,5,5,5
+UCLA,TRUE,7/31/2017,    Full Stack Flex - Full Time ,    Los Angeles , LinkedIn,5,5,5,5
+UCLA,TRUE,7/13/2017,,    Los Angeles , GitHub,5,5,5,5
+UCLA,TRUE,7/6/2017,,    Los Angeles , LinkedIn,5,5,5,5
+UCLA,TRUE,6/23/2017,,    Los Angeles , GitHub,5,5,5,5
+UCLA,TRUE,6/17/2017,    Full Stack Flex - Part Time ,    Los Angeles , GitHub,5,4,5,5
+UCLA,TRUE,6/11/2017,,    Los Angeles , GitHub,5,5,5,4
+UCLA,TRUE,4/27/2017,,    Los Angeles , GitHub,5,4,5,0
+UCLA,TRUE,1/25/2017,    Full Stack Flex - Part Time ,    Los Angeles , LinkedIn,5,5,5,5
+UCLA,TRUE,1/18/2017,    Full Stack Flex - Part Time ,    Los Angeles , LinkedIn,5,5,5,5
+UCLA,TRUE,6/6/2017,,    Los Angeles , LinkedIn,5,5,5,4
+UCLA,TRUE,8/29/2017,    Full Stack Flex - Part Time ,    Los Angeles ,,5,5,5,5
+UCLA,TRUE,8/27/2017,    Full Stack Flex - Full Time ,    Los Angeles ,,5,4,5,0
+UCLA,TRUE,6/26/2017,,,,5,5,5,5
+UCLA,TRUE,6/17/2017,    Full Stack Flex - Part Time ,    Los Angeles ,,5,5,5,4
+UCLA,TRUE,4/28/2017,    Full Stack Flex - Part Time ,    Los Angeles ,,5,5,5,5
+UCLA,TRUE,1/10/2017,    Full Stack Flex - Part Time ,    Los Angeles ,,5,5,5,5
+UCLA,TRUE,12/19/2016,    Full Stack Flex - Part Time ,    Los Angeles ,,5,4,5,5
+UCLA,TRUE,3/31/2017,,    Los Angeles ,,5,4,5,5
+UCLA,TRUE,12/19/2016,,    Los Angeles ,,5,4,5,5
+UCLA,TRUE,3/6/2017,    Full Stack Flex - Part Time ,    Los Angeles ,,3,2,3,1
+UCLA,TRUE,1/26/2017,    Full Stack Flex - Part Time ,    Los Angeles ,,5,5,5,5
+UCLA,TRUE,12/19/2016,    Full Stack Flex - Part Time ,    Los Angeles ,,5,5,5,5
+UCLA,TRUE,6/22/2017,,    Los Angeles ,,5,5,5,5
+UCLA,TRUE,1/17/2017,,    Los Angeles ,,5,5,5,5
+UNC CHAPEL HILL,TRUE,2/7/2017,    Full Stack Flex ,    Chapel Hill , LinkedIn,5,5,5,0
+UNC CHARLOTTE,TRUE,8/23/2017,    Full Stack Flex ,    Charlotte , LinkedIn,5,5,5,5
+UNC CHARLOTTE,TRUE,8/2/2017,    Full Stack Flex ,    Charlotte , LinkedIn,5,5,5,5
+UNC CHARLOTTE,TRUE,7/26/2017,    Full Stack Flex ,    Charlotte , LinkedIn,5,4,5,5
+UNC CHARLOTTE,TRUE,8/22/2017,    Full Stack Flex ,    Charlotte ,,5,5,5,5
+UNC CHARLOTTE,TRUE,6/28/2017,    Full Stack Flex ,    Charlotte ,,5,4,5,4
+UNC CHARLOTTE,TRUE,7/26/2017,    Full Stack Flex ,    Charlotte ,,5,5,5,4
+UT AUSTIN,TRUE,8/28/2017,    Full Stack Flex ,    Austin , GitHub,4,4,5,4
+UT AUSTIN,TRUE,7/12/2017,    Full Stack Flex ,    Austin , GitHub,5,5,5,5
+UT AUSTIN,TRUE,8/29/2017,    Full Stack Flex ,    Austin ,,5,4,5,5
+UT AUSTIN,TRUE,8/9/2017,    Full Stack Flex ,    Austin ,,5,5,5,5
+UT AUSTIN,TRUE,8/28/2017,    Full Stack Flex ,    Austin ,,5,5,5,5
+UT AUSTIN,TRUE,1/15/2017,    Full Stack Flex ,    Austin ,,5,5,5,5
+UT AUSTIN,TRUE,12/5/2016,    Full Stack Flex ,    Austin ,,5,5,5,5
+UT AUSTIN,TRUE,2/22/2017,    Full Stack Flex ,    Austin ,,5,4,5,5
+UT AUSTIN,TRUE,10/26/2016,    Full Stack Flex ,    Austin ,,5,4,5,5
+UT AUSTIN,TRUE,10/22/2016,    Full Stack Flex ,    Austin ,,5,4,4,5
+UT AUSTIN,TRUE,10/18/2016,    Full Stack Flex ,    Austin ,,5,4,5,5
+UT AUSTIN,TRUE,10/12/2016,    Full Stack Flex ,    Austin ,,5,5,5,5
+UT AUSTIN,TRUE,10/4/2016,,    Austin ,,1,3,3,0
+UT AUSTIN,TRUE,8/19/2016,    Full Stack Flex ,    Austin ,,5,4,5,5
+UT AUSTIN,TRUE,7/7/2016,    Full Stack Flex ,    Austin ,,4,4,5,4
+UT AUSTIN,TRUE,6/22/2016,    Full Stack Flex ,    Austin ,,5,5,5,5
+UT AUSTIN,TRUE,2/13/2017,    Full Stack Flex ,    Austin ,,3,3,1,1
+UT AUSTIN,TRUE,7/11/2017,,,,2,2,1,2
+UT AUSTIN,TRUE,2/13/2017,    Full Stack Flex ,    Austin ,,1,3,1,1
+UCIRVINE,TRUE,8/2/2017,,    Irvine ,,5,5,5,5
+UCIRVINE,TRUE,5/28/2017,    Full Stack Web Development ,    Irvine ,,1,2,1,0
+UCIRVINE,TRUE,7/24/2017,    Full Stack Web Development ,    Irvine ,,4,5,4,0
+UC BERKELEY,TRUE,8/29/2017,    Full Stack Flex ,    San Francisco ,,1,2,1,0
+UT AUSTIN,TRUE,8/28/2017,    Full Stack Flex ,    Austin , GitHub,4,4,5,4
+UT AUSTIN,TRUE,8/29/2017,    Full Stack Flex ,    Austin ,,5,4,5,5
+UT AUSTIN,TRUE,7/12/2017,    Full Stack Flex ,    Austin , GitHub,5,5,5,5
+UT AUSTIN,TRUE,8/9/2017,    Full Stack Flex ,    Austin ,,5,5,5,5
+UT AUSTIN,TRUE,8/28/2017,    Full Stack Flex ,    Austin ,,5,5,5,5
+UT AUSTIN,TRUE,1/15/2017,    Full Stack Flex ,    Austin ,,5,5,5,5
+UT AUSTIN,TRUE,12/5/2016,    Full Stack Flex ,    Austin ,,5,5,5,5
+UT AUSTIN,TRUE,10/26/2016,    Full Stack Flex ,    Austin ,,5,4,5,5
+UT AUSTIN,TRUE,10/22/2016,    Full Stack Flex ,    Austin ,,5,4,4,5
+UT AUSTIN,TRUE,10/18/2016,    Full Stack Flex ,    Austin ,,5,4,5,5
+UT AUSTIN,TRUE,10/12/2016,    Full Stack Flex ,    Austin ,,5,5,5,5
+UT AUSTIN,TRUE,10/4/2016,,    Austin ,,1,3,3,0
+UT AUSTIN,TRUE,8/19/2016,    Full Stack Flex ,    Austin ,,5,4,5,5
+UT AUSTIN,TRUE,7/7/2016,    Full Stack Flex ,    Austin ,,4,4,5,4
+UT AUSTIN,TRUE,6/22/2016,    Full Stack Flex ,    Austin ,,5,5,5,5
+UT AUSTIN,TRUE,7/11/2017,,,,2,2,1,2
+UT AUSTIN,TRUE,2/13/2017,    Full Stack Flex ,    Austin ,,1,3,1,1
+UT AUSTIN,TRUE,2/13/2017,    Full Stack Flex ,    Austin ,,3,3,1,1
+UT AUSTIN,TRUE,2/22/2017,    Full Stack Flex ,    Austin ,,5,4,5,5
+NORTHWESTERN,TRUE,4/8/2017,    Full Stack Flex ,    Chicago ,,5,5,5,5
+NORTHWESTERN,TRUE,3/11/2017,,    Chicago ,,5,5,5,5
+NORTHWESTERN,TRUE,7/22/2017,,    Chicago ,,5,5,5,4
+NORTHWESTERN,TRUE,3/6/2017,,,,4,5,5,5
+NORTHWESTERN,TRUE,3/4/2017,    Full Stack Flex ,    Chicago ,,5,5,5,5
+NORTHWESTERN,TRUE,1/30/2017,,    Chicago ,,1,1,1,0
+GEORGIA TECH,TRUE,8/26/2017,    Web Development ,    Savannah , LinkedIn,5,5,5,3
+GEORGIA TECH,TRUE,8/28/2017,    Web Development ,    Savannah ,,5,5,5,5
+GEORGIA TECH,TRUE,8/27/2017,    Web Development ,    Savannah ,,4,4,5,0
+GEORGIA TECH,TRUE,8/24/2017,    Web Development ,    Savannah ,,5,5,5,5
+CASE WESTERN,TRUE,8/30/2017,    Full Stack Flex ,    Cleveland , GitHub,5,4,5,4
+GWU,TRUE,8/11/2017,    Full Stack Flex ,    Arlington , GitHub,5,5,5,5
+ARIZONA,TRUE,5/25/2017,,    Phoenix ,,1,1,5,1
+THINKFUL,FALSE,8/25/2017,    Flexible Web Development Bootcamp ,    Online , GitHub,5,5,5,4
+THINKFUL,FALSE,8/9/2017,    Flexible Web Development Bootcamp ,    Online , GitHub,5,5,5,0
+THINKFUL,FALSE,7/30/2017,    Flexible Web Development Bootcamp ,    Online , GitHub,4,3,4,2
+THINKFUL,FALSE,7/27/2017,    Flexible Web Development Bootcamp ,    Online , GitHub,5,5,5,0
+THINKFUL,FALSE,7/25/2017,    Flexible Web Development Bootcamp ,    Los Angeles , LinkedIn,5,5,5,5
+THINKFUL,FALSE,7/20/2017,    Full Time Web Development Bootcamp ,    Online , GitHub,5,5,5,5
+THINKFUL,FALSE,7/25/2017,    Flexible Web Development Bootcamp ,    Online , GitHub,5,4,5,5
+THINKFUL,FALSE,7/20/2017,,    Online , LinkedIn,5,5,5,5
+THINKFUL,FALSE,7/19/2017,    Flexible Web Development Bootcamp ,    Online , GitHub,5,5,5,5
+THINKFUL,FALSE,7/18/2017,    Full Time Web Development Bootcamp ,    Online , LinkedIn,5,5,5,5
+THINKFUL,FALSE,7/16/2017,    Flexible Web Development Bootcamp ,    Online , LinkedIn,5,4,5,5
+THINKFUL,FALSE,7/15/2017,    Full Time Web Development Bootcamp ,    Online , GitHub,5,5,5,5
+THINKFUL,FALSE,7/14/2017,    Flexible Web Development Bootcamp ,    Online , GitHub,5,5,5,5
+THINKFUL,FALSE,7/12/2017,    Frontend Web Development ,    Online , GitHub,5,5,5,0
+THINKFUL,FALSE,7/11/2017,    Full Time Web Development Bootcamp ,    Online , GitHub,5,5,5,5
+THINKFUL,FALSE,7/11/2017,    Full Time Web Development Bootcamp ,    Online , GitHub,5,5,5,5
+THINKFUL,FALSE,7/11/2017,    Frontend Web Development ,    Online , GitHub,4,4,5,4
+THINKFUL,FALSE,7/11/2017,    Flexible Web Development Bootcamp ,    Online , LinkedIn,5,4,5,5
+THINKFUL,FALSE,6/23/2017,,    Online , GitHub,5,5,5,5
+THINKFUL,FALSE,6/8/2017,,    Washington , GitHub,5,5,5,0
+THINKFUL,FALSE,5/20/2017,    Flexible Web Development Bootcamp ,    Atlanta , LinkedIn,5,5,5,5
+THINKFUL,FALSE,5/16/2017,    Full Time Web Development Bootcamp ,    Online , LinkedIn,5,5,5,5
+THINKFUL,FALSE,5/16/2017,    Flexible Web Development Bootcamp ,    Online , LinkedIn,5,4,5,0
+THINKFUL,FALSE,6/24/2017,    Flexible Web Development Bootcamp ,    Online , GitHub,5,4,5,0
+THINKFUL,FALSE,6/23/2017,    Flexible Web Development Bootcamp ,    Online , GitHub,2,2,3,3
+THINKFUL,FALSE,5/12/2017,    Flexible Web Development Bootcamp ,    Online , LinkedIn,5,5,5,0
+THINKFUL,FALSE,5/5/2017,    Frontend Web Development ,    Online , LinkedIn,4,3,1,1
+THINKFUL,FALSE,4/29/2017,    Frontend Web Development ,    Online , LinkedIn,5,5,5,5
+THINKFUL,FALSE,4/5/2017,,    Online , GitHub,1,2,1,1
+THINKFUL,FALSE,3/21/2017,    Flexible Web Development Bootcamp ,    Online , GitHub,5,4,5,5
+THINKFUL,FALSE,2/8/2017,    Frontend Web Development ,    Online , GitHub,4,4,5,4
+THINKFUL,FALSE,12/28/2016,    Flexible Web Development Bootcamp ,    Online , https://github.com/mariajosetamayo,5,5,5,4
+THINKFUL,FALSE,7/15/2017,    Flexible Web Development Bootcamp ,    Online , GitHub,5,5,5,5
+THINKFUL,FALSE,8/30/2017,    Flexible Data Science Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,8/30/2017,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,8/24/2017,    iOS Programming in Swift ,    Online ,,5,5,5,0
+THINKFUL,FALSE,8/21/2017,    Frontend Web Development ,    Online ,,4,4,4,4
+THINKFUL,FALSE,8/21/2017,    Flexible Web Development Bootcamp ,    Online ,,4,4,5,0
+THINKFUL,FALSE,8/17/2017,    Flexible Web Development Bootcamp ,    Los Angeles ,,5,4,4,3
+THINKFUL,FALSE,8/2/2017,    Full Time Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,7/28/2017,    Frontend Web Development ,    Online ,,5,4,5,4
+THINKFUL,FALSE,7/22/2017,    Flexible Data Science Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,7/22/2017,    Flexible Web Development Bootcamp ,    Washington ,,5,4,5,0
+THINKFUL,FALSE,7/21/2017,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,7/19/2017,    Flexible Web Development Bootcamp ,    Online ,,4,4,5,0
+THINKFUL,FALSE,7/17/2017,    Full Time Web Development Bootcamp ,    Online ,,5,3,5,4
+THINKFUL,FALSE,7/16/2017,    Flexible Web Development Bootcamp ,    Online ,,5,4,5,0
+THINKFUL,FALSE,7/15/2017,    Full Time Web Development Bootcamp ,    Online ,,5,4,5,5
+THINKFUL,FALSE,7/15/2017,    Flexible Web Development Bootcamp ,    Online ,,5,4,5,0
+THINKFUL,FALSE,7/15/2017,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,7/13/2017,    Full Time Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,7/13/2017,    Full Time Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,7/12/2017,,    Atlanta ,,5,4,5,5
+THINKFUL,FALSE,7/11/2017,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,7/11/2017,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,7/11/2017,    Flexible Web Development Bootcamp ,    Raleigh ,,5,5,5,5
+THINKFUL,FALSE,7/9/2017,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,6/27/2017,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,6/25/2017,    Full Time Web Development Bootcamp ,    Online ,,5,4,5,0
+THINKFUL,FALSE,6/8/2017,    Flexible Web Development Bootcamp ,    Washington ,,5,5,5,5
+THINKFUL,FALSE,6/7/2017,    Frontend Web Development ,    Online ,,5,5,5,5
+THINKFUL,FALSE,5/27/2017,    User Experience Design ,    Online ,,5,5,5,0
+THINKFUL,FALSE,5/25/2017,    Frontend Web Development ,    Online ,,2,3,3,0
+THINKFUL,FALSE,5/25/2017,    Frontend in AngularJS ,    Online ,,5,4,5,0
+THINKFUL,FALSE,5/23/2017,    Flexible Web Development Bootcamp ,    Atlanta ,,5,4,5,0
+THINKFUL,FALSE,5/16/2017,    Flexible Web Development Bootcamp ,    Atlanta ,,5,5,5,5
+THINKFUL,FALSE,5/16/2017,    Flexible Web Development Bootcamp ,    Online ,,5,5,4,0
+THINKFUL,FALSE,5/16/2017,    Flexible Web Development Bootcamp ,    Atlanta ,,5,5,5,5
+THINKFUL,FALSE,5/15/2017,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,3
+THINKFUL,FALSE,5/2/2017,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,4/24/2017,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,4/19/2017,    Full Time Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,6/21/2017,    Full Time Web Development Bootcamp ,    Online ,,4,4,4,0
+THINKFUL,FALSE,6/13/2017,    Flexible Web Development Bootcamp ,    Online ,,5,4,5,0
+THINKFUL,FALSE,7/11/2017,    Flexible Web Development Bootcamp ,    Online ,,5,5,4,5
+THINKFUL,FALSE,4/11/2017,    Full Time Web Development Bootcamp ,    Online ,,4,4,3,4
+THINKFUL,FALSE,4/9/2017,    Frontend Web Development ,    Online ,,2,3,2,1
+THINKFUL,FALSE,3/24/2017,    Flexible Web Development Bootcamp ,    Online ,,5,4,5,5
+THINKFUL,FALSE,3/8/2017,    Frontend Web Development ,    Online ,,5,5,5,4
+THINKFUL,FALSE,2/10/2017,    User Experience Design ,    Online ,,5,4,5,4
+THINKFUL,FALSE,2/2/2017,    Web Development in Rails ,    Online ,,5,4,5,4
+THINKFUL,FALSE,1/30/2017,    Frontend Web Development ,    Online ,,5,4,5,0
+THINKFUL,FALSE,1/26/2017,    Frontend Web Development ,    Online ,,1,1,1,0
+THINKFUL,FALSE,1/6/2017,    User Experience Design ,    Online ,,5,5,5,0
+THINKFUL,FALSE,1/5/2017,    Frontend Web Development ,    Online ,,5,4,4,0
+THINKFUL,FALSE,2/24/2017,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,12/30/2016,    Flexible Web Development Bootcamp ,    Online ,,5,4,5,4
+THINKFUL,FALSE,12/28/2016,    Frontend Web Development ,    Online ,,4,5,5,4
+THINKFUL,FALSE,12/21/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,2/28/2017,    Programming in Python ,    Online ,,5,5,5,0
+THINKFUL,FALSE,12/7/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,11/30/2016,,    Online ,,5,5,5,0
+THINKFUL,FALSE,11/23/2016,    Programming in Python ,    Online ,,5,5,4,0
+THINKFUL,FALSE,11/22/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,11/16/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,11/14/2016,    User Experience Design ,    Online ,,5,4,5,0
+THINKFUL,FALSE,12/8/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,10/27/2016,    Full Time Web Development Bootcamp ,    Online ,,5,5,4,5
+THINKFUL,FALSE,10/18/2016,    Programming in Python ,    Online ,,4,4,5,0
+THINKFUL,FALSE,10/18/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,10/17/2016,    Frontend Web Development ,    Online ,,5,5,5,5
+THINKFUL,FALSE,10/11/2016,    User Experience Design ,    Online ,,5,5,5,0
+THINKFUL,FALSE,10/5/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,10/5/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,10/5/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,10/4/2016,    Flexible Web Development Bootcamp ,    Online ,,5,4,5,4
+THINKFUL,FALSE,10/3/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,9/27/2016,    Programming in Python ,    Online ,,4,3,5,0
+THINKFUL,FALSE,9/23/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,9/20/2016,    Frontend Web Development ,    Online ,,5,4,5,0
+THINKFUL,FALSE,9/20/2016,,    Online ,,5,5,5,0
+THINKFUL,FALSE,9/19/2016,    iOS Programming in Swift ,    Online ,,5,5,5,0
+THINKFUL,FALSE,9/19/2016,    Frontend Web Development ,    Online ,,5,5,5,5
+THINKFUL,FALSE,9/8/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,9/7/2016,    Flexible Web Development Bootcamp ,    Online ,,5,4,5,4
+THINKFUL,FALSE,8/28/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,8/26/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,8/24/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,8/18/2016,,    Online ,,5,4,4,0
+THINKFUL,FALSE,8/15/2016,    Flexible Web Development Bootcamp ,    Online ,,4,4,5,0
+THINKFUL,FALSE,8/15/2016,    Backend in Nodejs ,    Online ,,5,5,5,5
+THINKFUL,FALSE,8/11/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,8/6/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,8/5/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,8/4/2016,    iOS Programming in Swift ,    Online ,,5,5,5,0
+THINKFUL,FALSE,7/28/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,7/28/2016,    Flexible Web Development Bootcamp ,    Online ,,5,4,5,4
+THINKFUL,FALSE,7/25/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,7/22/2016,    App Academy Prep course ,    Online ,,5,5,5,0
+THINKFUL,FALSE,7/22/2016,    iOS Programming in Swift ,    Online ,,5,4,5,0
+THINKFUL,FALSE,7/15/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,7/14/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,7/13/2016,    Flexible Web Development Bootcamp ,    Online ,,5,4,5,0
+THINKFUL,FALSE,7/12/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,7/9/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,7/5/2016,    Frontend Web Development ,    Online ,,4,3,5,0
+THINKFUL,FALSE,7/5/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,6/28/2016,    Frontend Web Development ,    Online ,,5,5,5,5
+THINKFUL,FALSE,6/24/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,6/21/2016,    Frontend Web Development ,    Online ,,4,4,5,0
+THINKFUL,FALSE,6/18/2016,,    Online ,,5,4,5,5
+THINKFUL,FALSE,6/15/2016,    Frontend Web Development ,    Online ,,4,4,5,4
+THINKFUL,FALSE,6/15/2016,    Frontend in AngularJS ,    Online ,,5,5,5,0
+THINKFUL,FALSE,6/14/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,6/13/2016,    MakerSquare Prep Course ,    Online ,,5,5,5,0
+THINKFUL,FALSE,6/13/2016,    Backend in Nodejs ,    Online ,,5,5,5,0
+THINKFUL,FALSE,6/10/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,6/7/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,6/3/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,6/2/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,4
+THINKFUL,FALSE,5/27/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,5/27/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,5/19/2016,    Modern Web Design ,    Online ,,5,5,5,0
+THINKFUL,FALSE,5/17/2016,    User Experience Design ,    Online ,,4,5,4,0
+THINKFUL,FALSE,5/11/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,5/6/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,5/5/2016,    Flexible Web Development Bootcamp ,    Online ,,4,4,5,0
+THINKFUL,FALSE,5/4/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,5/4/2016,    Programming in Python ,    Online ,,5,5,5,0
+THINKFUL,FALSE,5/4/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,4/29/2016,    Flexible Web Development Bootcamp ,    Online ,,4,4,5,3
+THINKFUL,FALSE,4/27/2016,    Frontend Web Development ,    Online ,,5,5,3,0
+THINKFUL,FALSE,4/26/2016,    iOS Programming in Swift ,    Online ,,5,5,5,2
+THINKFUL,FALSE,4/25/2016,    iOS Programming in Swift ,    Online ,,5,5,5,0
+THINKFUL,FALSE,4/23/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,4/20/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,4/19/2016,    Data Science in Python ,    Online ,,5,4,5,0
+THINKFUL,FALSE,4/17/2016,,    Online ,,5,5,5,5
+THINKFUL,FALSE,4/16/2016,    User Experience Design ,    Online ,,4,4,4,3
+THINKFUL,FALSE,4/14/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,4/13/2016,    MakerSquare Prep Course ,    Online ,,4,5,5,0
+THINKFUL,FALSE,4/13/2016,    Frontend Web Development ,    Online ,,5,4,5,5
+THINKFUL,FALSE,5/22/2016,    Flexible Web Development Bootcamp ,    Online ,,5,4,5,0
+THINKFUL,FALSE,5/22/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,5/23/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,4/13/2016,    iOS Programming in Swift ,    Online ,,5,5,5,0
+THINKFUL,FALSE,4/12/2016,    Flexible Web Development Bootcamp ,    Online ,,2,3,2,1
+THINKFUL,FALSE,4/12/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,4/11/2016,    Frontend Web Development ,    Online ,,5,5,5,3
+THINKFUL,FALSE,4/10/2016,,,,4,4,4,0
+THINKFUL,FALSE,4/9/2016,    Data Science in Python ,    Online ,,5,4,5,5
+THINKFUL,FALSE,4/9/2016,    Data Science in Python ,    Online ,,5,4,5,5
+THINKFUL,FALSE,4/9/2016,    Data Science in Python ,    Online ,,5,4,5,5
+THINKFUL,FALSE,4/9/2016,    Frontend Web Development ,    Online ,,5,5,5,4
+THINKFUL,FALSE,4/9/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,4/8/2016,,    Online ,,4,4,4,0
+THINKFUL,FALSE,4/8/2016,    Frontend in AngularJS ,    Online ,,5,5,5,0
+THINKFUL,FALSE,4/8/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,4
+THINKFUL,FALSE,4/7/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,4/7/2016,    Web Development in Rails ,    Online ,,4,4,4,0
+THINKFUL,FALSE,4/6/2016,    Programming in Python ,    Online ,,5,4,5,0
+THINKFUL,FALSE,4/6/2016,    Frontend Web Development ,    Online ,,4,5,5,0
+THINKFUL,FALSE,4/6/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,4/6/2016,    Frontend Web Development ,    Online ,,4,4,4,0
+THINKFUL,FALSE,4/6/2016,    Programming in Python ,    Online ,,4,5,5,5
+THINKFUL,FALSE,4/6/2016,    Programming in Python ,    Online ,,4,5,5,5
+THINKFUL,FALSE,4/5/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,4/5/2016,    Programming in Python ,    Online ,,5,5,5,0
+THINKFUL,FALSE,4/5/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,3/19/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,4
+THINKFUL,FALSE,3/11/2016,    Flexible Web Development Bootcamp ,    Online ,,4,4,4,0
+THINKFUL,FALSE,3/10/2016,    Flexible Web Development Bootcamp ,    Online ,,5,4,5,0
+THINKFUL,FALSE,3/10/2016,    Frontend in AngularJS ,    Online ,,5,5,5,0
+THINKFUL,FALSE,3/10/2016,    Flexible Web Development Bootcamp ,    Online ,,5,4,5,5
+THINKFUL,FALSE,3/9/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,3/9/2016,    Web Development in Rails ,    Online ,,4,3,4,0
+THINKFUL,FALSE,3/9/2016,    Flexible Web Development Bootcamp ,    Online ,,4,4,5,4
+THINKFUL,FALSE,3/9/2016,    Data Science in Python ,    Online ,,5,5,5,5
+THINKFUL,FALSE,3/9/2016,    Frontend Web Development ,    Online ,,5,5,5,5
+THINKFUL,FALSE,3/9/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,3/9/2016,    Programming in Python ,    Online ,,5,5,5,0
+THINKFUL,FALSE,3/9/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,3/9/2016,    Frontend Web Development ,    Online ,,5,4,4,0
+THINKFUL,FALSE,3/9/2016,    Frontend Web Development ,    Online ,,5,5,4,4
+THINKFUL,FALSE,3/8/2016,    Frontend Web Development ,    Online ,,5,5,5,4
+THINKFUL,FALSE,3/9/2016,    User Experience Design ,    Online ,,5,5,5,0
+THINKFUL,FALSE,3/7/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,3/7/2016,    Flexible Web Development Bootcamp ,    Online ,,5,4,5,0
+THINKFUL,FALSE,3/7/2016,    Frontend Web Development ,    Online ,,5,4,5,0
+THINKFUL,FALSE,3/7/2016,    Frontend Web Development ,    Online ,,5,4,5,0
+THINKFUL,FALSE,3/2/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,3/1/2016,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,2/29/2016,    App Academy Prep course ,    Online ,,5,5,5,0
+THINKFUL,FALSE,2/29/2016,,    Online ,,5,5,5,5
+THINKFUL,FALSE,2/18/2016,    Flexible Web Development Bootcamp ,    Online ,,1,1,1,1
+THINKFUL,FALSE,2/17/2016,    Web Development in Rails ,    Online ,,1,1,1,0
+THINKFUL,FALSE,2/8/2016,    Web Development in Rails ,    Online ,,5,4,5,0
+THINKFUL,FALSE,2/4/2016,,,,5,4,3,0
+THINKFUL,FALSE,1/12/2016,    MakerSquare Prep Course ,    Online ,,5,4,4,5
+THINKFUL,FALSE,1/28/2016,    Frontend Web Development ,    Online ,,2,1,4,0
+THINKFUL,FALSE,11/27/2015,    Programming in Python ,    Online ,,5,4,5,4
+THINKFUL,FALSE,11/24/2015,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,11/24/2015,    Frontend Web Development ,    Online ,,5,5,5,0
+THINKFUL,FALSE,11/11/2015,    Data Science in Python ,    Online ,,4,4,5,3
+THINKFUL,FALSE,11/8/2015,,    Online ,,4,4,3,4
+THINKFUL,FALSE,11/2/2015,,    Online ,,5,5,5,4
+THINKFUL,FALSE,11/1/2015,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,10/28/2015,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,10/28/2015,    Flexible Web Development Bootcamp ,    Online ,,5,4,5,5
+THINKFUL,FALSE,10/27/2015,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,10/15/2015,,    Online ,,1,1,1,1
+THINKFUL,FALSE,9/26/2015,,    Online ,,4,4,3,0
+THINKFUL,FALSE,9/21/2015,    Frontend Web Development ,    Online ,,2,2,3,1
+THINKFUL,FALSE,9/10/2015,,    Online ,,5,4,4,5
+THINKFUL,FALSE,8/22/2015,    Frontend Web Development ,    Online ,,5,5,5,5
+THINKFUL,FALSE,8/3/2015,    Frontend Web Development ,    Online ,,1,1,3,1
+THINKFUL,FALSE,6/26/2015,    Backend in Nodejs ,    Online ,,4,2,5,1
+THINKFUL,FALSE,5/29/2015,    Frontend Web Development ,    Online ,,4,3,2,3
+THINKFUL,FALSE,5/22/2015,    Programming in Python ,    Online ,,5,4,5,3
+THINKFUL,FALSE,4/30/2015,    Frontend Web Development ,    Online ,,5,5,5,3
+THINKFUL,FALSE,4/30/2015,    Frontend Web Development ,    Online ,,5,4,5,4
+THINKFUL,FALSE,4/30/2015,    Frontend in AngularJS ,    Online ,,5,5,5,5
+THINKFUL,FALSE,4/26/2015,    Frontend Web Development ,    Online ,,5,4,4,4
+THINKFUL,FALSE,4/22/2015,    Frontend Web Development ,    Online ,,5,5,5,4
+THINKFUL,FALSE,4/15/2015,    Frontend Web Development ,    Online ,,5,4,5,5
+THINKFUL,FALSE,3/17/2015,    Web Development in Rails ,    Online ,,1,1,1,1
+THINKFUL,FALSE,2/28/2015,    Frontend Web Development ,    Online ,,2,2,1,1
+THINKFUL,FALSE,2/13/2015,    Frontend Web Development ,    Online ,,1,1,1,1
+THINKFUL,FALSE,1/31/2015,,    Online ,,3,4,1,2
+THINKFUL,FALSE,1/20/2015,,,,5,5,5,5
+THINKFUL,FALSE,4/15/2015,    Frontend Web Development ,    Online ,,5,4,5,1
+THINKFUL,FALSE,1/14/2015,    Frontend Web Development ,    Online ,,5,5,5,3
+THINKFUL,FALSE,1/11/2015,,    Online ,,5,5,5,5
+THINKFUL,FALSE,4/15/2015,    Frontend Web Development ,    Online ,,4,5,4,1
+THINKFUL,FALSE,1/20/2015,,,,5,5,5,5
+THINKFUL,FALSE,1/7/2015,    Frontend Web Development ,    Online ,,5,5,5,5
+THINKFUL,FALSE,1/5/2015,,,,5,4,5,4
+THINKFUL,FALSE,1/2/2015,,,,5,5,5,4
+THINKFUL,FALSE,10/13/2014,,    Online ,,4,4,4,3
+THINKFUL,FALSE,7/26/2017,    Programming in Python ,    Online ,,4,4,5,0
+THINKFUL,FALSE,7/11/2017,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,6/13/2017,    Full Time Web Development Bootcamp ,    Online ,,5,5,4,5
+THINKFUL,FALSE,4/25/2017,    User Experience Design ,    Online ,,1,1,1,0
+THINKFUL,FALSE,3/15/2017,    Frontend Web Development ,    Online ,,2,1,4,0
+THINKFUL,FALSE,1/25/2017,,,,1,1,1,0
+THINKFUL,FALSE,9/8/2016,    Frontend Web Development ,    Online ,,5,4,4,0
+THINKFUL,FALSE,9/4/2016,    Data Science in Python ,    Online ,,4,5,4,0
+THINKFUL,FALSE,8/26/2016,    User Experience Design ,    Online ,,5,5,5,0
+THINKFUL,FALSE,8/15/2016,,    Online ,,5,5,5,0
+THINKFUL,FALSE,8/4/2016,    Flexible Web Development Bootcamp ,    Online ,,1,1,1,1
+THINKFUL,FALSE,7/22/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,0
+THINKFUL,FALSE,6/24/2016,    Programming in Python ,    Online ,,5,5,5,0
+THINKFUL,FALSE,6/22/2016,    Flexible Web Development Bootcamp ,    Online ,,5,5,5,5
+THINKFUL,FALSE,6/18/2016,    Frontend Web Development ,    Online ,,4,4,4,0
+THINKFUL,FALSE,6/1/2016,    Frontend Web Development ,    Online ,,2,2,3,0
+THINKFUL,FALSE,6/1/2016,    Frontend Web Development ,    Online ,,2,1,1,0
+THINKFUL,FALSE,5/31/2016,    Frontend Web Development ,    Online ,,5,5,5,0
