@@ -5,8 +5,6 @@ var cheerio = require('cheerio')
 var Nightmare = require('nightmare');
 var schedule = require("node-schedule")
 
-
-
 var j = schedule.scheduleJob('13 * * * *', function(){
   console.log("And we are live!");
 
@@ -481,7 +479,7 @@ var j = schedule.scheduleJob('13 * * * *', function(){
 
 
 
-  
+
 });
 
 
