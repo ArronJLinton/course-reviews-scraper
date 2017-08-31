@@ -2,7 +2,6 @@ var request = require('request');
 var cheerio = require('cheerio')
 var fs = require('fs'); //internal
 var Nightmare = require('nightmare');
-var forever = require('forever-monitor');
 
   // var child = new (forever.Monitor)('scrape-reviews.js', {
   //   max: 3,
@@ -19,354 +18,213 @@ var forever = require('forever-monitor');
 
 
 var data = [
+    // GA
     { 'school': 'General Assembly',
-      'url': 'https://www.coursereport.com/schools/general-assembly#/reviews',
+      'url': 'https://www.coursereport.com/schools/general-assembly',
       'category': 'GENERAL',
-      'trilogy': 'FALSE',
-      'page': 1
-    },
-    { 'school': 'General Assembly',
-      'url': 'https://www.coursereport.com/schools/general-assembly?page=2#/reviews',
-      'category': 'GENERAL',
-      'trilogy': 'FALSE',
-      'page': 2
-    },
-    { 'school': 'General Assembly',
-      'url': 'https://www.coursereport.com/schools/general-assembly?page=3#/reviews',
-      'category': 'GENERAL',
-      'trilogy': 'FALSE',
-      'page': 3
-    },
-    { 'school': 'General Assembly',
-      'url': 'https://www.coursereport.com/schools/general-assembly?page=4#/reviews',
-      'category': 'GENERAL',
-      'trilogy': 'FALSE',
-      'page': 4
-    },
-    { 'school': 'General Assembly',
-      'url': 'https://www.coursereport.com/schools/general-assembly?page=5#/reviews',
-      'category': 'GENERAL',
-      'trilogy': 'FALSE',
-      'page': 5
-    },
-    { 'school': 'General Assembly',
-      'url': 'https://www.coursereport.com/schools/general-assembly?page=6#/reviews',
-      'category': 'GENERAL',
-      'trilogy': 'FALSE',
-      'page': 6
-    },
-    { 'school': 'General Assembly',
-      'url': 'https://www.coursereport.com/schools/general-assembly?page=7#/reviews',
-      'category': 'GENERAL',
-      'trilogy': 'FALSE',
-      'page': 7
-    },
-    { 'school': 'General Assembly',
-      'url': 'https://www.coursereport.com/schools/general-assembly?page=8#/reviews',
-      'category': 'GENERAL',
-      'trilogy': 'FALSE',
-      'page': 8
-    },
-    { 'school': 'General Assembly',
-      'url': 'https://www.coursereport.com/schools/general-assembly?page=9#/reviews',
-      'category': 'GENERAL',
-      'trilogy': 'FALSE',
-      'page': 9
-    },
-    { 'school': 'General Assembly',
-      'url': 'https://www.coursereport.com/schools/general-assembly?page=10#/reviews',
-      'category': 'GENERAL',
-      'trilogy': 'FALSE',
-      'page': 10
-    },    
-    {
-      'school': 'Rutgers',
-      'url': 'https://www.coursereport.com/schools/rutgers-bootcamps#/reviews',
-      'category': 'RUTGERS',
-      'trilogy': 'TRUE',
-      'page': 1
+      'trilogy': 'FALSE'
     },
     {
-      'school': 'Rutgers',
-      'url': 'https://www.coursereport.com/schools/rutgers-bootcamps?page=2#/reviews',
-      'category': 'RUTGERS',
-      'trilogy': 'TRUE',
-      'page': 2
+      "school": "Bloc",
+      "url": "https://www.coursereport.com/schools/bloc",
+      "category": "BLOC",
+      "trilogy": "FALSE"
+    },
+    {
+      "school": "App Academy",
+      "url": "https://www.coursereport.com/schools/app-academy",
+      "category": "APP ACADEMY",
+      "trilogy": "FALSE"
+    },
+    {
+      "school": "Le Wagon",
+      "url": "https://www.coursereport.com/schools/le-wagon",
+      "category": "LE WAGON",
+      "trilogy": "FALSE"
+    },
+    {
+      "school": "Dev Mountain",
+      "url": "https://www.coursereport.com/schools/devmountain",
+      "category": "DEV MOUNTAIN",
+      "trilogy": "FALSE"
+    },
+    {
+      "school": "Iron Hack",
+      "url": "https://www.coursereport.com/schools/ironhack",
+      "category": "IRON HACK",
+      "trilogy": "FALSE"
+    },
+    {
+      'school': 'Hack Reactor',
+      'url': 'https://www.coursereport.com/schools/hack-reactor',
+      'category': 'HACKREACTOR',
+      'trilogy': 'FALSE'
+    },
+    {
+      'school': 'Galvanize',
+      'url': 'https://www.coursereport.com/schools/galvanize',
+      'category': 'GALVANIZE',
+      'trilogy': 'FALSE'
+    },
+    {
+      'school': 'Flat-Iron',
+      'url': 'https://www.coursereport.com/schools/flatiron-school',
+      'category': 'FLATIRON',
+      'trilogy': 'FALSE'
+    },
+    {
+      'school': 'Fullstack Academy',
+      'url': 'https://www.coursereport.com/schools/fullstack-academy',
+      'category': 'FULLSTACK ACADEMY',
+      'trilogy': 'FALSE'
+    },
+    {
+      'school': 'Grace Hopper Program',
+      'url': 'https://www.coursereport.com/schools/the-grace-hopper-program',
+      'category': 'GRACE HOPPER',
+      'trilogy': 'FALSE'
     },
     {
       'school': 'Rutgers',
-      'url': 'https://www.coursereport.com/schools/rutgers-bootcamps?page=3#/reviews',
+      'url': 'https://www.coursereport.com/schools/rutgers-bootcamps',
       'category': 'RUTGERS',
-      'trilogy': 'TRUE',
-      'page': 3
-    },
-    {
-      'school': 'Hack Reactor',
-      'url': 'https://www.coursereport.com/schools/hack-reactor#reviews',
-      'category': 'HACKREACTOR',
-      'trilogy': 'FALSE',
-      'page': 1
-    },
-    {
-      'school': 'Hack Reactor',
-      'url': 'https://www.coursereport.com/schools/hack-reactor?page=2#/reviews',
-      'category': 'HACKREACTOR',
-      'trilogy': 'FALSE',
-      'page': 2
-    },
-    {
-      'school': 'Hack Reactor',
-      'url': 'https://www.coursereport.com/schools/hack-reactor?page=3#/reviews',
-      'category': 'HACKREACTOR',
-      'trilogy': 'FALSE',
-      'page': 3
-    },
-    {
-      'school': 'Hack Reactor',
-      'url': 'https://www.coursereport.com/schools/hack-reactor?page=4#/reviews',
-      'category': 'HACKREACTOR',
-      'trilogy': 'FALSE',
-      'page': 4
-    },
-    {
-      'school': 'Hack Reactor',
-      'url': 'https://www.coursereport.com/schools/hack-reactor?page=5#/reviews',
-      'category': 'HACKREACTOR',
-      'trilogy': 'FALSE',
-      'page': 5
-    },
-    {
-      'school': 'Hack Reactor',
-      'url': 'https://www.coursereport.com/schools/hack-reactor?page=6#/reviews',
-      'category': 'HACKREACTOR',
-      'trilogy': 'FALSE',
-      'page': 6
-    },
-    {
-      'school': 'Hack Reactor',
-      'url': 'https://www.coursereport.com/schools/hack-reactor?page=7#/reviews',
-      'category': 'HACKREACTOR',
-      'trilogy': 'FALSE',
-      'page': 7
-    },
-    {
-      'school': 'Galvanize',
-      'url': 'https://www.coursereport.com/schools/galvanize#/reviews',
-      'category': 'GALVANIZE',
-      'trilogy': 'FALSE',
-      'page': 1
-    },
-    {
-      'school': 'Galvanize',
-      'url': 'https://www.coursereport.com/schools/galvanize?page=2#/reviews',
-      'category': 'GALVANIZE',
-      'trilogy': 'FALSE',
-      'page': 2
-    },
-    {
-      'school': 'Galvanize',
-      'url': 'https://www.coursereport.com/schools/galvanize?page=2#/reviews',
-      'category': 'GALVANIZE',
-      'trilogy': 'FALSE',
-      'page': 3
-    },
-    {
-      'school': 'Galvanize',
-      'url': 'https://www.coursereport.com/schools/galvanize?page=4#/reviews',
-      'category': 'GALVANIZE',
-      'trilogy': 'FALSE',
-      'page': 4
-    },
-    {
-      'school': 'Flat-Iron',
-      'url': 'https://www.coursereport.com/schools/flatiron-school#/reviews',
-      'category': 'FLATIRON',
-      'trilogy': 'FALSE',
-      'page': 1
-    },
-    {
-      'school': 'Flat-Iron',
-      'url': 'https://www.coursereport.com/schools/flatiron-school?page=2#/reviews',
-      'category': 'FLATIRON',
-      'trilogy': 'FALSE',
-      'page': 2
-    },
-    {
-      'school': 'Flat-Iron',
-      'url': 'https://www.coursereport.com/schools/flatiron-school?page=3#/reviews',
-      'category': 'FLATIRON',
-      'trilogy': 'FALSE',
-      'page': 3
-    },
-    {
-      'school': 'Flat-Iron',
-      'url': 'https://www.coursereport.com/schools/flatiron-school?page=4#/reviews',
-      'category': 'FLATIRON',
-      'trilogy': 'FALSE',
-      'page': 4
-    },
-    {
-      'school': 'Flat-Iron',
-      'url': 'https://www.coursereport.com/schools/flatiron-school?page=5#/reviews',
-      'category': 'FLATIRON',
-      'trilogy': 'FALSE',
-      'page': 5
-    },
-    {
-      'school': 'Flat-Iron',
-      'url': 'https://www.coursereport.com/schools/flatiron-school?page=6#/reviews',
-      'category': 'FLATIRON',
-      'trilogy': 'FALSE',
-      'page': 6
-    },
-    {
-      'school': 'Flat-Iron',
-      'url': 'https://www.coursereport.com/schools/flatiron-school?page=7#/reviews',
-      'category': 'FLATIRON',
-      'trilogy': 'FALSE',
-      'page': 7
+      'trilogy': 'TRUE'
     },
     {
       'school': 'UCF Orlando',
-      'url': 'https://www.coursereport.com/schools/ucf-coding-boot-camp#/reviews',
+      'url': 'https://www.coursereport.com/schools/ucf-coding-boot-camp',
       'category': 'UCF',
-      'trilogy': 'TRUE',
-      'page': 1
+      'trilogy': 'TRUE'
     },
     {
       'school': 'UCLA',
-      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-ucla-extension#/reviews',
+      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-ucla-extension',
       'category': 'UCLA',
-      'trilogy': 'TRUE',
-      'page': 1
-    },
-    {
-      'school': 'UC San Diego',
-      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-uc-san-diego-extension',
-      'category': 'UCSD',
-      'trilogy': 'TRUE',
-      'page': 1
+      'trilogy': 'TRUE'
     },
     {
       'school': 'UNC Chapel Hill',
-      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-unc-chapel-hill#/reviews',
+      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-unc-chapel-hill',
       'category': 'UNC Chapel Hill',
-      'trilogy': 'TRUE',
-      'page': 1
+      'trilogy': 'TRUE'
     },
     {
       'school': 'UNC Charlotte',
-      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-unc-charlotte#/reviews',
+      'url': 'https://www.coursereport.com/schools/the-coding-boot-camp-at-unc-charlotte',
       'category': 'UNC Charlotte',
-      'trilogy': 'TRUE',
-      'page': 1
+      'trilogy': 'TRUE'
     },
     {
       'school': 'UT Austin',
-      'url': 'https://www.coursereport.com/schools/UT-Austin-Boot-Camps#/reviews',
+      'url': 'https://www.coursereport.com/schools/UT-Austin-Boot-Camps',
       'category': 'UT AUSTIN',
-      'trilogy': 'TRUE',
-      'page': 1
+      'trilogy': 'TRUE'
     },
     {
-      'school': 'UC Irvine',
-      'url': 'https://www.coursereport.com/schools/UC-Irvine-Boot-Camps#/reviews',
+      'school': 'UCIrvine',
+      'url': 'https://www.coursereport.com/schools/UC-Irvine-Boot-Camps',
       'category': 'UCIRVINE',
-      'trilogy': 'TRUE',
-      'page': 1
+      'trilogy': 'TRUE'
+    },
+    {
+      'school': 'UC Berkeley',
+      'url': 'https://www.coursereport.com/schools/berkeley-boot-camps',
+      'category': 'UC Berkeley',
+      'trilogy': 'TRUE'
+    },
+     {
+      'school': 'UT Austin',
+      'url': 'https://www.coursereport.com/schools/UT-Austin-Boot-Camps',
+      'category': 'UT Austin',
+      'trilogy': 'TRUE'
+    },
+     {
+      'school': 'SMU',
+      'url': 'https://www.coursereport.com/schools/SMU-coding-boot-camp',
+      'category': 'SMU',
+      'trilogy': 'TRUE'
+    },
+    {
+      'school': 'University of Utah',
+      'url': 'https://www.coursereport.com/schools/university-of-utah-professional-education-coding-boot-camp',
+      'category': 'University of Utah',
+      'trilogy': 'TRUE'
+    },
+    {
+      'school': 'University of Kansas',
+      'url': 'https://www.coursereport.com/schools/university-of-kansas-coding-boot-camp',
+      'category': 'University of Kansas',
+      'trilogy': 'TRUE'
+    },
+    {
+      'school': 'Northwestern',
+      'url': 'https://www.coursereport.com/schools/northwestern-coding-boot-camps',
+      'category': 'Northwestern',
+      'trilogy': 'TRUE'
+    },
+    {
+      'school': 'Georgia Tech',
+      'url': 'https://www.coursereport.com/schools/georgia-tech-coding-boot-camp',
+      'category': 'Georgia Tech',
+      'trilogy': 'TRUE'
+    },
+    {
+      'school': 'Case Western',
+      'url': 'https://www.coursereport.com/schools/case-western-reserve-university-coding-boot-camp',
+      'category': 'Case Western',
+      'trilogy': 'TRUE'
+    },
+     {
+      'school': 'University of Denver',
+      'url': 'https://www.coursereport.com/schools/university-of-denver-coding-boot-camp',
+      'category': 'Denver',
+      'trilogy': 'TRUE'
+    },
+    {
+      'school': 'GWU',
+      'url': 'https://www.coursereport.com/schools/gw-boot-camps',
+      'category': 'GWU',
+      'trilogy': 'TRUE'
+    },
+    {
+      'school': 'Arizona',
+      'url': 'https://www.coursereport.com/schools/university-of-arizona-coding-boot-camp',
+      'category': 'Arizona',
+      'trilogy': 'TRUE'
     },
     {
       'school': 'Thinkful',
-      'url': 'https://www.coursereport.com/schools/thinkful#/reviews',
+      'url': 'https://www.coursereport.com/schools/thinkful',
       'category': 'THINKFUL',
-      'trilogy': 'FALSE',
-      'page': 1
-    },
-    {
-      'school': 'Thinkful',
-      'url': 'https://www.coursereport.com/schools/thinkful?page=2#/reviews',
-      'category': 'THINKFUL',
-      'trilogy': 'FALSE',
-      'page': 2
-    },
-    {
-      'school': 'Thinkful',
-      'url': 'https://www.coursereport.com/schools/thinkful?page=3#/reviews',
-      'category': 'THINKFUL',
-      'trilogy': 'FALSE',
-      'page': 3
-    },
-    {
-      'school': 'Thinkful',
-      'url': 'https://www.coursereport.com/schools/thinkful?page=4#/reviews',
-      'category': 'THINKFUL',
-      'trilogy': 'FALSE',
-      'page': 4
-    },
-    {
-      'school': 'Thinkful',
-      'url': 'https://www.coursereport.com/schools/thinkful?page=5#/reviews',
-      'category': 'THINKFUL',
-      'trilogy': 'FALSE',
-      'page': 5
-    },
-    {
-      'school': 'Thinkful',
-      'url': 'https://www.coursereport.com/schools/thinkful?page=6#/reviews',
-      'category': 'THINKFUL',
-      'trilogy': 'FALSE',
-      'page': 6
-    },
-      {
-      'school': 'Thinkful',
-      'url': 'https://www.coursereport.com/schools/thinkful?page=7#/reviews',
-      'category': 'THINKFUL',
-      'trilogy': 'FALSE',
-      'page': 7
-    },
-    {
-      'school': 'Thinkful',
-      'url': 'https://www.coursereport.com/schools/thinkful?page=8#/reviews',
-      'category': 'THINKFUL',
-      'trilogy': 'FALSE',
-      'page': 8
-    },
-    {
-      'school': 'Thinkful',
-      'url': 'https://www.coursereport.com/schools/thinkful?page=9#/reviews',
-      'category': 'THINKFUL',
-      'trilogy': 'FALSE',
-      'page': 9
-    },
-    {
-      'school': 'Thinkful',
-      'url': 'https://www.coursereport.com/schools/thinkful?page=10#/reviews',
-      'category': 'THINKFUL',
-      'trilogy': 'FALSE',
-      'page': 10
-    },
-    {
-      'school': 'Thinkful',
-      'url': 'https://www.coursereport.com/schools/thinkful?page=11#/reviews',
-      'category': 'THINKFUL',
-      'trilogy': 'FALSE',
-      'page': 11
-    },
-    {
-      'school': 'Thinkful',
-      'url': 'https://www.coursereport.com/schools/thinkful?page=12#/reviews',
-      'category': 'THINKFUL',
-      'trilogy': 'FALSE',
-      'page': 12
+      'trilogy': 'FALSE'
     }
   ];
+
+newData = [];
+
+// Creates multiple pages
+data.forEach(function(element) {
+
+  for (var i = 1; i <26; i++){
+
+    new_element = Object.assign({}, element);
+    // console.log(new_element); 
+    // console.log(new_element.school);
+    new_element.url = element.url + "?page=" + i + "#/reviews"     
+    // console.log(element.url + "?page=" + i + "#/reviews")
+
+    newData.push({new_element})
+  }
+})
 
 
 var scrapeCounter = 0;
 
 function runScrape(){
   console.log('counter', scrapeCounter)
-  scrape(data[scrapeCounter])
+
+  console.log(newData[scrapeCounter])
+  scrape(newData[scrapeCounter].new_element)
 };
 
 
