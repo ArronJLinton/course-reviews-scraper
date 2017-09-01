@@ -331,7 +331,7 @@ function scrape(urlOb){
       }
 
       course = course.replace(/[•\t.+]/g, "")
-      course = course.replace(",", " ")
+      course = course.replace(/\,/g, "")
       course = course.replace("Course:", "")
       location = location.replace(/[•\t.+]/g, "")
       location = location.replace("Campus:", "")
