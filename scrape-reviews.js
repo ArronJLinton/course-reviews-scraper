@@ -4,6 +4,7 @@ var request = require('request');
 var cheerio = require('cheerio')
 var Nightmare = require('nightmare');
 var schedule = require("node-schedule")
+var S = require('string');
 
 // var j = schedule.scheduleJob('* 2 * * 7', function(){
 //   console.log("And we are live!");
@@ -237,7 +238,7 @@ var schedule = require("node-schedule")
   };
 
 
-  var cleanRowHeadings = ['School', 'Trilogy' , 'Date', 'Course', 'Location', 'Verified', 'Overall Exp.', 'Curriculum', 'Instructors', 'Job Assistance', 'Comments', 'Word Count'];
+  var cleanRowHeadings = ['School', 'Trilogy' , 'Date', 'Course', 'Location', 'Verified', 'Overall Exp.', 'Curriculum', 'Instructors', 'Job Assistance', 'Comments', 'Word Count', "Life-Change"];
 
   fs.writeFile('bootcamp-reviews.csv', cleanRowHeadings + "\n" , 'utf8', function (err) {
       if (err) {
@@ -447,6 +448,9 @@ var schedule = require("node-schedule")
 
           wordCount = comments.split(" ").length;
           cleanRow.push(wordCount)
+
+          lifeChangeCount = S(comments.toLowerCase()).count("best decision") + S(comments.toLowerCase()).count("life changing") + S(comments.toLowerCase()).count("life-changing") + S(comments.toLowerCase()).count("changed my life") + S(comments.toLowerCase()).count("change your life")
+          cleanRow.push(lifeChangeCount)
         }
 
         fs.appendFile('bootcamp-reviews.csv', cleanRow + "\n" , 'utf8', function (err) {
