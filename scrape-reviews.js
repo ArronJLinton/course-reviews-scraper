@@ -65,13 +65,7 @@ var S = require('string');
         'category': 'UC Berkeley',
         'trilogy': 'TRILOGY'
       },
-       {
-        'school': 'UT Austin',
-        'url': 'https://www.coursereport.com/schools/UT-Austin-Boot-Camps',
-        'category': 'UT Austin',
-        'trilogy': 'TRILOGY'
-      },
-       {
+      {
         'school': 'SMU',
         'url': 'https://www.coursereport.com/schools/SMU-coding-boot-camp',
         'category': 'SMU',
@@ -220,7 +214,7 @@ var S = require('string');
   newData = [];
   data.forEach(function(element) {
 
-    for (var i = 1; i < 16; i++){
+    for (var i = 1; i < 5; i++){
       new_element = Object.assign({}, element);
       new_element.url = element.url + "?page=" + i + "#/reviews"     
       newData.push({new_element})
