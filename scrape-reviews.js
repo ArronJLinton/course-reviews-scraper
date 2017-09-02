@@ -11,95 +11,95 @@ var S = require('string');
 
   // Included Schools
   var data = [
-      { 'school': 'General Assembly',
-        'url': 'https://www.coursereport.com/schools/general-assembly',
-        'category': 'GENERAL',
-        'trilogy': 'NON-TRILOGY'
-      },
-      {
-        "school": "Bloc",
-        "url": "https://www.coursereport.com/schools/bloc",
-        "category": "BLOC",
-        "trilogy": "NON-TRILOGY"
-      },
-      {
-        "school": "App Academy",
-        "url": "https://www.coursereport.com/schools/app-academy",
-        "category": "APP ACADEMY",
-        "trilogy": "NON-TRILOGY"
-      },
-      {
-        "school": "Le Wagon",
-        "url": "https://www.coursereport.com/schools/le-wagon",
-        "category": "LE WAGON",
-        "trilogy": "NON-TRILOGY"
-      },
-      {
-        "school": "Dev Mountain",
-        "url": "https://www.coursereport.com/schools/devmountain",
-        "category": "DEV MOUNTAIN",
-        "trilogy": "NON-TRILOGY"
-      },
-      {
-        "school": "Iron Hack",
-        "url": "https://www.coursereport.com/schools/ironhack",
-        "category": "IRON HACK",
-        "trilogy": "NON-TRILOGY"
-      },
-      {
-        "school": "Iron Yard",
-        "url": "https://www.coursereport.com/schools/the-iron-yard",
-        "category": "IRON YARD",
-        "trilogy": "NON-TRILOGY"
-      },
-      {
-        "school": "Dev Bootcamp",
-        "url": "https://www.coursereport.com/schools/dev-bootcamp",
-        "category": "DEV BOOTCAMP",
-        "trilogy": "NON-TRILOGY"
-      },
-      {
-        'school': 'Hack Reactor',
-        'url': 'https://www.coursereport.com/schools/hack-reactor',
-        'category': 'HACKREACTOR',
-        'trilogy': 'NON-TRILOGY'
-      },
-      {
-        'school': 'Galvanize',
-        'url': 'https://www.coursereport.com/schools/galvanize',
-        'category': 'GALVANIZE',
-        'trilogy': 'NON-TRILOGY'
-      },
-      {
-        'school': 'Flat-Iron',
-        'url': 'https://www.coursereport.com/schools/flatiron-school',
-        'category': 'FLATIRON',
-        'trilogy': 'NON-TRILOGY'
-      },
-      {
-        'school': 'Fullstack Academy',
-        'url': 'https://www.coursereport.com/schools/fullstack-academy',
-        'category': 'FULLSTACK ACADEMY',
-        'trilogy': 'NON-TRILOGY'
-      },
-      {
-        'school': 'New York Code + Design Academy',
-        'url': 'https://www.coursereport.com/schools/new-york-code-design-academy',
-        'category': 'NYCDA',
-        'trilogy': 'NON-TRILOGY'
-      },
-      {
-        'school': 'Grace Hopper Program',
-        'url': 'https://www.coursereport.com/schools/the-grace-hopper-program',
-        'category': 'GRACE HOPPER',
-        'trilogy': 'NON-TRILOGY'
-      },
+      // { 'school': 'General Assembly',
+      //   'url': 'https://www.coursereport.com/schools/general-assembly',
+      //   'category': 'GENERAL',
+      //   'trilogy': 'NON-TRILOGY'
+      // },
+      // {
+      //   "school": "Bloc",
+      //   "url": "https://www.coursereport.com/schools/bloc",
+      //   "category": "BLOC",
+      //   "trilogy": "NON-TRILOGY"
+      // },
+      // {
+      //   "school": "App Academy",
+      //   "url": "https://www.coursereport.com/schools/app-academy",
+      //   "category": "APP ACADEMY",
+      //   "trilogy": "NON-TRILOGY"
+      // },
+      // {
+      //   "school": "Le Wagon",
+      //   "url": "https://www.coursereport.com/schools/le-wagon",
+      //   "category": "LE WAGON",
+      //   "trilogy": "NON-TRILOGY"
+      // },
+      // {
+      //   "school": "Dev Mountain",
+      //   "url": "https://www.coursereport.com/schools/devmountain",
+      //   "category": "DEV MOUNTAIN",
+      //   "trilogy": "NON-TRILOGY"
+      // },
+      // {
+      //   "school": "Iron Hack",
+      //   "url": "https://www.coursereport.com/schools/ironhack",
+      //   "category": "IRON HACK",
+      //   "trilogy": "NON-TRILOGY"
+      // },
+      // {
+      //   "school": "Iron Yard",
+      //   "url": "https://www.coursereport.com/schools/the-iron-yard",
+      //   "category": "IRON YARD",
+      //   "trilogy": "NON-TRILOGY"
+      // },
+      // {
+      //   "school": "Dev Bootcamp",
+      //   "url": "https://www.coursereport.com/schools/dev-bootcamp",
+      //   "category": "DEV BOOTCAMP",
+      //   "trilogy": "NON-TRILOGY"
+      // },
+      // {
+      //   'school': 'Hack Reactor',
+      //   'url': 'https://www.coursereport.com/schools/hack-reactor',
+      //   'category': 'HACKREACTOR',
+      //   'trilogy': 'NON-TRILOGY'
+      // },
+      // {
+      //   'school': 'Galvanize',
+      //   'url': 'https://www.coursereport.com/schools/galvanize',
+      //   'category': 'GALVANIZE',
+      //   'trilogy': 'NON-TRILOGY'
+      // },
+      // {
+      //   'school': 'Flat-Iron',
+      //   'url': 'https://www.coursereport.com/schools/flatiron-school',
+      //   'category': 'FLATIRON',
+      //   'trilogy': 'NON-TRILOGY'
+      // },
+      // {
+      //   'school': 'Fullstack Academy',
+      //   'url': 'https://www.coursereport.com/schools/fullstack-academy',
+      //   'category': 'FULLSTACK ACADEMY',
+      //   'trilogy': 'NON-TRILOGY'
+      // },
+      // {
+      //   'school': 'New York Code + Design Academy',
+      //   'url': 'https://www.coursereport.com/schools/new-york-code-design-academy',
+      //   'category': 'NYCDA',
+      //   'trilogy': 'NON-TRILOGY'
+      // },
+      // {
+      //   'school': 'Grace Hopper Program',
+      //   'url': 'https://www.coursereport.com/schools/the-grace-hopper-program',
+      //   'category': 'GRACE HOPPER',
+      //   'trilogy': 'NON-TRILOGY'
+      // },
       {
         'school': 'Rutgers',
         'url': 'https://www.coursereport.com/schools/rutgers-bootcamps',
         'category': 'RUTGERS',
         'trilogy': 'TRILOGY'
-      },
+      }
       {
         'school': 'UCF Orlando',
         'url': 'https://www.coursereport.com/schools/ucf-coding-boot-camp',
@@ -207,13 +207,13 @@ var S = require('string');
         'url': 'https://www.coursereport.com/schools/university-of-arizona-coding-boot-camp',
         'category': 'Arizona',
         'trilogy': 'TRILOGY'
-      },
-      {
-        'school': 'Thinkful',
-        'url': 'https://www.coursereport.com/schools/thinkful',
-        'category': 'THINKFUL',
-        'trilogy': 'NON-TRILOGY'
       }
+      // {
+      //   'school': 'Thinkful',
+      //   'url': 'https://www.coursereport.com/schools/thinkful',
+      //   'category': 'THINKFUL',
+      //   'trilogy': 'NON-TRILOGY'
+      // }
     ];
 
   // Assemble Objects for Each URL (16 pages)
