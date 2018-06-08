@@ -144,6 +144,12 @@ const schools = [
         'trilogy': 'TRILOGY'
       },
       {
+        'school': 'USC',
+        'url': 'https://www.coursereport.com/schools/usc-viterbi-data-analytics-boot-camp',
+        'category': 'USC',
+        'trilogy': 'TRILOGY'
+      },
+      {
         'school': 'Arizona',
         'url': 'https://www.coursereport.com/schools/university-of-arizona-coding-boot-camp',
         'category': 'Arizona',
