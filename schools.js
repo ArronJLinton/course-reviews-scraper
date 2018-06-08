@@ -114,6 +114,12 @@ const schools = [
         'trilogy': 'TRILOGY'
       },
       {
+        'school': 'Minnesota',
+        'url': 'https://www.coursereport.com/schools/university-of-minnesota-boot-camps',
+        'category': 'Minnesota',
+        'trilogy': 'TRILOGY'
+      },
+      {
         'school': 'Arizona',
         'url': 'https://www.coursereport.com/schools/university-of-arizona-coding-boot-camp',
         'category': 'Arizona',
