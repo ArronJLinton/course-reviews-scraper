@@ -138,6 +138,12 @@ const schools = [
         'trilogy': 'TRILOGY'
       },
       {
+        'school': 'Penn',
+        'url': 'https://www.coursereport.com/schools/penn-lps-coding-boot-camp',
+        'category': 'Penn',
+        'trilogy': 'TRILOGY'
+      },
+      {
         'school': 'Arizona',
         'url': 'https://www.coursereport.com/schools/university-of-arizona-coding-boot-camp',
         'category': 'Arizona',
