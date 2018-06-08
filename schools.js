@@ -120,6 +120,12 @@ const schools = [
         'trilogy': 'TRILOGY'
       },
       {
+        'school': 'Toronto',
+        'url': 'https://www.coursereport.com/schools/university-of-toronto-school-of-continuing-studies-coding-boot-camp',
+        'category': 'Toronto',
+        'trilogy': 'TRILOGY'
+      },
+      {
         'school': 'Arizona',
         'url': 'https://www.coursereport.com/schools/university-of-arizona-coding-boot-camp',
         'category': 'Arizona',
