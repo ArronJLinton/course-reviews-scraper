@@ -150,6 +150,12 @@ const schools = [
         'trilogy': 'TRILOGY'
       },
       {
+        'school': 'University of Richmond',
+        'url': 'https://www.coursereport.com/schools/university-of-richmond-coding-boot-camp',
+        'category': 'University of Richmond',
+        'trilogy': 'TRILOGY'
+      },
+      {
         'school': 'Arizona',
         'url': 'https://www.coursereport.com/schools/university-of-arizona-coding-boot-camp',
         'category': 'Arizona',
