@@ -126,6 +126,12 @@ const schools = [
         'trilogy': 'TRILOGY'
       },
       {
+        'school': 'UC Davis',
+        'url': 'https://www.coursereport.com/schools/uc-davis-extension-coding-boot-camp',
+        'category': 'UC Davis',
+        'trilogy': 'TRILOGY'
+      },
+      {
         'school': 'Arizona',
         'url': 'https://www.coursereport.com/schools/university-of-arizona-coding-boot-camp',
         'category': 'Arizona',
