@@ -102,6 +102,12 @@ const schools = [
         'trilogy': 'TRILOGY'
       },
       {
+        'school': 'Columbia',
+        'url': 'https://www.coursereport.com/schools/columbia-engineering-coding-boot-camp',
+        'category': 'Columbia',
+        'trilogy': 'TRILOGY'
+      },
+      {
         'school': 'Arizona',
         'url': 'https://www.coursereport.com/schools/university-of-arizona-coding-boot-camp',
         'category': 'Arizona',
