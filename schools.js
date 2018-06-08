@@ -132,6 +132,12 @@ const schools = [
         'trilogy': 'TRILOGY'
       },
       {
+        'school': 'UNH',
+        'url': 'https://www.coursereport.com/schools/unh-coding-boot-camp',
+        'category': 'UNH',
+        'trilogy': 'TRILOGY'
+      },
+      {
         'school': 'Arizona',
         'url': 'https://www.coursereport.com/schools/university-of-arizona-coding-boot-camp',
         'category': 'Arizona',
