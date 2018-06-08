@@ -156,9 +156,9 @@ const schools = [
         'trilogy': 'TRILOGY'
       },
       {
-        'school': 'Washington State University',
+        'school': 'Washington University in St. Louis',
         'url': 'https://www.coursereport.com/schools/washington-university-data-analytics-boot-camp',
-        'category': 'Washington State University',
+        'category': 'Washington University in St. Louis',
         'trilogy': 'TRILOGY'
       },
       {

@@ -28,7 +28,9 @@ var data = require('./schools');
     console.log('counter', scrapeCounter)
 
     console.log(newData[scrapeCounter])
-    scrape(newData[scrapeCounter].new_element)
+    if (newData[scrapeCounter]) {
+      scrape(newData[scrapeCounter].new_element)
+  }
   };
 
 
