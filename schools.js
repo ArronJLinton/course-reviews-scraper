@@ -156,6 +156,12 @@ const schools = [
         'trilogy': 'TRILOGY'
       },
       {
+        'school': 'Washington State University',
+        'url': 'https://www.coursereport.com/schools/washington-university-data-analytics-boot-camp',
+        'category': 'Washington State University',
+        'trilogy': 'TRILOGY'
+      },
+      {
         'school': 'Arizona',
         'url': 'https://www.coursereport.com/schools/university-of-arizona-coding-boot-camp',
         'category': 'Arizona',
