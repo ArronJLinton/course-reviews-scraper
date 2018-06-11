@@ -21,7 +21,15 @@ var data = require('./schools');
     }
   })
 
+  newData = newData.sort(function(school1, school2) {
+    if (school1.new_element.school > school2.new_element.school) {
+        return 1;
+    } else if (school1.new_element.school < school2.new_element.school) {
+        return -1;
+     }
 
+     return 0;
+  });
   var scrapeCounter = 0;
 
   function runScrape(){
